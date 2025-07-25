@@ -1,0 +1,76 @@
+{
+  "objectName" : "iwpp_bunkerceilingmonitor",
+  "colonyTags" : ["human","humanbunker","electronic","wired"],
+  "rarity" : "Common",
+  "category" : "wire",
+  "price" : 125,
+  "lightColor" : [77, 99, 128],
+  "pointLight" : true,
+  "pointBeam" : 2.25,
+  "beamAmbience" : 0.35,
+  
+  "flickerPeriod" : 0.4,
+  "flickerMinIntensity" : 0.375,
+  "flickerMaxIntensity" : 0.5,
+  "flickerPeriodVariance" : 0,
+  "flickerIntensityVariance" : 0,
+  
+  "description" : "A monitor attached to the ceiling. Now how I'm going to reach it?",
+  "shortdescription" : "Bunker Ceiling Monitor",
+  "race" : "human",
+
+  "apexDescription" : "There is information about something important. If I could only look closer.",
+  "avianDescription" : "A ceiling monitor with a blue display.",
+  "floranDescription" : "It's far away!",
+  "glitchDescription" : "Annoyed. This bulky monitor is way up there.",
+  "humanDescription" : "Thank god, my neck is having some rest.",
+  "hylotlDescription" : "Seems to be a bunker monitor. A bit too far for my liking.",
+  "novakidDescription" : "This screen is just hangin' there.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "bunkerceilingmonitor.png:<color>.<frame>",
+      "flipImages" : true,
+
+      "imagePosition" : [-8, -20],
+      "animationPosition" : [-8, -20],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ],
+      "direction" : "left",
+      "lightPosition" : [0, -1],
+      "beamAngle" : 225
+    },
+    {
+      "image" : "bunkerceilingmonitor.png:<color>.<frame>",
+
+      "imagePosition" : [-8, -20],
+      "animationPosition" : [-8, -20],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ],
+      "direction" : "right",
+      "lightPosition" : [-1, -1],
+      "beamAngle" : 315
+    }
+  ],
+
+  "animation" : "bunkerceilingmonitor.animation",
+  "animationParts" : {
+    "bg" : "bunkerceilingmonitor.png",
+    "fg" : "bunkerceilingmonitorlit.png"
+  },
+
+  "animationCustom" : {
+    "sounds" : {
+      "on" : [ "/sfx/objects/console_generic_switchon.ogg" ],
+      "off" : [ "/sfx/objects/console_generic_switchoff.ogg" ]
+    }
+  },
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "inputNodes" : [ [0, -2] ]
+}

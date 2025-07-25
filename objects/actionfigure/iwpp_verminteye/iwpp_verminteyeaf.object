@@ -1,0 +1,33 @@
+{
+  "objectName" : "iwpp_verminteyeaf",
+  "colonyTags" : ["pretty"],
+  "rarity" : "Legendary",
+  "category" : "actionFigure",
+  "price" : 5000,
+  "printable" : false,
+  "description" : "The label reads, \"A small one-eyed monster. Who created this little guy?\"",
+  "shortdescription" : "Verminteye Figurine",
+
+
+
+  "inventoryIcon" : "verminteyeaf.png",
+  "orientations" : [
+    {
+      "image" : "verminteyeaf.png:<color>",
+      "imagePosition" : [-2, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "verminteyeaf.png:<color>",
+      "imagePosition" : [-2, 0],
+      "direction" : "right",
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

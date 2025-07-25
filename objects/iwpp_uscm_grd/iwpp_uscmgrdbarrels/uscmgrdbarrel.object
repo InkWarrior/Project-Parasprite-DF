@@ -1,0 +1,35 @@
+{
+  "objectName" : "iwpp_uscmgrdbarrel",
+  "colonyTags" : ["human","humanbunker"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 90,
+  "printable" : false,
+  "description" : "A pressurised barrel. Seems to be intended for dangerous components.",
+  "shortdescription" : "G.R.D Barrel",
+  "race" : "human",
+
+  "apexDescription" : "It's a sturdy barrel.",
+  "avianDescription" : "A metallic barrel.",
+  "floranDescription" : "Metallic barrel.",
+  "glitchDescription" : "Neutral. It's a pressurised barrel.",
+  "humanDescription" : "Oh, it's a sturdy barrel.",
+  "hylotlDescription" : "A pressurised canister.",
+  "novakidDescription" : "A strong metallic barrel.",
+
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "uscmgrdbarrel.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ]
+}

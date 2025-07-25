@@ -1,0 +1,33 @@
+{
+  "objectName" : "iwpp_reformedspriteaf",
+  "colonyTags" : ["pretty"],
+  "rarity" : "Legendary",
+  "category" : "actionFigure",
+  "price" : 5000,
+  "printable" : false,
+  "description" : "The label reads, \"An imperfect instance of a Parasprite.\"",
+  "shortdescription" : "Imperfect Parasprite Figurine",
+
+
+
+  "inventoryIcon" : "reformedspriteaf.png",
+  "orientations" : [
+    {
+      "image" : "reformedspriteaf.png:<color>",
+      "imagePosition" : [-2, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "reformedspriteaf.png:<color>",
+      "imagePosition" : [-2, 0],
+      "direction" : "right",
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

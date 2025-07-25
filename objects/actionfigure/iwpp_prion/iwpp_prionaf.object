@@ -1,0 +1,33 @@
+{
+  "objectName" : "iwpp_prionaf",
+  "colonyTags" : ["pretty"],
+  "rarity" : "Legendary",
+  "category" : "actionFigure",
+  "price" : 5000,
+  "printable" : false,
+  "description" : "The label reads, \"A volatile creature, filled with highly contagious spores.\"",
+  "shortdescription" : "Prion Figurine",
+
+
+
+  "inventoryIcon" : "prionaf.png",
+  "orientations" : [
+    {
+      "image" : "prionaf.png:<color>",
+      "imagePosition" : [-2, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "prionaf.png:<color>",
+      "imagePosition" : [-2, 0],
+      "direction" : "right",
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}
