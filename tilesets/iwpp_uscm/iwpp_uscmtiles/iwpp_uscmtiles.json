@@ -1,0 +1,186 @@
+{ "columns":0,
+ "grid":
+    {
+     "height":1,
+     "orientation":"orthogonal",
+     "width":1
+    },
+ "margin":0,
+ "name":"iwpp_uscmtiles",
+ "spacing":0,
+ "tilecount":8,
+ "tiledversion":"1.2.2",
+ "tileheight":8,
+ "tileproperties":
+    {
+     "0":
+        {
+         "\/\/description":"A military-grade metal panel. Seems very worn-out and rusty.",
+         "\/\/name":"iwpp_slopedmilitarypanel",
+         "\/\/shortdescription":"Military Panel",
+         "material":"iwpp_slopedmilitarypanel"
+        },
+     "1":
+        {
+         "\/\/description":"It makes for cool space station windows.",
+         "\/\/name":"iwpp_slopedreinforcedglass",
+         "\/\/shortdescription":"Reinforced Glass Panel",
+         "material":"iwpp_slopedreinforcedglass"
+        },
+     "2":
+        {
+         "\/\/description":"A light metal railing panel posing as a wall.",
+         "\/\/name":"iwpp_railingwall",
+         "\/\/shortdescription":"Iron Railing Wall",
+         "material":"iwpp_railingwall"
+        },
+     "3":
+        {
+         "\/\/description":"An iron grate catwalk, doesn't look too safe to walk on.",
+         "\/\/name":"iwpp_gratecatwalk",
+         "\/\/shortdescription":"Iron Grate Catwalk",
+         "material":"iwpp_gratecatwalk"
+        },
+     "4":
+        {
+         "\/\/description":"A cold and dull metal surface, slighly rusted over time.",
+         "\/\/name":"iwpp_uscmmetalfloor",
+         "\/\/shortdescription":"Metallic Floor",
+         "material":"iwpp_uscmmetalfloor"
+        },
+     "5":
+        {
+         "\/\/description":"A padded girder, used a lot inside old space stations.",
+         "\/\/name":"iwpp_paddedgirder",
+         "\/\/shortdescription":"Padded Station Girder",
+         "material":"iwpp_paddedgirder"
+        },
+     "6":
+        {
+         "\/\/description":"A padded wall, used a lot inside old space stations.",
+         "\/\/name":"iwpp_paddedwall",
+         "\/\/shortdescription":"Padded Station Wall",
+         "material":"iwpp_paddedwall"
+        },
+     "7":
+        {
+         "\/\/description":"A padded panel, used a lot inside old space stations.",
+         "\/\/name":"iwpp_paddedpanel",
+         "\/\/shortdescription":"Padded Station Panel",
+         "material":"iwpp_paddedpanel"
+        }
+    },
+ "tilepropertytypes":
+    {
+     "0":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "material":"string"
+        },
+     "1":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "material":"string"
+        },
+     "2":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "material":"string"
+        },
+     "3":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "material":"string"
+        },
+     "4":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "material":"string"
+        },
+     "5":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "material":"string"
+        },
+     "6":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "material":"string"
+        },
+     "7":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "material":"string"
+        }
+    },
+ "tiles":
+    {
+     "0":
+        {
+         "image":"slopedmilitarypanel.png",
+         "imageheight":8,
+         "imagewidth":8
+        },
+     "1":
+        {
+         "image":"slopedreinforcedglass.png",
+         "imageheight":8,
+         "imagewidth":8
+        },
+     "2":
+        {
+         "image":"railingwall.png",
+         "imageheight":8,
+         "imagewidth":8
+        },
+     "3":
+        {
+         "image":"gratecatwalk.png",
+         "imageheight":8,
+         "imagewidth":8
+        },
+     "4":
+        {
+         "image":"uscmmetalfloor.png",
+         "imageheight":8,
+         "imagewidth":8
+        },
+     "5":
+        {
+         "image":"paddedgirder.png",
+         "imageheight":8,
+         "imagewidth":8
+        },
+     "6":
+        {
+         "image":"paddedwall.png",
+         "imageheight":8,
+         "imagewidth":8
+        },
+     "7":
+        {
+         "image":"paddedpanel.png",
+         "imageheight":8,
+         "imagewidth":8
+        }
+    },
+ "tilewidth":8,
+ "type":"tileset",
+ "version":1.1
+}
