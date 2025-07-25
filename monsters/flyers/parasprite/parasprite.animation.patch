@@ -1,0 +1,98 @@
+[
+    [
+        {
+            "op": "test",
+            "path": "/particleEmitters/deathPoof/particles/1/particle",
+            "value": "deathember"
+        },
+        {
+            "op": "replace",
+            "path": "/particleEmitters/deathPoof/particles/1/particle",
+            "value": "iwpp_parashard1"
+        }
+    ],
+    [
+        {
+            "op": "test",
+            "path": "/particleEmitters/deathPoof/particles/2/particle",
+            "value": "deathember"
+        },
+        {
+            "op": "replace",
+            "path": "/particleEmitters/deathPoof/particles/2/particle",
+            "value": "iwpp_parashard1"
+        }
+    ],
+    [
+        {
+            "op": "test",
+            "path": "/particleEmitters/deathPoof/particles/3/particle",
+            "value": "deathember"
+        },
+        {
+            "op": "replace",
+            "path": "/particleEmitters/deathPoof/particles/3/particle",
+            "value": "iwpp_parashard2"
+        }
+    ],
+    [
+        {
+            "op": "test",
+            "path": "/particleEmitters/deathPoof/particles/4/particle",
+            "value": "deathember"
+        },
+        {
+            "op": "replace",
+            "path": "/particleEmitters/deathPoof/particles/4/particle",
+            "value": "iwpp_parashard2"
+        }
+    ],
+    [
+        {
+            "op": "test",
+            "path": "/particleEmitters/deathPoof/particles/5/particle",
+            "value": "deathember"
+        },
+        {
+            "op": "replace",
+            "path": "/particleEmitters/deathPoof/particles/5/particle",
+            "value": "iwpp_parashard3"
+        }
+    ],
+    [
+        {
+            "op": "test",
+            "path": "/particleEmitters/deathPoof/particles/6/particle",
+            "value": "deathember"
+        },
+        {
+            "op": "replace",
+            "path": "/particleEmitters/deathPoof/particles/6/particle",
+            "value": "iwpp_parashard3"
+        }
+    ],
+    [
+        {
+            "op": "test",
+            "path": "/particleEmitters/deathPoof/particles/7/particle",
+            "value": "deathember"
+        },
+        {
+            "op": "replace",
+            "path": "/particleEmitters/deathPoof/particles/7/particle",
+            "value": "iwpp_parashard4"
+        }
+    ],
+    [
+        {
+            "op": "test",
+            "path": "/particleEmitters/deathPoof/particles/8/particle",
+            "value": "deathember"
+        },
+        {
+            "op": "replace",
+            "path": "/particleEmitters/deathPoof/particles/8/particle",
+            "value": "iwpp_parashard4"
+        }
+    ]
+]

@@ -1,0 +1,41 @@
+{
+  "projectileName" : "iwpp_prionexplosion",
+  "image" : "/projectiles/invisibleprojectile/invisibleprojectile.png",
+  "damageKindImage" : "icon.png",
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/iwpp_infectionexplosion/iwpp_infectionexplosion.config"
+    },
+    {
+      "action" : "projectile",
+      "inheritDamageFactor" : 0.05,
+      "type" : "iwpp_infectioncloud",
+      "fuzzAngle" : 30,
+      "angleAdjust" : 0
+    },
+    {
+      "action" : "projectile",
+      "inheritDamageFactor" : 0.05,
+      "type" : "iwpp_infectioncloud",
+      "fuzzAngle" : 30,
+      "angleAdjust" : 90
+    },
+    {
+      "action" : "projectile",
+      "inheritDamageFactor" : 0.05,
+      "type" : "iwpp_infectioncloud",
+      "fuzzAngle" : 30,
+      "angleAdjust" : 180
+    },
+    {
+      "action" : "projectile",
+      "inheritDamageFactor" : 0.05,
+      "type" : "iwpp_infectioncloud",
+      "fuzzAngle" : 30,
+      "angleAdjust" : 270
+    }
+  ],
+  "damageKind" : "iwpp_replication",
+  "timeToLive" : 0
+}

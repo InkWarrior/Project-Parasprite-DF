@@ -1,0 +1,59 @@
+{
+  "projectileName" : "iwpp_paraichordrop",
+  "image" : "paraichordrop.png",
+  "frameNumber" : 1,
+  "physics" : "grenade",
+  "bounces" : 0,
+  "piercing" : true,
+  "damageKindImage" : "icon.png",
+  "lightColor" : [242, 204, 80],
+  "pointLight" : true,
+  "actionOnCollide" : [
+    {
+      "action" : "sound",
+      "options" : [ "/sfx/projectiles/acid_hit.ogg" ]
+    }
+  ],
+  "actionOnReap" : [
+      {
+      "action" : "loop",
+      "count" : 2,
+      "body" : [
+        {
+          "action" : "option",
+          "options" : [
+            {
+              "action" : "particle",
+              "specification" : {
+                "type" : "animated",
+                "animation" : "/animations/iwpp_paraichordrip/iwpp_paraichordrip1.animation",
+                "position" : [0, 0],
+                "initialVelocity" : [0.2, -5],
+                "finalVelocity" : [0.1, -10],
+                "approach" : [0, 10],
+                "destructionAction" : "shrink",
+                "destructionTime" : 2,
+                "size" : 1.0,
+                "timeToLive" : 1,
+                "fade" : 0.5,
+                "light" : [154, 79, 18],
+                "variance" : {
+                  "initialVelocity" : [0, 1]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "onlyHitTerrain" : true,
+  "hydrophobic" : true,
+  "statusEffects" : [ ],
+  "emitters" : [ "iwpp_paraichordrip" ],
+  "power" : 5.0,
+  "speed" : 20,
+  "knockback" : 0,
+  "damageType" : "NoDamage",
+  "damageKind" : "default"
+}

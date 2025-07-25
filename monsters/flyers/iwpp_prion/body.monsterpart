@@ -1,0 +1,10 @@
+{
+  "name" : "iwpp_prion",
+  "category" : "iwpp_prion",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "prion.png",
+    "bodybright" : "prionfullbright.png"
+  }
+}

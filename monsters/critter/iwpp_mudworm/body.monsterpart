@@ -1,0 +1,9 @@
+{
+  "name" : "iwpp_mudworm",
+  "category" : "iwpp_mudworm",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "body.png"
+  }
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "op": "add",
+    "path": "/baseParameters/deathBehavior",
+    "value": "monster-death"
+  },
+  {
+    "op": "add",
+    "path": "/baseParameters/behaviorConfig/deathActions",
+    "value": [
+      {
+        "name": "action-spawnmonster",
+        "parameters": {
+          "offset": [
+            0,
+            0
+          ],
+          "monsterType": "iwpp_reformedsprite",
+          "replacement": true
+        }
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/baseParameters/statusSettings/stats/iwpp_replicationStatusImmunity",
+    "value": {
+      "baseValue": 1
+    }
+  },
+  {
+    "op": "add",
+    "path": "/baseParameters/statusSettings/stats/iwpp_replicationPoisonImmunity",
+    "value": {
+      "baseValue": 1
+    }
+  }
+]

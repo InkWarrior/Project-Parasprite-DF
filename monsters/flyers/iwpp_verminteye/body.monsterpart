@@ -1,0 +1,9 @@
+{
+  "name" : "iwpp_verminteye",
+  "category" : "iwpp_verminteye",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "verminteye.png"
+  }
+}

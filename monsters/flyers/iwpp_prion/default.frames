@@ -1,0 +1,24 @@
+{
+  "frameGrid" : {
+    "size" : [22, 24],
+    "dimensions" : [7, 5],
+
+    "names" : [
+      [ null, "idle.1", "idle.2", "idle.3", "idle.4", "idle.5", "idle.6"],
+      [ null, "hurtidle.1", "hurtidle.2", "hurtidle.3", "hurtidle.4", "hurtidle.5", "hurtidle.6"],
+      [ null, "charge.1", "charge.2", "charge.3", "charge.4", "charge.5", "charge.6"],
+      [ null, "windup.1", "windup.2", "windup.3", "windup.4", "windup.5", "explodefly.1"],
+      [ null, "hurtwindup.1", "hurtwindup.2", "hurtwindup.3", "hurtwindup.4", "hurtwindup.5", "explodehurtfly.1"]
+    ]
+  },
+
+  "aliases" : {
+    "hurtcharge.1" : "hurtidle.1",
+    "hurtcharge.2" : "hurtidle.2",
+    "hurtcharge.3" : "hurtidle.3",
+    "hurtcharge.4" : "hurtidle.4",
+    "hurtcharge.5" : "hurtidle.5",
+    "hurtcharge.6" : "hurtidle.6"
+
+  }
+}

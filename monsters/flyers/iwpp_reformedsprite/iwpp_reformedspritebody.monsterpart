@@ -1,0 +1,9 @@
+{
+  "name" : "iwpp_reformedsprite",
+  "category" : "iwpp_reformedsprite",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "reformedsprite.png"
+  }
+}

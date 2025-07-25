@@ -1,0 +1,10 @@
+{
+  "name" : "iwpp_fango",
+  "category" : "iwpp_fango",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "fango.png",
+    "bodybright" : "fangofullbright.png"
+  }
+}

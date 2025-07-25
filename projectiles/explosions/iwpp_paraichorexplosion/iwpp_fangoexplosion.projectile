@@ -1,0 +1,13 @@
+{
+  "projectileName" : "iwpp_fangoexplosion",
+  "image" : "/projectiles/invisibleprojectile/invisibleprojectile.png",
+  "damageKindImage" : "icon.png",
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/iwpp_paraichorexplosion/iwpp_paraichorexplosion.config"
+    }
+  ],
+  "damageKind" : "iwpp_paraacid",
+  "timeToLive" : 0
+}

@@ -1,0 +1,50 @@
+{
+  "projectileName" : "iwpp_fangospit",
+  "image" : "fangospit.png",
+  "physics" : "grenade",
+  "animationCycle" : 0.6,
+  "frameNumber" : 3,
+  "damageKindImage" : "icon.png",
+  "lightColor" : [242, 204, 80],
+  "pointLight" : true,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/iwpp_paraichorexplosion/iwpp_paraichorexplosion.config"
+    },
+    {
+      "action" : "projectile",
+      "inheritDamageFactor" : 0.05,
+      "type" : "iwpp_paraichorcloud",
+      "fuzzAngle" : 30,
+      "angleAdjust" : 0
+    },
+    {
+      "action" : "projectile",
+      "inheritDamageFactor" : 0.05,
+      "type" : "iwpp_paraichorcloud",
+      "fuzzAngle" : 30,
+      "angleAdjust" : 90
+    },
+    {
+      "action" : "projectile",
+      "inheritDamageFactor" : 0.05,
+      "type" : "iwpp_paraichorcloud",
+      "fuzzAngle" : 30,
+      "angleAdjust" : 180
+    },
+    {
+      "action" : "projectile",
+      "inheritDamageFactor" : 0.05,
+      "type" : "iwpp_paraichorcloud",
+      "fuzzAngle" : 30,
+      "angleAdjust" : 270
+    }
+  ],
+  "power" : 5.0,
+  "speed" : 50,
+  "damageKind" : "iwpp_paraacid",
+  "emitters" : [ "iwpp_paraichortrail", "iwpp_paraichordrip" ],
+
+  "renderLayer" : "Monster+50"
+}

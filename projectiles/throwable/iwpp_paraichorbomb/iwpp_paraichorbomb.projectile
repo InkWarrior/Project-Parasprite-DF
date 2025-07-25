@@ -1,0 +1,49 @@
+{
+  "projectileName" : "iwpp_paraichorbomb",
+  "physics" : "grenade",
+  "bounces" : 0,
+  "timeToLive" : 10,
+  "image" : "paraichorbomb.png",
+  "animationCycle" : 0.25,
+  "lightColor" : [242, 204, 80],
+  "frameNumber" : 1,
+  "damageKindImage" : "icon.png",
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/iwpp_paraichorexplosion/iwpp_paraichorexplosion.config"
+    },
+    {
+      "action" : "projectile",
+      "inheritDamageFactor" : 0.05,
+      "type" : "iwpp_paraichorcloud",
+      "fuzzAngle" : 30,
+      "angleAdjust" : 0
+    },
+    {
+      "action" : "projectile",
+      "inheritDamageFactor" : 0.05,
+      "type" : "iwpp_paraichorcloud",
+      "fuzzAngle" : 30,
+      "angleAdjust" : 90
+    },
+    {
+      "action" : "projectile",
+      "inheritDamageFactor" : 0.05,
+      "type" : "iwpp_paraichorcloud",
+      "fuzzAngle" : 30,
+      "angleAdjust" : 180
+    },
+    {
+      "action" : "projectile",
+      "inheritDamageFactor" : 0.05,
+      "type" : "iwpp_paraichorcloud",
+      "fuzzAngle" : 30,
+      "angleAdjust" : 270
+    }
+  ],
+  "power" : 25,
+  "knockback" : 20,
+  "damageKind" : "iwpp_paraacid",
+  "emitters" : [ "iwpp_paraichortrail", "iwpp_paraichordrip" ]
+}

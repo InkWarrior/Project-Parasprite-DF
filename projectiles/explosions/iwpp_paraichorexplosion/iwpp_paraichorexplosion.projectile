@@ -1,0 +1,42 @@
+{
+  "projectileName" : "iwpp_paraichorexplosion",
+  "image" : "paraichorexplosion.png",
+  "animationCycle" : 0.2,
+  "frameNumber" : 6,
+  "speed" : 0,
+  "lightColor" : [242, 204, 80],
+  "pointLight" : true,
+  "damagePoly" : [ [-37, 0], [-28, -28], [0, -37], [28, -28], [37, 0], [28, 28], [0, 37], [-28, 28] ],
+  "animationLoops" : false,
+  "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "type" : "iwpp_paraichordrop",
+      "fuzzAngle" : 5,
+      "angleAdjust" : 20
+    },
+    {
+      "action" : "projectile",
+      "type" : "iwpp_paraichordrop",
+      "fuzzAngle" : 5,
+      "angleAdjust" : 45
+    },
+    {
+      "action" : "projectile",
+      "type" : "iwpp_paraichordrop",
+      "fuzzAngle" : 5,
+      "angleAdjust" : 135
+    },
+    {
+      "action" : "projectile",
+      "type" : "iwpp_paraichordrop",
+      "fuzzAngle" : 5,
+      "angleAdjust" : 150
+    }
+  ],
+  "piercing" : true,
+  "bounces" : -1,
+  "flippable" : true,
+  "damageKind" : "iwpp_paraacid",
+  "knockback" : 30
+}

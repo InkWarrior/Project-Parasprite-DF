@@ -1,0 +1,9 @@
+{
+  "name" : "iwpp_heliprobe",
+  "category" : "iwpp_heliprobe",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "heliprobe.png"
+  }
+}

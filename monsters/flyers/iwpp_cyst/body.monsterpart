@@ -1,0 +1,10 @@
+{
+  "name" : "iwpp_cyst",
+  "category" : "iwpp_cyst",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "cyst.png",
+    "bodybright" : "cystfullbright.png"
+  }
+}
