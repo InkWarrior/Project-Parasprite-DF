@@ -1,0 +1,17 @@
+{
+  "kind" : "iwpp_paraichorswoosh1",
+  "definition" : {
+    "type" : "animated",
+    "animation" : "/animations/statuseffects/iwpp_paraichorbubble/iwpp_paraichorbubble.animation",
+    "position" : [0, 0],
+    "finalVelocity" : [0, 2],
+    "approach" : [0, 50],
+    "size" : 1.0,
+    "timeToLive" : 0.45,
+    "fade" : 0.5,
+    "light" : [154, 79, 18],
+    "variance" : {
+      "initialVelocity" : [3.0, 3.0]
+    }
+  }
+}

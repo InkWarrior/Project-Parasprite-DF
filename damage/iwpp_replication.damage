@@ -1,0 +1,1186 @@
+{
+  "kind" : "iwpp_replication",
+  "elementalType" : "default",
+  "effects" : {
+    "organic" : {
+      "hit" : {
+        "sounds" : [ "/sfx/projectiles/tar_hit_organic1.ogg" ],
+        "particles" : [
+          [
+            {
+              "type" : "animated",
+              "animation" : "/animations/defaulthitspark/defaulthitspark.animation",
+              "size" : 1,
+              "angularVelocity" : 0,
+              "fade" : 1,
+              "destructionTime" : 1,
+              "position" : [0, 0],
+              "initialVelocity" : [0, 0],
+              "finalVelocity" : [0, 0],
+              "approach" : [1, 0],
+              "timeToLive" : 0.3,
+              "layer" : "middle"
+            }
+          ]
+        ]
+      },
+      "stronghit" : {
+        "sounds" : [ [ "/sfx/projectiles/tar_hit_organic1.ogg", "/sfx/melee/critical_hit.ogg" ] ],
+        "particles" : [
+          [
+            // CRITICAL POISON PUFF
+            {
+              "type" : "animated",
+              "animation" : "/animations/iwpp_paraichordrip/iwpp_paraichordrip1.animation",
+              "initialVelocity" : [1, -0.3],
+              "finalVelocity" : [2, 1],
+              "approach" : [0.5, 0.5],
+              "timeToLive" : 0.6,
+              "variance" : {
+                "timeToLive" : 0.15,
+                "position" : [2.5, 2.5],
+                "initialVelocity" : [-1, 0.3],
+                "finalVelocity" : [-2, 1],
+                "rotation" : 180
+              }
+            },
+            {
+              "type" : "animated",
+              "animation" : "/animations/iwpp_paraichordrip/iwpp_paraichordrip2.animation",
+              "initialVelocity" : [1, -0.3],
+              "finalVelocity" : [2, 1],
+              "approach" : [0.5, 0.5],
+              "timeToLive" : 0.6,
+              "variance" : {
+                "timeToLive" : 0.15,
+                "position" : [2.5, 2.5],
+                "initialVelocity" : [-1, 0.3],
+                "finalVelocity" : [-2, 1],
+                "rotation" : 180
+              }
+            },
+            {
+              "type" : "animated",
+              "animation" : "/animations/iwpp_paraichordust/iwpp_paraichordust.animation",
+              "size" : 1,
+              "color" : [181, 49, 224, 150],
+              "angularVelocity" : 0,
+              "position" : [0, 0],
+              "initialVelocity" : [0, 0],
+              "finalVelocity" : [0, 5],
+              "approach" : [15, 15],
+              "timeToLive" : 0.7,
+              "layer" : "front",
+              "destructionTime" : 0.5,
+              "destructionAction" : "fade",
+              "variance" : {
+                "initialVelocity" : [10, 5],
+                "color" : [197, 49, 106, 150]
+              }
+            },
+            {
+              "type" : "animated",
+              "animation" : "/animations/iwpp_paraichordust/iwpp_paraichordust.animation",
+              "size" : 1,
+              "color" : [97, 171, 96, 150],
+              "angularVelocity" : 0,
+              "position" : [0, 0],
+              "initialVelocity" : [0, 0],
+              "finalVelocity" : [0, 5],
+              "approach" : [15, 15],
+              "timeToLive" : 0.7,
+              "layer" : "front",
+              "destructionTime" : 0.5,
+              "destructionAction" : "fade",
+              "variance" : {
+                "initialVelocity" : [10, 5],
+                "color" : [181, 49, 224, 150]
+              }
+            },
+
+            // NORMAL PARTICLES
+            {
+              "type" : "animated",
+              "animation" : "/animations/defaulthitspark/defaulthitspark.animation",
+              "size" : 1,
+              "angularVelocity" : 0,
+              "fade" : 1,
+              "destructionTime" : 1,
+              "position" : [0, 0],
+              "initialVelocity" : [0, 0],
+              "finalVelocity" : [0, 0],
+              "approach" : [1, 0],
+              "timeToLive" : 0.3,
+              "layer" : "middle"
+            }
+          ]
+        ]
+      },
+      "kill" : {
+        "sounds" : [ "/sfx/projectiles/coconutbreak2.ogg" ],
+        "particles" : [
+          [
+
+            {
+              "type" : "animated",
+              "animation" : "/animations/iwpp_infectionsplosion/iwpp_infectionsplosion.animation",
+              "size" : 1,
+              "angularVelocity" : 35,
+              "fade" : 1,
+              "destructionTime" : 1,
+              "position" : [0, 0],
+              "initialVelocity" : [0, 0],
+              "finalVelocity" : [0, 0],
+              "approach" : [1, 1],
+              "timeToLive" : 0.35,
+              "layer" : "middle"
+            },
+            {
+              "type" : "animated",
+              "animation" : "/animations/defaulthitspark/defaulthitspark.animation",
+              "size" : 1,
+              "angularVelocity" : 0,
+              "fade" : 1,
+              "destructionTime" : 1,
+              "position" : [0, 0],
+              "initialVelocity" : [0, 0],
+              "finalVelocity" : [0, 0],
+              "approach" : [1, 0],
+              "timeToLive" : 0.3,
+              "layer" : "middle"
+            },
+            {
+              "type" : "textured",
+              "animation" : "/monsters/flyers/parasprite/shards1.png",
+              "size" : 1.0,
+              "initialVelocity" : [0, 0],
+              "finalVelocity" : [0, 0],
+              "approach" : [1, 0],
+              "timeToLive" : 20,
+              "collidesForeground" : true,
+              "destructionTime" : 5,
+              "layer" : "back",
+              "variance" : {
+                "size" : 0.5,
+                "initialVelocity" : [6, 2]
+              }
+            },
+            {
+              "type" : "textured",
+              "animation" : "/monsters/flyers/parasprite/shards1.png",
+              "size" : 1.0,
+              "initialVelocity" : [0, 10],
+              "finalVelocity" : [0, -30],
+              "approach" : [0, 20],
+              "timeToLive" : 20,
+              "collidesForeground" : true,
+              "destructionTime" : 5,
+              "layer" : "back",
+              "variance" : {
+                "size" : 0.5,
+                "initialVelocity" : [6, 2]
+              }
+            },
+            {
+              "type" : "textured",
+              "animation" : "/monsters/flyers/parasprite/shards1.png",
+              "size" : 1.0,
+              "initialVelocity" : [0, 10],
+              "finalVelocity" : [0, -30],
+              "approach" : [0, 20],
+              "timeToLive" : 20,
+              "collidesForeground" : true,
+              "destructionTime" : 5,
+              "layer" : "back",
+              "variance" : {
+                "size" : 0.5,
+                "initialVelocity" : [6, 2]
+              }
+            },
+            {
+              "type" : "textured",
+              "animation" : "/monsters/flyers/parasprite/shards2.png",
+              "size" : 1.0,
+              "initialVelocity" : [0, 10],
+              "finalVelocity" : [0, -30],
+              "approach" : [0, 20],
+              "timeToLive" : 20,
+              "collidesForeground" : true,
+              "destructionTime" : 5,
+              "layer" : "back",
+              "variance" : {
+                "size" : 0.5,
+                "initialVelocity" : [6, 2]
+              }
+            },
+            {
+              "type" : "textured",
+              "animation" : "/monsters/flyers/parasprite/shards2.png",
+              "size" : 1.0,
+              "initialVelocity" : [0, 10],
+              "finalVelocity" : [0, -30],
+              "approach" : [0, 20],
+              "timeToLive" : 20,
+              "collidesForeground" : true,
+              "destructionTime" : 5,
+              "layer" : "back",
+              "variance" : {
+                "size" : 0.5,
+                "initialVelocity" : [6, 2]
+              }
+            },
+            {
+              "type" : "textured",
+              "animation" : "/monsters/flyers/parasprite/shards3.png",
+              "size" : 1.0,
+              "initialVelocity" : [0, 10],
+              "finalVelocity" : [0, -30],
+              "approach" : [0, 20],
+              "timeToLive" : 20,
+              "collidesForeground" : true,
+              "destructionTime" : 5,
+              "layer" : "back",
+              "variance" : {
+                "size" : 0.5,
+                "initialVelocity" : [6, 2]
+              }
+            },
+            {
+              "type" : "textured",
+              "animation" : "/monsters/flyers/parasprite/shards3.png",
+              "size" : 1.0,
+              "initialVelocity" : [0, 10],
+              "finalVelocity" : [0, -30],
+              "approach" : [0, 20],
+              "timeToLive" : 20,
+              "collidesForeground" : true,
+              "destructionTime" : 5,
+              "layer" : "back",
+              "variance" : {
+                "size" : 0.5,
+                "initialVelocity" : [6, 2]
+              }
+            },
+            {
+              "type" : "textured",
+              "animation" : "/monsters/flyers/parasprite/shards4.png",
+              "size" : 1.0,
+              "initialVelocity" : [0, 10],
+              "finalVelocity" : [0, -30],
+              "approach" : [0, 20],
+              "timeToLive" : 20,
+              "collidesForeground" : true,
+              "destructionTime" : 5,
+              "layer" : "back",
+              "variance" : {
+                "size" : 0.5,
+                "initialVelocity" : [6, 2]
+              }
+            },
+            {
+              "type" : "textured",
+              "animation" : "/monsters/flyers/parasprite/shards4.png",
+              "size" : 1.0,
+              "initialVelocity" : [0, 10],
+              "finalVelocity" : [0, -30],
+              "approach" : [0, 20],
+              "timeToLive" : 20,
+              "collidesForeground" : true,
+              "destructionTime" : 5,
+              "layer" : "back",
+              "variance" : {
+                "size" : 0.5,
+                "initialVelocity" : [6, 2]
+              }
+            }
+          ]
+        ]
+      }
+    },
+    "robotic" : {
+      "hit" : {
+        "sounds" : [ "/sfx/projectiles/tar_hit_robotic1.ogg" ],
+        "particles" : [
+          [
+            {
+              "type" : "animated",
+              "animation" : "/animations/defaulthitspark/defaulthitspark.animation",
+              "size" : 1,
+              "angularVelocity" : 0,
+              "fade" : 1,
+              "destructionTime" : 1,
+              "position" : [0, 0],
+              "initialVelocity" : [0, 0],
+              "finalVelocity" : [0, 0],
+              "approach" : [1, 0],
+              "timeToLive" : 0.3,
+              "layer" : "middle"
+            }
+          ]
+        ]
+      },
+      "stronghit" : {
+        "sounds" : [ [ "/sfx/projectiles/tar_hit_robotic1.ogg", "/sfx/melee/critical_hit.ogg" ] ],
+        "particles" : [
+          [
+            // CRITICAL POISON PUFF
+            {
+              "type" : "animated",
+              "animation" : "/animations/iwpp_paraichordrip/iwpp_paraichordrip1.animation",
+              "initialVelocity" : [1, -0.3],
+              "finalVelocity" : [2, 1],
+              "approach" : [0.5, 0.5],
+              "timeToLive" : 0.6,
+              "variance" : {
+                "timeToLive" : 0.15,
+                "position" : [2.5, 2.5],
+                "initialVelocity" : [-1, 0.3],
+                "finalVelocity" : [-2, 1],
+                "rotation" : 180
+              }
+            },
+            {
+              "type" : "animated",
+              "animation" : "/animations/iwpp_paraichordrip/iwpp_paraichordrip2.animation",
+              "initialVelocity" : [1, -0.3],
+              "finalVelocity" : [2, 1],
+              "approach" : [0.5, 0.5],
+              "timeToLive" : 0.6,
+              "variance" : {
+                "timeToLive" : 0.15,
+                "position" : [2.5, 2.5],
+                "initialVelocity" : [-1, 0.3],
+                "finalVelocity" : [-2, 1],
+                "rotation" : 180
+              }
+            },
+            {
+              "type" : "animated",
+              "animation" : "/animations/iwpp_paraichordust/iwpp_paraichordust.animation",
+              "size" : 1,
+              "color" : [181, 49, 224, 150],
+              "angularVelocity" : 0,
+              "position" : [0, 0],
+              "initialVelocity" : [0, 0],
+              "finalVelocity" : [0, 5],
+              "approach" : [15, 15],
+              "timeToLive" : 0.7,
+              "layer" : "front",
+              "destructionTime" : 0.5,
+              "destructionAction" : "fade",
+              "variance" : {
+                "initialVelocity" : [10, 5],
+                "color" : [197, 49, 106, 150]
+              }
+            },
+            {
+              "type" : "animated",
+              "animation" : "/animations/iwpp_paraichordust/iwpp_paraichordust.animation",
+              "size" : 1,
+              "color" : [97, 171, 96, 150],
+              "angularVelocity" : 0,
+              "position" : [0, 0],
+              "initialVelocity" : [0, 0],
+              "finalVelocity" : [0, 5],
+              "approach" : [15, 15],
+              "timeToLive" : 0.7,
+              "layer" : "front",
+              "destructionTime" : 0.5,
+              "destructionAction" : "fade",
+              "variance" : {
+                "initialVelocity" : [10, 5],
+                "color" : [181, 49, 224, 150]
+              }
+            },
+
+            // NORMAL PARTICLES
+            {
+              "type" : "animated",
+              "animation" : "/animations/defaulthitspark/defaulthitspark.animation",
+              "size" : 1,
+              "angularVelocity" : 0,
+              "fade" : 1,
+              "destructionTime" : 1,
+              "position" : [0, 0],
+              "initialVelocity" : [0, 0],
+              "finalVelocity" : [0, 0],
+              "approach" : [1, 0],
+              "timeToLive" : 0.3,
+              "layer" : "middle"
+            }
+          ]
+        ]
+      },
+      "kill" : {
+        "sounds" : [ "/sfx/melee/kill_robotic1.ogg", "/sfx/melee/kill_robotic2.ogg" ],
+        "particles" : [
+          [
+
+            {
+              "type" : "animated",
+              "animation" : "/animations/iwpp_infectionsplosion/iwpp_infectionsplosion.animation",
+              "size" : 1,
+              "angularVelocity" : 35,
+              "fade" : 1,
+              "destructionTime" : 1,
+              "position" : [0, 0],
+              "initialVelocity" : [0, 0],
+              "finalVelocity" : [0, 0],
+              "approach" : [1, 1],
+              "timeToLive" : 0.35,
+              "layer" : "middle"
+            },
+            {
+              "type" : "animated",
+              "animation" : "/animations/defaulthitspark/defaulthitspark.animation",
+              "size" : 1,
+              "angularVelocity" : 0,
+              "fade" : 1,
+              "destructionTime" : 1,
+              "position" : [0, 0],
+              "initialVelocity" : [0, 0],
+              "finalVelocity" : [0, 0],
+              "approach" : [1, 0],
+              "timeToLive" : 0.3,
+              "layer" : "middle"
+            },
+            {
+              "type" : "textured",
+              "animation" : "/monsters/flyers/parasprite/shards1.png",
+              "size" : 1.0,
+              "initialVelocity" : [0, 0],
+              "finalVelocity" : [0, 0],
+              "approach" : [1, 0],
+              "timeToLive" : 20,
+              "collidesForeground" : true,
+              "destructionTime" : 5,
+              "layer" : "back",
+              "variance" : {
+                "size" : 0.5,
+                "initialVelocity" : [6, 2]
+              }
+            },
+            {
+              "type" : "textured",
+              "animation" : "/monsters/flyers/parasprite/shards1.png",
+              "size" : 1.0,
+              "initialVelocity" : [0, 10],
+              "finalVelocity" : [0, -30],
+              "approach" : [0, 20],
+              "timeToLive" : 20,
+              "collidesForeground" : true,
+              "destructionTime" : 5,
+              "layer" : "back",
+              "variance" : {
+                "size" : 0.5,
+                "initialVelocity" : [6, 2]
+              }
+            },
+            {
+              "type" : "textured",
+              "animation" : "/monsters/flyers/parasprite/shards1.png",
+              "size" : 1.0,
+              "initialVelocity" : [0, 10],
+              "finalVelocity" : [0, -30],
+              "approach" : [0, 20],
+              "timeToLive" : 20,
+              "collidesForeground" : true,
+              "destructionTime" : 5,
+              "layer" : "back",
+              "variance" : {
+                "size" : 0.5,
+                "initialVelocity" : [6, 2]
+              }
+            },
+            {
+              "type" : "textured",
+              "animation" : "/monsters/flyers/parasprite/shards2.png",
+              "size" : 1.0,
+              "initialVelocity" : [0, 10],
+              "finalVelocity" : [0, -30],
+              "approach" : [0, 20],
+              "timeToLive" : 20,
+              "collidesForeground" : true,
+              "destructionTime" : 5,
+              "layer" : "back",
+              "variance" : {
+                "size" : 0.5,
+                "initialVelocity" : [6, 2]
+              }
+            },
+            {
+              "type" : "textured",
+              "animation" : "/monsters/flyers/parasprite/shards2.png",
+              "size" : 1.0,
+              "initialVelocity" : [0, 10],
+              "finalVelocity" : [0, -30],
+              "approach" : [0, 20],
+              "timeToLive" : 20,
+              "collidesForeground" : true,
+              "destructionTime" : 5,
+              "layer" : "back",
+              "variance" : {
+                "size" : 0.5,
+                "initialVelocity" : [6, 2]
+              }
+            },
+            {
+              "type" : "textured",
+              "animation" : "/monsters/flyers/parasprite/shards3.png",
+              "size" : 1.0,
+              "initialVelocity" : [0, 10],
+              "finalVelocity" : [0, -30],
+              "approach" : [0, 20],
+              "timeToLive" : 20,
+              "collidesForeground" : true,
+              "destructionTime" : 5,
+              "layer" : "back",
+              "variance" : {
+                "size" : 0.5,
+                "initialVelocity" : [6, 2]
+              }
+            },
+            {
+              "type" : "textured",
+              "animation" : "/monsters/flyers/parasprite/shards3.png",
+              "size" : 1.0,
+              "initialVelocity" : [0, 10],
+              "finalVelocity" : [0, -30],
+              "approach" : [0, 20],
+              "timeToLive" : 20,
+              "collidesForeground" : true,
+              "destructionTime" : 5,
+              "layer" : "back",
+              "variance" : {
+                "size" : 0.5,
+                "initialVelocity" : [6, 2]
+              }
+            },
+            {
+              "type" : "textured",
+              "animation" : "/monsters/flyers/parasprite/shards4.png",
+              "size" : 1.0,
+              "initialVelocity" : [0, 10],
+              "finalVelocity" : [0, -30],
+              "approach" : [0, 20],
+              "timeToLive" : 20,
+              "collidesForeground" : true,
+              "destructionTime" : 5,
+              "layer" : "back",
+              "variance" : {
+                "size" : 0.5,
+                "initialVelocity" : [6, 2]
+              }
+            },
+            {
+              "type" : "textured",
+              "animation" : "/monsters/flyers/parasprite/shards4.png",
+              "size" : 1.0,
+              "initialVelocity" : [0, 10],
+              "finalVelocity" : [0, -30],
+              "approach" : [0, 20],
+              "timeToLive" : 20,
+              "collidesForeground" : true,
+              "destructionTime" : 5,
+              "layer" : "back",
+              "variance" : {
+                "size" : 0.5,
+                "initialVelocity" : [6, 2]
+              }
+            }
+          ]
+        ]
+      }
+    },
+    "wooden" : {
+      "hit" : {
+        "sounds" : [ "/sfx/projectiles/tar_hit_organic1.ogg" ],
+        "particles" : [
+          [
+            {
+              "type" : "animated",
+              "animation" : "/animations/defaulthitspark/defaulthitspark.animation",
+              "size" : 1,
+              "angularVelocity" : 0,
+              "fade" : 1,
+              "destructionTime" : 1,
+              "position" : [0, 0],
+              "initialVelocity" : [0, 0],
+              "finalVelocity" : [0, 0],
+              "approach" : [1, 0],
+              "timeToLive" : 0.3,
+              "layer" : "middle"
+            }
+          ]
+        ]
+      },
+      "stronghit" : {
+        "sounds" : [ [ "/sfx/projectiles/tar_hit_organic1.ogg", "/sfx/melee/critical_hit.ogg" ] ],
+        "particles" : [
+          [
+            // CRITICAL POISON PUFF
+            {
+              "type" : "animated",
+              "animation" : "/animations/iwpp_paraichordrip/iwpp_paraichordrip1.animation",
+              "initialVelocity" : [1, -0.3],
+              "finalVelocity" : [2, 1],
+              "approach" : [0.5, 0.5],
+              "timeToLive" : 0.6,
+              "variance" : {
+                "timeToLive" : 0.15,
+                "position" : [2.5, 2.5],
+                "initialVelocity" : [-1, 0.3],
+                "finalVelocity" : [-2, 1],
+                "rotation" : 180
+              }
+            },
+            {
+              "type" : "animated",
+              "animation" : "/animations/iwpp_paraichordrip/iwpp_paraichordrip2.animation",
+              "initialVelocity" : [1, -0.3],
+              "finalVelocity" : [2, 1],
+              "approach" : [0.5, 0.5],
+              "timeToLive" : 0.6,
+              "variance" : {
+                "timeToLive" : 0.15,
+                "position" : [2.5, 2.5],
+                "initialVelocity" : [-1, 0.3],
+                "finalVelocity" : [-2, 1],
+                "rotation" : 180
+              }
+            },
+            {
+              "type" : "animated",
+              "animation" : "/animations/iwpp_paraichordust/iwpp_paraichordust.animation",
+              "size" : 1,
+              "color" : [181, 49, 224, 150],
+              "angularVelocity" : 0,
+              "position" : [0, 0],
+              "initialVelocity" : [0, 0],
+              "finalVelocity" : [0, 5],
+              "approach" : [15, 15],
+              "timeToLive" : 0.7,
+              "layer" : "front",
+              "destructionTime" : 0.5,
+              "destructionAction" : "fade",
+              "variance" : {
+                "initialVelocity" : [10, 5],
+                "color" : [197, 49, 106, 150]
+              }
+            },
+            {
+              "type" : "animated",
+              "animation" : "/animations/iwpp_paraichordust/iwpp_paraichordust.animation",
+              "size" : 1,
+              "color" : [97, 171, 96, 150],
+              "angularVelocity" : 0,
+              "position" : [0, 0],
+              "initialVelocity" : [0, 0],
+              "finalVelocity" : [0, 5],
+              "approach" : [15, 15],
+              "timeToLive" : 0.7,
+              "layer" : "front",
+              "destructionTime" : 0.5,
+              "destructionAction" : "fade",
+              "variance" : {
+                "initialVelocity" : [10, 5],
+                "color" : [181, 49, 224, 150]
+              }
+            },
+
+            // NORMAL PARTICLES
+            {
+              "type" : "animated",
+              "animation" : "/animations/defaulthitspark/defaulthitspark.animation",
+              "size" : 1,
+              "angularVelocity" : 0,
+              "fade" : 1,
+              "destructionTime" : 1,
+              "position" : [0, 0],
+              "initialVelocity" : [0, 0],
+              "finalVelocity" : [0, 0],
+              "approach" : [1, 0],
+              "timeToLive" : 0.3,
+              "layer" : "middle"
+            }
+          ]
+        ]
+      },
+      "kill" : {
+        "sounds" : [ "/sfx/melee/kill_wood1.ogg", "/sfx/melee/kill_wood2.ogg" ],
+        "particles" : [
+          [
+
+            {
+              "type" : "animated",
+              "animation" : "/animations/iwpp_infectionsplosion/iwpp_infectionsplosion.animation",
+              "size" : 1,
+              "angularVelocity" : 35,
+              "fade" : 1,
+              "destructionTime" : 1,
+              "position" : [0, 0],
+              "initialVelocity" : [0, 0],
+              "finalVelocity" : [0, 0],
+              "approach" : [1, 1],
+              "timeToLive" : 0.35,
+              "layer" : "middle"
+            },
+            {
+              "type" : "animated",
+              "animation" : "/animations/defaulthitspark/defaulthitspark.animation",
+              "size" : 1,
+              "angularVelocity" : 0,
+              "fade" : 1,
+              "destructionTime" : 1,
+              "position" : [0, 0],
+              "initialVelocity" : [0, 0],
+              "finalVelocity" : [0, 0],
+              "approach" : [1, 0],
+              "timeToLive" : 0.3,
+              "layer" : "middle"
+            },
+            {
+              "type" : "textured",
+              "animation" : "/monsters/flyers/parasprite/shards1.png",
+              "size" : 1.0,
+              "initialVelocity" : [0, 0],
+              "finalVelocity" : [0, 0],
+              "approach" : [1, 0],
+              "timeToLive" : 20,
+              "collidesForeground" : true,
+              "destructionTime" : 5,
+              "layer" : "back",
+              "variance" : {
+                "size" : 0.5,
+                "initialVelocity" : [6, 2]
+              }
+            },
+            {
+              "type" : "textured",
+              "animation" : "/monsters/flyers/parasprite/shards1.png",
+              "size" : 1.0,
+              "initialVelocity" : [0, 10],
+              "finalVelocity" : [0, -30],
+              "approach" : [0, 20],
+              "timeToLive" : 20,
+              "collidesForeground" : true,
+              "destructionTime" : 5,
+              "layer" : "back",
+              "variance" : {
+                "size" : 0.5,
+                "initialVelocity" : [6, 2]
+              }
+            },
+            {
+              "type" : "textured",
+              "animation" : "/monsters/flyers/parasprite/shards1.png",
+              "size" : 1.0,
+              "initialVelocity" : [0, 10],
+              "finalVelocity" : [0, -30],
+              "approach" : [0, 20],
+              "timeToLive" : 20,
+              "collidesForeground" : true,
+              "destructionTime" : 5,
+              "layer" : "back",
+              "variance" : {
+                "size" : 0.5,
+                "initialVelocity" : [6, 2]
+              }
+            },
+            {
+              "type" : "textured",
+              "animation" : "/monsters/flyers/parasprite/shards2.png",
+              "size" : 1.0,
+              "initialVelocity" : [0, 10],
+              "finalVelocity" : [0, -30],
+              "approach" : [0, 20],
+              "timeToLive" : 20,
+              "collidesForeground" : true,
+              "destructionTime" : 5,
+              "layer" : "back",
+              "variance" : {
+                "size" : 0.5,
+                "initialVelocity" : [6, 2]
+              }
+            },
+            {
+              "type" : "textured",
+              "animation" : "/monsters/flyers/parasprite/shards2.png",
+              "size" : 1.0,
+              "initialVelocity" : [0, 10],
+              "finalVelocity" : [0, -30],
+              "approach" : [0, 20],
+              "timeToLive" : 20,
+              "collidesForeground" : true,
+              "destructionTime" : 5,
+              "layer" : "back",
+              "variance" : {
+                "size" : 0.5,
+                "initialVelocity" : [6, 2]
+              }
+            },
+            {
+              "type" : "textured",
+              "animation" : "/monsters/flyers/parasprite/shards3.png",
+              "size" : 1.0,
+              "initialVelocity" : [0, 10],
+              "finalVelocity" : [0, -30],
+              "approach" : [0, 20],
+              "timeToLive" : 20,
+              "collidesForeground" : true,
+              "destructionTime" : 5,
+              "layer" : "back",
+              "variance" : {
+                "size" : 0.5,
+                "initialVelocity" : [6, 2]
+              }
+            },
+            {
+              "type" : "textured",
+              "animation" : "/monsters/flyers/parasprite/shards3.png",
+              "size" : 1.0,
+              "initialVelocity" : [0, 10],
+              "finalVelocity" : [0, -30],
+              "approach" : [0, 20],
+              "timeToLive" : 20,
+              "collidesForeground" : true,
+              "destructionTime" : 5,
+              "layer" : "back",
+              "variance" : {
+                "size" : 0.5,
+                "initialVelocity" : [6, 2]
+              }
+            },
+            {
+              "type" : "textured",
+              "animation" : "/monsters/flyers/parasprite/shards4.png",
+              "size" : 1.0,
+              "initialVelocity" : [0, 10],
+              "finalVelocity" : [0, -30],
+              "approach" : [0, 20],
+              "timeToLive" : 20,
+              "collidesForeground" : true,
+              "destructionTime" : 5,
+              "layer" : "back",
+              "variance" : {
+                "size" : 0.5,
+                "initialVelocity" : [6, 2]
+              }
+            },
+            {
+              "type" : "textured",
+              "animation" : "/monsters/flyers/parasprite/shards4.png",
+              "size" : 1.0,
+              "initialVelocity" : [0, 10],
+              "finalVelocity" : [0, -30],
+              "approach" : [0, 20],
+              "timeToLive" : 20,
+              "collidesForeground" : true,
+              "destructionTime" : 5,
+              "layer" : "back",
+              "variance" : {
+                "size" : 0.5,
+                "initialVelocity" : [6, 2]
+              }
+            }
+          ]
+        ]
+      }
+    },
+    "stone" : {
+      "hit" : {
+        "sounds" : [ "/sfx/projectiles/tar_hit_organic1.ogg" ],
+        "particles" : [
+          [
+            {
+              "type" : "animated",
+              "animation" : "/animations/defaulthitspark/defaulthitspark.animation",
+              "size" : 1,
+              "angularVelocity" : 0,
+              "fade" : 1,
+              "destructionTime" : 1,
+              "position" : [0, 0],
+              "initialVelocity" : [0, 0],
+              "finalVelocity" : [0, 0],
+              "approach" : [1, 0],
+              "timeToLive" : 0.3,
+              "layer" : "middle"
+            }
+          ]
+        ]
+      },
+      "stronghit" : {
+        "sounds" : [ [ "/sfx/projectiles/tar_hit_organic1.ogg", "/sfx/melee/critical_hit.ogg" ] ],
+        "particles" : [
+          [
+            // CRITICAL POISON PUFF
+            {
+              "type" : "animated",
+              "animation" : "/animations/iwpp_paraichordrip/iwpp_paraichordrip1.animation",
+              "initialVelocity" : [1, -0.3],
+              "finalVelocity" : [2, 1],
+              "approach" : [0.5, 0.5],
+              "timeToLive" : 0.6,
+              "variance" : {
+                "timeToLive" : 0.15,
+                "position" : [2.5, 2.5],
+                "initialVelocity" : [-1, 0.3],
+                "finalVelocity" : [-2, 1],
+                "rotation" : 180
+              }
+            },
+            {
+              "type" : "animated",
+              "animation" : "/animations/iwpp_paraichordrip/iwpp_paraichordrip2.animation",
+              "initialVelocity" : [1, -0.3],
+              "finalVelocity" : [2, 1],
+              "approach" : [0.5, 0.5],
+              "timeToLive" : 0.6,
+              "variance" : {
+                "timeToLive" : 0.15,
+                "position" : [2.5, 2.5],
+                "initialVelocity" : [-1, 0.3],
+                "finalVelocity" : [-2, 1],
+                "rotation" : 180
+              }
+            },
+            {
+              "type" : "animated",
+              "animation" : "/animations/iwpp_paraichordust/iwpp_paraichordust.animation",
+              "size" : 1,
+              "color" : [181, 49, 224, 150],
+              "angularVelocity" : 0,
+              "position" : [0, 0],
+              "initialVelocity" : [0, 0],
+              "finalVelocity" : [0, 5],
+              "approach" : [15, 15],
+              "timeToLive" : 0.7,
+              "layer" : "front",
+              "destructionTime" : 0.5,
+              "destructionAction" : "fade",
+              "variance" : {
+                "initialVelocity" : [10, 5],
+                "color" : [197, 49, 106, 150]
+              }
+            },
+            {
+              "type" : "animated",
+              "animation" : "/animations/iwpp_paraichordust/iwpp_paraichordust.animation",
+              "size" : 1,
+              "color" : [97, 171, 96, 150],
+              "angularVelocity" : 0,
+              "position" : [0, 0],
+              "initialVelocity" : [0, 0],
+              "finalVelocity" : [0, 5],
+              "approach" : [15, 15],
+              "timeToLive" : 0.7,
+              "layer" : "front",
+              "destructionTime" : 0.5,
+              "destructionAction" : "fade",
+              "variance" : {
+                "initialVelocity" : [10, 5],
+                "color" : [181, 49, 224, 150]
+              }
+            },
+
+            // NORMAL PARTICLES
+            {
+              "type" : "animated",
+              "animation" : "/animations/defaulthitspark/defaulthitspark.animation",
+              "size" : 1,
+              "angularVelocity" : 0,
+              "fade" : 1,
+              "destructionTime" : 1,
+              "position" : [0, 0],
+              "initialVelocity" : [0, 0],
+              "finalVelocity" : [0, 0],
+              "approach" : [1, 0],
+              "timeToLive" : 0.3,
+              "layer" : "middle"
+            }
+          ]
+        ]
+      },
+      "kill" : {
+        "sounds" : [ "/sfx/melee/kill_stone1.ogg", "/sfx/melee/kill_stone2.ogg", "/sfx/melee/kill_stone3.ogg", "/sfx/melee/kill_stone4.ogg", "/sfx/melee/kill_stone5.ogg" ],
+        "particles" : [
+          [
+
+            {
+              "type" : "animated",
+              "animation" : "/animations/iwpp_infectionsplosion/iwpp_infectionsplosion.animation",
+              "size" : 1,
+              "angularVelocity" : 35,
+              "fade" : 1,
+              "destructionTime" : 1,
+              "position" : [0, 0],
+              "initialVelocity" : [0, 0],
+              "finalVelocity" : [0, 0],
+              "approach" : [1, 1],
+              "timeToLive" : 0.35,
+              "layer" : "middle"
+            },
+            {
+              "type" : "animated",
+              "animation" : "/animations/defaulthitspark/defaulthitspark.animation",
+              "size" : 1,
+              "angularVelocity" : 0,
+              "fade" : 1,
+              "destructionTime" : 1,
+              "position" : [0, 0],
+              "initialVelocity" : [0, 0],
+              "finalVelocity" : [0, 0],
+              "approach" : [1, 0],
+              "timeToLive" : 0.3,
+              "layer" : "middle"
+            },
+            {
+              "type" : "textured",
+              "animation" : "/monsters/flyers/parasprite/shards1.png",
+              "size" : 1.0,
+              "initialVelocity" : [0, 0],
+              "finalVelocity" : [0, 0],
+              "approach" : [1, 0],
+              "timeToLive" : 20,
+              "collidesForeground" : true,
+              "destructionTime" : 5,
+              "layer" : "back",
+              "variance" : {
+                "size" : 0.5,
+                "initialVelocity" : [6, 2]
+              }
+            },
+            {
+              "type" : "textured",
+              "animation" : "/monsters/flyers/parasprite/shards1.png",
+              "size" : 1.0,
+              "initialVelocity" : [0, 10],
+              "finalVelocity" : [0, -30],
+              "approach" : [0, 20],
+              "timeToLive" : 20,
+              "collidesForeground" : true,
+              "destructionTime" : 5,
+              "layer" : "back",
+              "variance" : {
+                "size" : 0.5,
+                "initialVelocity" : [6, 2]
+              }
+            },
+            {
+              "type" : "textured",
+              "animation" : "/monsters/flyers/parasprite/shards1.png",
+              "size" : 1.0,
+              "initialVelocity" : [0, 10],
+              "finalVelocity" : [0, -30],
+              "approach" : [0, 20],
+              "timeToLive" : 20,
+              "collidesForeground" : true,
+              "destructionTime" : 5,
+              "layer" : "back",
+              "variance" : {
+                "size" : 0.5,
+                "initialVelocity" : [6, 2]
+              }
+            },
+            {
+              "type" : "textured",
+              "animation" : "/monsters/flyers/parasprite/shards2.png",
+              "size" : 1.0,
+              "initialVelocity" : [0, 10],
+              "finalVelocity" : [0, -30],
+              "approach" : [0, 20],
+              "timeToLive" : 20,
+              "collidesForeground" : true,
+              "destructionTime" : 5,
+              "layer" : "back",
+              "variance" : {
+                "size" : 0.5,
+                "initialVelocity" : [6, 2]
+              }
+            },
+            {
+              "type" : "textured",
+              "animation" : "/monsters/flyers/parasprite/shards2.png",
+              "size" : 1.0,
+              "initialVelocity" : [0, 10],
+              "finalVelocity" : [0, -30],
+              "approach" : [0, 20],
+              "timeToLive" : 20,
+              "collidesForeground" : true,
+              "destructionTime" : 5,
+              "layer" : "back",
+              "variance" : {
+                "size" : 0.5,
+                "initialVelocity" : [6, 2]
+              }
+            },
+            {
+              "type" : "textured",
+              "animation" : "/monsters/flyers/parasprite/shards3.png",
+              "size" : 1.0,
+              "initialVelocity" : [0, 10],
+              "finalVelocity" : [0, -30],
+              "approach" : [0, 20],
+              "timeToLive" : 20,
+              "collidesForeground" : true,
+              "destructionTime" : 5,
+              "layer" : "back",
+              "variance" : {
+                "size" : 0.5,
+                "initialVelocity" : [6, 2]
+              }
+            },
+            {
+              "type" : "textured",
+              "animation" : "/monsters/flyers/parasprite/shards3.png",
+              "size" : 1.0,
+              "initialVelocity" : [0, 10],
+              "finalVelocity" : [0, -30],
+              "approach" : [0, 20],
+              "timeToLive" : 20,
+              "collidesForeground" : true,
+              "destructionTime" : 5,
+              "layer" : "back",
+              "variance" : {
+                "size" : 0.5,
+                "initialVelocity" : [6, 2]
+              }
+            },
+            {
+              "type" : "textured",
+              "animation" : "/monsters/flyers/parasprite/shards4.png",
+              "size" : 1.0,
+              "initialVelocity" : [0, 10],
+              "finalVelocity" : [0, -30],
+              "approach" : [0, 20],
+              "timeToLive" : 20,
+              "collidesForeground" : true,
+              "destructionTime" : 5,
+              "layer" : "back",
+              "variance" : {
+                "size" : 0.5,
+                "initialVelocity" : [6, 2]
+              }
+            },
+            {
+              "type" : "textured",
+              "animation" : "/monsters/flyers/parasprite/shards4.png",
+              "size" : 1.0,
+              "initialVelocity" : [0, 10],
+              "finalVelocity" : [0, -30],
+              "approach" : [0, 20],
+              "timeToLive" : 20,
+              "collidesForeground" : true,
+              "destructionTime" : 5,
+              "layer" : "back",
+              "variance" : {
+                "size" : 0.5,
+                "initialVelocity" : [6, 2]
+              }
+            }
+          ]
+        ]
+      }
+    }
+  }
+}

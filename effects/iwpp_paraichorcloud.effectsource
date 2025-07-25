@@ -1,0 +1,29 @@
+{
+  "kind" : "iwpp_paraichorcloud",
+  "definition" : {
+    "duration" : 0.03,
+    "loops" : true,
+    "start" : {
+      "particles" : [
+        [ "iwpp_paraichorcloud1", "iwpp_paraichorcloud2", "iwpp_paraichorcloud1", "iwpp_paraichorcloud2", "iwpp_paraichorcloud1", "iwpp_paraichorcloud2" ]
+      ],
+      "sounds" : [
+        [ ]
+      ]
+    },
+    "particles" : [
+      [ "iwpp_paraichorcloud4", "iwpp_paraichorcloud1", "iwpp_paraichorcloud2" ]
+    ],
+    "sounds" : [
+      [ ]
+    ],
+    "stop" : {
+      "particles" : [
+        [ "iwpp_paraichorcloud3", "iwpp_paraichorcloud3", "iwpp_paraichorcloud3", "iwpp_paraichorcloud3", "iwpp_paraichorcloud3", "iwpp_paraichorcloud3" ]
+      ],
+      "sounds" : [
+        [ ]
+      ]
+    }
+  }
+}

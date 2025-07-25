@@ -1,0 +1,29 @@
+{
+  "kind" : "iwpp_paraichordrip",
+  "definition" : {
+    "duration" : 0.0175,
+    "loops" : true,
+    "start" : {
+      "particles" : [
+        [ ]
+      ],
+      "sounds" : [
+        [ ]
+      ]
+    },
+    "particles" : [
+      [ "iwpp_paraichordrip1" ]
+    ],
+    "sounds" : [
+      [ ]
+    ],
+    "stop" : {
+      "particles" : [
+      [ "iwpp_paraichordrip1" ]
+      ],
+      "sounds" : [
+        [ ]
+      ]
+    }
+  }
+}
