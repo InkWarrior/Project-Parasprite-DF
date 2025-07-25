@@ -1,0 +1,57 @@
+{
+  "objectName" : "iwpp_uscmbigblasthatch",
+  "colonyTags" : ["human","humanbunker","mechanical","door"],
+  "rarity" : "Uncommon",
+
+  "category" : "door",
+  "price" : 175,
+  "description" : "A rusty and sturdy space blast hatch.",
+  "shortdescription" : "U.S.C.M. Blast Hatch",
+  "race" : "human",
+
+  "apexDescription" : "This door looks impervious.",
+  "avianDescription" : "Looks to be an rusty big metal door.",
+  "floranDescription" : "No big door can stop Floran!",
+  "glitchDescription" : "Observant. This is a large metal door.",
+  "humanDescription" : "Wow... how do I open it?",
+  "hylotlDescription" : "Looks very old. I hope it's still functional.",
+  "novakidDescription" : "Ol' rusty big door. Cool!",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "uscmbigblasthatch.png:default",
+      "imagePosition" : [-24, -8],
+      "renderLayer" : "Object+5",
+      "direction" : "right",
+      
+      "animationPosition" : [-24, -8],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "left", "right" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/door/lockingdoor.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "open" : {
+        "pool" : [ "/sfx/objects/airlock_heavy_open.ogg" ],
+        "rangeMultiplier" : 0.5
+      },
+      "close" : {
+        "pool" : [ "/sfx/objects/airlock_heavy_close.ogg" ],
+        "rangeMultiplier" : 0.5
+      }
+    }
+  },
+  "animationParts" : {
+    "door" : "uscmbigblasthatch.png"
+  },
+
+  "inputNodes" : [ [-3, 1] ],
+  "outputNodes" : [ [4, -1] ]
+}

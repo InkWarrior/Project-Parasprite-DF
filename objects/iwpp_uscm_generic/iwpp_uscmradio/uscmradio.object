@@ -1,0 +1,51 @@
+{
+  "objectName" : "iwpp_uscmradio",
+  "colonyTags" : ["human","electronic"],
+  "rarity" : "Uncommon",
+  "category" : "decorative",
+  "price" : 90,
+  "printable" : false,
+  "description" : "An old and bulky military radio.",
+  "shortdescription" : "Military Radio",
+  "race" : "human",
+
+  "apexDescription" : "An old military radio. I only hear static.",
+  "avianDescription" : "A communication box. How do I send messages with this?",
+  "floranDescription" : "Box makes annoying sound!",
+  "glitchDescription" : "Curious. It's a radio setup. Should I try and use it?",
+  "humanDescription" : "An old radio? from the military!?",
+  "hylotlDescription" : "A communication device. Seems to be old and dusty.",
+  "novakidDescription" : "I like radios, they are kinda cool.",
+
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+
+      "imageLayers" : [ { "image" : "uscmradio.png:<color>" }, { "image" : "uscmradiolit.png:<color>", "fullbright" : true } ],
+      "flipImages" : true,
+      "direction" : "left",
+	  
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+
+      "imageLayers" : [ { "image" : "uscmradio.png:<color>" }, { "image" : "uscmradiolit.png:<color>", "fullbright" : true } ],
+      "direction" : "right",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/iwpp_uscmradiostatic.ogg"
+}

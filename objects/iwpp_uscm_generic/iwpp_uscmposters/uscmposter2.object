@@ -1,0 +1,33 @@
+{
+  "objectName" : "iwpp_uscmposter2",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 70,
+  "race" : "human",
+  "printable" : false,
+
+  "shortdescription" : "\"Watch The Vents\" Poster",
+  "description" : "A USCM propaganda poster. What dangers could a vent hold?",
+
+  "apexDescription" : "I wish this poster could give me some proper context.",
+  "avianDescription" : "It seems to be asking me to watch these curious vents. Right?",
+  "floranDescription" : "Floran refusses!",
+  "glitchDescription" : "Preocupied. Is it bad if I'm not careful around vents?",
+  "humanDescription" : "I have to watch every single vent in the galaxy!?",
+  "hylotlDescription" : "I feel concerned about the message. What is the reason to make such propaganda?",
+  "novakidDescription" : "Nothin' interesting about 'em. On my way I go!",
+
+  "inventoryIcon" : "icon2.png",
+  "orientations" : [
+    {
+      "image" : "uscmposter2.png:<color>",
+      "imagePosition" : [-8, -16],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

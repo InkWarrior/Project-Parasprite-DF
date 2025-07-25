@@ -1,0 +1,99 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "burstState" : {
+        "default" : "closed",
+        "states" : {
+          "closed" : {
+            "frames" : 1,
+            "properties" : {
+              "persistentSound" : "/sfx/objects/iwpp_uscmradiostatic.ogg"
+            }
+          },
+          "burst" : {
+            "frames" : 1,
+            "cycle" : 0.1,
+            "mode" : "transition",
+            "transition" : "open"
+          },
+          "open" : {
+            "frames" : 1
+          }
+        }
+      }
+    },
+
+    "parts" : {
+      "chestFullbright" : {
+        "properties" : {
+          "zLevel" : 1,
+          "fullbright" : true,
+          "centered" : false
+        },
+
+        "partStates" : {
+          "burstState" : {
+            "closed" : {
+              "properties" : {
+                "image" : "uscmradiolorelit.png:closed"
+              }
+            },
+
+            "burst" : {
+              "properties" : {
+                "image" : "uscmradiolorelit.png:burst"
+              }
+            },
+
+            "open" : {
+              "properties" : {
+                "image" : "uscmradiolorelit.png:open"
+              }
+            }
+          }
+        }
+      },
+      "chest" : {
+        "properties" : {
+          "centered" : false
+        },
+
+        "partStates" : {
+          "burstState" : {
+            "closed" : {
+              "properties" : {
+                "image" : "uscmradiolore.png:closed"
+              }
+            },
+
+            "burst" : {
+              "properties" : {
+                "image" : "uscmradiolore.png:burst"
+              }
+            },
+
+            "open" : {
+              "properties" : {
+                "image" : "uscmradiolore.png:open"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  
+  "particleEmitters" : {
+    "burst" : {
+      "active" : false,
+      "offsetRegion" : [0.5, 1, 3.5, 1],
+      "particles" : [
+        {"particle" : "tinyrocketsmoke", "count" : 3}
+      ]
+    }
+  },
+
+  "sounds" : {
+    "burst" : ["/sfx/objects/hiddenswitch1.ogg"]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "objectName" : "iwpp_uscmposter1",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 70,
+  "race" : "human",
+  "printable" : false,
+
+  "shortdescription" : "\"Look Up\" Poster",
+  "description" : "A USCM propaganda poster. Why should I look up?",
+
+  "apexDescription" : "Why should I look up?",
+  "avianDescription" : "What a weird message for a poster.",
+  "floranDescription" : "Floran ssays no!",
+  "glitchDescription" : "Weird. I don't understand the message.",
+  "humanDescription" : "Done, now what?",
+  "hylotlDescription" : "Hmm. Should I?",
+  "novakidDescription" : "Nothin' up there pal.",
+
+  "inventoryIcon" : "icon1.png",
+  "orientations" : [
+    {
+      "image" : "uscmposter1.png:<color>",
+      "imagePosition" : [-8, -16],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "objectName" : "iwpp_uscmposter3",
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 70,
+  "race" : "human",
+  "printable" : false,
+
+  "shortdescription" : "Decontamination Poster",
+  "description" : "A USCM propaganda poster related to decontamination protocols.",
+
+  "apexDescription" : "I wonder. A decontamination unit for what?",
+  "avianDescription" : "Perhaps the USCM had pest problems?",
+  "floranDescription" : "What iss decontamination?",
+  "glitchDescription" : "Strange. Why the USCM needed decontamination protocols?",
+  "humanDescription" : "I suppose the USCM had like, a vermin pest?",
+  "hylotlDescription" : "The USCM was a dirty place if they needed decontamination protocols, right?",
+  "novakidDescription" : "Decontamination? For what? This place looks pristine.",
+
+  "inventoryIcon" : "icon3.png",
+  "orientations" : [
+    {
+      "image" : "uscmposter3.png:<color>",
+      "imagePosition" : [-8, -16],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

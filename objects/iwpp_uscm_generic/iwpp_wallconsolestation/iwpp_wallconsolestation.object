@@ -1,0 +1,85 @@
+{
+  "objectName" : "iwpp_wallconsolestation",
+  "colonyTags" : ["human","humanbunker","electronic","wired"],
+  "rarity" : "Common",
+  "category" : "wire",
+  "price" : 75,
+  "description" : "A wall-attached console. You may need a tall chair.",
+  "shortdescription" : "Wall Console Station",
+  "race" : "human",
+
+  "apexDescription" : "A bulky console attached to the wall.",
+  "avianDescription" : "A big console glued to the wall.",
+  "floranDescription" : "Floran can't sit while using computer.",
+  "glitchDescription" : "Curious. I don't see a reason to have the console attached to the wall.",
+  "humanDescription" : "Imagine standing for hours while using it...",
+  "hylotlDescription" : "A very useless console.",
+  "novakidDescription" : "Looks old.",
+
+  "lightColor" : [77, 99, 128],
+  "pointLight" : true,
+  "pointBeam" : 6.25,
+  "beamAmbience" : 0.25,
+  
+  "flickerPeriod" : 0.4,
+  "flickerMinIntensity" : 0.375,
+  "flickerMaxIntensity" : 0.5,
+  "flickerPeriodVariance" : 0,
+  "flickerIntensityVariance" : 0,
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "wallconsolestation.png:<color>.<frame>",
+      "imagePosition" : [-8, -16],
+      
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ],
+      "lightPosition" : [0, 0],
+      "beamAngle" : 135
+    },
+    {
+      "image" : "wallconsolestation.png:<color>.<frame>",
+      "imagePosition" : [-8, -16],
+      
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ],
+      "lightPosition" : [0, 0],
+      "beamAngle" : 45
+    }
+  ],
+
+  "animation" : "/objects/wired/light/lighttogglefgfullbright.animation",
+  "animationParts" : {
+    "bg" : "wallconsolestation.png",
+    "fg" : "wallconsolestationlit.png"
+  },
+  "animationPosition" : [-8, -16],
+
+  "scripts" : [
+    "/objects/wired/light/light.lua",
+    "/scripts/npcToyObject.lua"
+  ],
+  "scriptDelta" : 60,
+  
+  "interactive" : false,
+
+  "inputNodes" : [ [0, 0] ],
+
+  "soundEffect" : "/sfx/objects/bunkerconsole.ogg",
+
+  "npcToy" : {
+    "influence" : [
+      "console"
+    ],
+    "defaultReactions" : {},
+    "preciseStandPositionLeft" : [-1.0, 0.0],
+    "preciseStandPositionRight" : [1.5, 0.0],
+    "maxNpcs" : 1
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "objectName" : "iwpp_uscmgoldlight",
+  "colonyTags" : ["light"],
+  "rarity" : "Common",
+  "category" : "light",
+  "price" : 60,
+  "description" : "A golden light, commonly used by the USCM.",
+  "shortdescription" : "Golden Light",
+  "race" : "human",
+
+  "lightColor" : [255, 244, 65],
+  "pointLight" : true,
+  "pointBeam" : 6,
+  "beamAmbience" : 0.35,
+
+  "apexDescription" : "These lights are commonly used on ships.",
+  "avianDescription" : "A vibrant light.",
+  "floranDescription" : "Ship light is harsh on Floran eyesss.",
+  "glitchDescription" : "Impressed. This lighting fixture generates more light than heat.",
+  "humanDescription" : "A bright, white light.",
+  "hylotlDescription" : "A bright, white light. It creates a neutral atmosphere.",
+  "novakidDescription" : "That's one bright lightbulb.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "uscmgoldlight.png:<color>.<frame>", "fullbright" : true }, { "image" : "uscmgoldlightlit.png:<color>.<frame>" } ],
+      "imagePosition" : [-8, 0],
+      
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ],
+      "beamAngle" : 270
+    }
+  ],
+  
+  "animation" : "/objects/wired/light/lighttoggle.animation",
+  "animationParts" : {
+    "light" : "uscmgoldlight.png"
+  },
+  "animationPosition" : [-8, 0],
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+  
+  "interactive" : false,
+
+  "inputNodes" : [ [0, 0] ]
+  
+}

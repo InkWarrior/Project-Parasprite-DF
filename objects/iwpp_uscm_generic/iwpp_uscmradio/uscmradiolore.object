@@ -1,0 +1,59 @@
+{
+  "objectName" : "iwpp_uscmradiolore",
+  "colonyTags" : ["human","electronic"],
+  "rarity" : "Rare",
+  "tooltipKind" : "base",
+  "race" : "human",
+  "category" : "storage",
+  "price" : 90,
+  "printable" : false,
+  "description" : "An old and bulky military radio.",
+  "shortdescription" : "Military Radio",
+
+  "apexDescription" : "An old military radio. Maybe there is a last transmission recorded?",
+  "avianDescription" : "A communication box. How do I send messages with this?",
+  "floranDescription" : "Box makes annoying sound!",
+  "glitchDescription" : "Curious. It's a radio setup. Should I try and use it?",
+  "humanDescription" : "An old radio? from the military!?",
+  "hylotlDescription" : "A communication device. Seems to be old and dusty.",
+  "novakidDescription" : "I like radios, they are kinda cool.",
+
+  "inventoryIcon" : "loreicon.png",
+
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "uscmradiolore.png:default" }, { "image" : "uscmradiolorelit.png:default", "fullbright" : true } ],
+      "imagePosition" : [-8, 0],
+
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "uscmradiolore.png:default" }, { "image" : "uscmradiolorelit.png:default", "fullbright" : true } ],
+      "imagePosition" : [-8, 0],
+
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "animation" : "uscmradiolore.animation",
+  "animationPosition" : [-8, 0],
+
+  "scripts" : ["/objects/scripts/treasureburst.lua"],
+  "scriptDelta" : 0,
+
+  "burstTreasurePool" : "iwpp_uscmRadioLore",
+  "burstItemVelocityRange" : [15, 30],
+  "burstAngleVariance" : 0.5,
+  "burstOffset" : [0.5, 0],
+  "burstIntangibleTimeRange" : [0.25, 0.5],
+
+  "health" : 1.5,
+  "breakDropPool" : "iwpp_uscm_militaryradio"
+}
