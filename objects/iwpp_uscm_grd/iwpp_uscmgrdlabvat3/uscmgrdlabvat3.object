@@ -1,0 +1,65 @@
+{
+  "objectName" : "iwpp_uscmgrdlabvat3",
+  "colonyTags" : ["human","humanbunker","mechanical"],
+  "rarity" : "Common",
+  "category" : "light",
+  "price" : 90,
+  "description" : "An specialized laboratory vat. It's currently empty.",
+  "shortdescription" : "G.R.D. Empty Lab Biotank",
+  "race" : "human",
+
+  "lightColor" : [77, 99, 128],
+  "pointLight" : true,
+  "pointBeam" : 4,
+  "beamAmbience" : 0.1,
+
+  "apexDescription" : "An empty tank. It brings me bad memories.",
+  "avianDescription" : "Seems to be an advanced vat.",
+  "floranDescription" : "A crystal tube.",
+  "glitchDescription" : "Neutral. Looks like a vat, for scientific purposes.",
+  "humanDescription" : "I think every lab in the galaxy has one of these.",
+  "hylotlDescription" : "A laboratory vat. I wonder what purpose has in here.",
+  "novakidDescription" : "A cool science tank.",
+
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "uscmgrdlabvat3.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform",
+      "lightPosition" : [1, 0],
+      "beamAngle" : 90
+    },
+    {
+      "image" : "uscmgrdlabvat3.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform",
+      "lightPosition" : [1, 0],
+      "beamAngle" : 90
+    }
+  ],
+
+  "animation" : "uscmgrdlabvat3.animation",
+  "animationParts" : {
+    "bg" : "uscmgrdlabvat3.png",
+    "fg" : "uscmgrdlabvat3lit.png"
+  },
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "interactive" : false,
+
+  "inputNodes" : [ [0, 0] ]
+}

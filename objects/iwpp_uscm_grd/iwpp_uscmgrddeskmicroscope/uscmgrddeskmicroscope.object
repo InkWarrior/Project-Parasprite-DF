@@ -1,0 +1,41 @@
+{
+  "objectName" : "iwpp_uscmgrddeskmicroscope",
+  "colonyTags" : ["human","humanbunker"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 90,
+  "printable" : false,
+  "description" : "A laboratory microscope.",
+  "shortdescription" : "G.R.D. Desk Microscope",
+  "race" : "human",
+
+  "apexDescription" : "It's a sturdy barrel.",
+  "avianDescription" : "A metallic barrel.",
+  "floranDescription" : "Metallic barrel.",
+  "glitchDescription" : "Neutral. It's a pressurised barrel.",
+  "humanDescription" : "Oh, it's a sturdy barrel.",
+  "hylotlDescription" : "A pressurised canister.",
+  "novakidDescription" : "A strong metallic barrel.",
+
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "uscmgrddeskmicroscope.png:<color>",
+      "imagePosition" : [0, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaces" : [ [0, 0], [0, 1], [0, 2], [1, 0], [1, 1], [1, 2] ],
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "uscmgrddeskmicroscope.png:<color>",
+      "imagePosition" : [0, 0],
+      "direction" : "right",
+
+      "spaces" : [ [0, 0], [0, 1], [0, 2], [1, 0], [1, 1], [1, 2] ],
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

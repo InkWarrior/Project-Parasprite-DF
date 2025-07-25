@@ -1,0 +1,58 @@
+{
+  "objectName" : "iwpp_uscmgrdlabpanel1",
+  "colonyTags" : ["human","humanbunker","electronic"],
+  "rarity" : "Common",
+  "description" : "This panel displays data about an unknown DNA string.",
+  "shortdescription" : "Genetics Data Panel",
+  "race" : "human",
+
+  "apexDescription" : "This appears to be displaying data about an unidentified DNA strand.",
+  "avianDescription" : "It seems to be a display about what is called a DNA.",
+  "floranDescription" : "Floran doesn't undestand this ladder draw.",
+  "glitchDescription" : "Intrigued. Is this the equivalent of Glitch's programation for flesh living beings?",
+  "humanDescription" : "I don't know anything about genetics, but that DNA string looks dope.",
+  "hylotlDescription" : "I can only ask myself what kind of DNA is being displayed here.",
+  "novakidDescription" : "I've heard of DNA stuff for sure, but my head can't wrap around the idea.",
+
+  "category" : "decorative",
+  "price" : 135,
+  "lightColor" : [38, 84, 153],
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "uscmgrdlabpanel1.png:<color>.<frame>",
+      "imagePosition" : [-16, -16],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    },
+    {
+      "image" : "uscmgrdlabpanel1.png:<color>.<frame>",
+      "imagePosition" : [-16, -16],
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "animation" : "uscmgrdlabpanel1.animation",
+  "animationParts" : {
+    "bg" : "uscmgrdlabpanel1.png",
+    "fg" : "uscmgrdlabpanel1lit.png"
+  },
+  "animationPosition" : [-16, -16],
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "inputNodes" : [ [0, 0] ],
+
+  "interactive" : false,
+
+  "soundEffect" : "/sfx/objects/consoletribal4.ogg"
+
+}

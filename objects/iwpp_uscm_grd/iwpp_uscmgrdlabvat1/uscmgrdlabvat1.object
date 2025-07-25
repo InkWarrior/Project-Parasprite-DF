@@ -1,0 +1,64 @@
+{
+  "objectName" : "iwpp_uscmgrdlabvat1",
+  "colonyTags" : ["human","humanbunker","light"],
+  "rarity" : "Rare",
+  "description" : "An specialized vat holding a suspended biosample.",
+  "shortdescription" : "G.R.D. Lab Biotank",
+  "race" : "human",
+  "category" : "light",
+  "price" : 90,
+
+  "lightColor" : [77, 99, 128],
+  "pointLight" : true,
+  "pointBeam" : 4,
+  "beamAmbience" : 0.1,
+
+  "apexDescription" : "This reminds me of those horrible experiments the Miniknog does.",
+  "avianDescription" : "Dear Kluex! What is this matter floating inside the tank?",
+  "floranDescription" : "Floran curious about floating blob, can Floran eat thisss?",
+  "glitchDescription" : "Concerned. I have never seen anything like this before.",
+  "humanDescription" : "What is this floating thing?",
+  "hylotlDescription" : "This matter is a lab aberration, it should stay there.",
+  "novakidDescription" : "What in tarnation is this thing?",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "uscmgrdlabvat1.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform",
+      "lightPosition" : [1, 0],
+      "beamAngle" : 90
+    },
+    {
+      "image" : "uscmgrdlabvat1.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform",
+      "lightPosition" : [1, 0],
+      "beamAngle" : 90
+    }
+  ],
+
+  "animation" : "uscmgrdlabvat1.animation",
+  "animationParts" : {
+    "bg" : "uscmgrdlabvat1.png",
+    "fg" : "uscmgrdlabvat1lit.png"
+  },
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "interactive" : false,
+
+  "inputNodes" : [ [0, 0] ]
+}

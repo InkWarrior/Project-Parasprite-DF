@@ -1,0 +1,35 @@
+{
+  "objectName" : "iwpp_uscmgrdlabvat2",
+  "colonyTags" : ["human","humanbunker","mechanical"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 90,
+  "printable" : false,
+  "description" : "A broken specialized vat. This is not good.",
+  "shortdescription" : "Wrecked Lab Biotank",
+  "race" : "human",
+
+  "apexDescription" : "Oh no...",
+  "avianDescription" : "Did something escaped from this tube?",
+  "floranDescription" : "Floran wonderss what broke from thiss thing.",
+  "glitchDescription" : "Worried. There's something out there that shouldn't.",
+  "humanDescription" : "I don't feel good about this.",
+  "hylotlDescription" : "This is not a calming image.",
+  "novakidDescription" : "Somethin' got out.",
+
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "uscmgrdlabvat2.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ]
+}

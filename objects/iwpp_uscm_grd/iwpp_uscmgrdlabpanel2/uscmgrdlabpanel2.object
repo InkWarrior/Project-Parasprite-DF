@@ -1,0 +1,58 @@
+{
+  "objectName" : "iwpp_uscmgrdlabpanel2",
+  "colonyTags" : ["human","humanbunker","electronic"],
+  "rarity" : "Common",
+  "description" : "A panel displaying data about a possible biological breach and what to do.",
+  "shortdescription" : "Biological Breach Panel",
+  "race" : "human",
+
+  "apexDescription" : "What kind of creatures are being displayed here?",
+  "avianDescription" : "The security measures mentioned on this panel rely completely on robots.",
+  "floranDescription" : "Floran likess the funny light drawingsss.",
+  "glitchDescription" : "Concerned. The information displayed here has an ominous sound.",
+  "humanDescription" : "I'll never understand the machinations of the USCM.",
+  "hylotlDescription" : "Is the USCM trying to toy with living beings?",
+  "novakidDescription" : "Well I ain't knew I need this information, now I'm worried.",
+
+  "category" : "decorative",
+  "price" : 135,
+  "lightColor" : [38, 84, 153],
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "uscmgrdlabpanel2.png:<color>.<frame>",
+      "imagePosition" : [-16, -16],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    },
+    {
+      "image" : "uscmgrdlabpanel2.png:<color>.<frame>",
+      "imagePosition" : [-16, -16],
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "animation" : "uscmgrdlabpanel2.animation",
+  "animationParts" : {
+    "bg" : "uscmgrdlabpanel2.png",
+    "fg" : "uscmgrdlabpanel2lit.png"
+  },
+  "animationPosition" : [-16, -16],
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "inputNodes" : [ [0, 0] ],
+
+  "interactive" : false,
+
+  "soundEffect" : "/sfx/objects/bunkerpanel1.ogg"
+
+}

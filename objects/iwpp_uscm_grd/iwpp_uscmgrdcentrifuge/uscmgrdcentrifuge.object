@@ -1,0 +1,62 @@
+{
+  "objectName" : "iwpp_uscmgrdcentrifuge",
+  "colonyTags" : ["human","humanbunker","electronic","wired"],
+  "rarity" : "Common",
+  "category" : "wire",
+  "price" : 135,
+  "description" : "A sturdy centrifuge machine.",
+  "shortdescription" : "G.R.D Lab Centrifuge",
+  "race" : "human",
+
+  "apexDescription" : "I remember the Miniknog having centrifuges of their own. This one looks similar actually.",
+  "avianDescription" : "A machine used to separate components easily and faster.",
+  "floranDescription" : "Floran wantss to be spinned in a machine like thiss one!",
+  "glitchDescription" : "Intrigued. I didn't know you could separate different materials by spinning them fast.",
+  "humanDescription" : "A fast-spinning machine. It reminds me to a fun song.",
+  "hylotlDescription" : "A lab centrifuge. A very useful device indeed.",
+  "novakidDescription" : "Is a centrifuge a carousel for microbes?",
+
+  "lightColor" : [21, 32, 47],
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "uscmgrdcentrifuge.png:<color>.<frame>",
+      "imagePosition" : [-8, 0],
+      
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "uscmgrdcentrifuge.png:<color>.<frame>",
+      "imagePosition" : [-8, 0],
+      
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "animation" : "/objects/wired/light/lighttogglefgfullbright.animation",
+  "animationParts" : {
+    "bg" : "uscmgrdcentrifuge.png",
+    "fg" : "uscmgrdcentrifugelit.png"
+  },
+  "animationPosition" : [-8, 0],
+
+  "scripts" : [
+    "/objects/wired/light/light.lua"
+  ],
+  "scriptDelta" : 60,
+  
+  "interactive" : false,
+
+  "inputNodes" : [ [0, 2] ],
+
+  "soundEffect" : "/sfx/objects/fluorescent_light_quiet.ogg"
+
+}

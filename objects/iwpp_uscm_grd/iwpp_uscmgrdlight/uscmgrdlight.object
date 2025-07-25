@@ -1,0 +1,51 @@
+{
+  "objectName" : "iwpp_uscmgrdlight",
+  "colonyTags" : ["human","humanbunker","light"],
+  "rarity" : "Common",
+  "category" : "light",
+  "price" : 60,
+  "description" : "An old laboratory light.",
+  "shortdescription" : "G.R.D. Laboratory Light",
+  "race" : "apex",
+
+  "lightColor" : [214, 154, 61],
+  "pointLight" : true,
+  "pointBeam" : 1.5,
+  "beamAmbience" : 0.5,
+
+  "apexDescription" : "These lights are commonly used on ships.",
+  "avianDescription" : "A vibrant light.",
+  "floranDescription" : "Ship light is harsh on Floran eyesss.",
+  "glitchDescription" : "Impressed. This lighting fixture generates more light than heat.",
+  "humanDescription" : "A bright, white light.",
+  "hylotlDescription" : "A bright, white light. It creates a neutral atmosphere.",
+  "novakidDescription" : "That's one bright lightbulb.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "uscmgrdlight.png:<color>.<frame>", "fullbright" : true }, { "image" : "uscmgrdlightlit.png:<color>.<frame>"  } ],
+      "imagePosition" : [-8, 0],
+      
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ],
+      "beamAngle" : 270
+    }
+  ],
+  
+  "animation" : "/objects/wired/light/lighttoggle.animation",
+  "animationParts" : {
+    "light" : "uscmgrdlight.png"
+  },
+  "animationPosition" : [-8, 0],
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+  
+  "interactive" : false,
+
+  "inputNodes" : [ [0, 0] ]
+  
+}

@@ -1,0 +1,72 @@
+{
+  "objectName" : "iwpp_uscmgrdcomputer",
+  "colonyTags" : ["human","humanbunker","electronic","wired"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 135,
+  "description" : "An very old laboratory computer.",
+  "shortdescription" : "G.R.D. Lab Computer",
+  "race" : "human",
+
+  "apexDescription" : "An outdated design, but it has its charm.",
+  "avianDescription" : "A human computer, seems to be an old one.",
+  "floranDescription" : "Floran thinkss this computer is very old.",
+  "glitchDescription" : "Irritated. This computer is very slow.",
+  "humanDescription" : "I don't like this computer, is almost like a fossil.",
+  "hylotlDescription" : "An outdated computer it seems.",
+  "novakidDescription" : "An old computer, quite charming to look at.",
+
+  "lightColor" : [21, 32, 47],
+  "pointLight" : true,
+  "pointBeam" : 6.25,
+  "beamAmbience" : 0.25,
+  
+  "flickerPeriod" : 0.4,
+  "flickerMinIntensity" : 0.375,
+  "flickerMaxIntensity" : 0.5,
+  "flickerPeriodVariance" : 0,
+  "flickerIntensityVariance" : 0,
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "uscmgrdcomputer.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "beamAngle" : 180
+    },
+    {
+      "image" : "uscmgrdcomputer.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "beamAngle" : 180
+    }
+  ],
+
+  "animation" : "/objects/wired/light/lighttogglefgfullbright.animation",
+  "animationParts" : {
+    "bg" : "uscmgrdcomputer.png",
+    "fg" : "uscmgrdcomputerlit.png"
+  },
+  "animationPosition" : [0, 0],
+
+  "scripts" : [
+    "/objects/wired/light/light.lua"
+  ],
+  "scriptDelta" : 60,
+  
+  "interactive" : false,
+
+  "inputNodes" : [ [0, 0] ],
+
+  "soundEffect" : "/sfx/objects/screen2.ogg"
+}
