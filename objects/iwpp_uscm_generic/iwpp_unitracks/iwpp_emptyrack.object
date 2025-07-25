@@ -1,0 +1,35 @@
+{
+  "objectName" : "iwpp_emptyrack",
+  "colonyTags" : ["human","humanbunker"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 110,
+  "printable" : false,
+  "description" : "An empty metal rack.",
+  "shortdescription" : "Empty Metal Rack",
+  "race" : "human",
+
+  "apexDescription" : "A metallic rack.",
+  "avianDescription" : "A rack with nothing.",
+  "floranDescription" : "Metal rack.",
+  "glitchDescription" : "Neutral. An empty metal rack.",
+  "humanDescription" : "A metal rack.",
+  "hylotlDescription" : "An empty rack.",
+  "novakidDescription" : "Just a rack.",
+
+
+  "inventoryIcon" : "emptyrackicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "emptyrack.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ]
+}

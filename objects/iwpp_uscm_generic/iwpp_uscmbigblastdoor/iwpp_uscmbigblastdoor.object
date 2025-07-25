@@ -1,0 +1,77 @@
+{
+  "objectName" : "iwpp_uscmbigblastdoor",
+  "colonyTags" : ["human","humanbunker","mechanical","door"],
+  "rarity" : "Uncommon",
+
+  "category" : "door",
+  "price" : 175,
+  "description" : "A rusty and sturdy space blast door.",
+  "shortdescription" : "U.S.C.M. Blast Door",
+  "race" : "human",
+
+  "apexDescription" : "This door looks impervious.",
+  "avianDescription" : "Looks to be an rusty big metal door.",
+  "floranDescription" : "No big door can stop Floran!",
+  "glitchDescription" : "Observant. This is a large metal door.",
+  "humanDescription" : "Wow... how do I open it?",
+  "hylotlDescription" : "Looks very old. I hope it's still functional.",
+  "novakidDescription" : "Ol' rusty big door. Cool!",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "uscmbigblastdoor.png:default",
+      "imagePosition" : [-8, 0],
+      "renderLayer" : "Object+5",
+      "direction" : "left",
+      "flipImages" : true,
+
+      "animationParts" : {
+        "door" : "uscmbigblastdoor.png"
+      },
+      "animationPosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ]
+    },
+    {
+      "image" : "uscmbigblastdoor.png:default",
+      "imagePosition" : [-8, 0],
+      "renderLayer" : "Object+5",
+      "direction" : "right",
+
+      "animationParts" : {
+        "door" : "uscmbigblastdoor.png"
+      },
+      "animationPosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/door/lockingdoor.animation",
+  
+  "animationCustom" : {
+    "sounds" : {
+      "open" : {
+        "pool" : [ "/sfx/objects/airlock_heavy_open.ogg" ],
+        "rangeMultiplier" : 0.5
+      },
+      "close" : {
+        "pool" : [ "/sfx/objects/airlock_heavy_close.ogg" ],
+        "rangeMultiplier" : 0.5
+      }
+    }
+  },
+
+  "animationParts" : {
+    "door" : "uscmbigblastdoor.png"
+  },
+
+  "inputNodes" : [ [-1, 7] ],
+  "outputNodes" : [ [1, 0] ]
+}

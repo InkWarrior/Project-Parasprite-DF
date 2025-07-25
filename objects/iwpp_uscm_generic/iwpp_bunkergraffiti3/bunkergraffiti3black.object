@@ -1,0 +1,35 @@
+{
+  "objectName" : "iwpp_bunkergraffiti3black",
+  "colonyTags" : ["human","humanbunker"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 0,
+  "printable" : false,
+
+  "description" : "Graffiti reading \"why we trusted them?\". I don't know, you tell me.",
+  "shortdescription" : "Graffiti",
+  "race" : "human",
+
+  "apexDescription" : "Betrayal is a terrible thing.",
+  "avianDescription" : "It does feel horrible to trust somebody only to be betrayed.",
+  "floranDescription" : "Floran hatess betrayal!!",
+  "glitchDescription" : "Irritated. Betrayal is something to be loathed.",
+  "humanDescription" : "Yeah, betrayal is terrible. Who betrayed you my unknown friend?",
+  "hylotlDescription" : "It's hard to trust people again once you were betrayed.",
+  "novakidDescription" : "I don't know, you tell me...",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "bunkergraffiti3black.png:<color>",
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "smashOnBreak" : true
+}

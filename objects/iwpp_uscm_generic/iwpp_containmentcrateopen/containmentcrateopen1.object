@@ -1,0 +1,34 @@
+{
+  "objectName" : "iwpp_containmentcrateopen1",
+  "colonyTags" : ["human","humanbunker","mechanical"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 155,
+  "printable" : false,
+  "description" : "A crate designed to hermetically seal dangerous materials. Right now it's open.",
+  "shortdescription" : "Open Containment Crate",
+  "race" : "human",
+
+  "apexDescription" : "The Miniknog used this type of crates to store biosamples. I wonder if...",
+  "avianDescription" : "Compared to other USCM electronics, this one looks highly advanced.",
+  "floranDescription" : "Floran wonderss why crate iss very heavy.",
+  "glitchDescription" : "Distant. I hope the magnets of this crate don't mess with my wires.",
+  "humanDescription" : "Hmmm. Magnetic locked crates? What was the USCM involved in?",
+  "hylotlDescription" : "An incredibly advanced crate, very unusual for the USCM.",
+  "novakidDescription" : "A containment crate... to contain what exactly?",
+
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "containmentcrateopen1.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "objectName" : "iwpp_containmentcrate",
+  "colonyTags" : ["human","humanbunker","light"],
+  "rarity" : "Common",
+  "category" : "light",
+  "price" : 155,
+  "printable" : false,
+  "description" : "A crate designed to hermetically seal dangerous materials.",
+  "shortdescription" : "Containment Crate",
+  "race" : "human",
+
+  "apexDescription" : "A crate with a magnetic seal. The Miniknog used this kind of crates to store biosamples.",
+  "avianDescription" : "This crate is very hard to open, what could be inside?",
+  "floranDescription" : "A metal crate. Floran can't open it.",
+  "glitchDescription" : "Curious. This crate is sealed with magnets.",
+  "humanDescription" : "This crate looks suspiciously tough, what's inside?",
+  "hylotlDescription" : "What kind of stuff their owners wanted to secure with this sturdy crate?",
+  "novakidDescription" : "Well hell, I can't open this crate.",
+
+  "lightColor" : [62, 79, 99],
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "containmentcrate.png:<color>.<frame>",
+      "imagePosition" : [-8, 0],
+
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "lightPosition" : [0, 0],
+      "collision" : "platform"
+    },
+    {
+      "image" : "containmentcrate.png:<color>.<frame>",
+      "imagePosition" : [-8, 0],
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "lightPosition" : [0, 0],
+      "collision" : "platform"
+    }
+  ],
+
+  "animation" : "/objects/wired/light/lighttogglefgfullbright.animation",
+  "animationParts" : {
+    "bg" : "containmentcrate.png",
+    "fg" : "containmentcratelit.png"
+  },
+  "animationPosition" : [-8, 0],
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "inputNodes" : [ [0, 0] ],
+  "interactive" : false,
+
+  "soundEffect" : "/sfx/objects/fluorescent_light_quiet.ogg",
+  "soundEffectRangeMultiplier" : 0.5
+
+}

@@ -1,0 +1,61 @@
+{
+  "objectName" : "iwpp_containmentpanel",
+  "colonyTags" : ["human","humanbunker","light"],
+  "rarity" : "Common",
+  "category" : "light",
+  "price" : 205,
+  "printable" : false,
+  "description" : "A panel of a larger containment crate.",
+  "shortdescription" : "Containment Panel",
+  "race" : "human",
+
+  "apexDescription" : "A panel with a biohazard sign on it. Creepy.",
+  "avianDescription" : "The side panel of a larger crate. Looks rusty.",
+  "floranDescription" : "A metal panel.",
+  "glitchDescription" : "Alarmed. There's a biohazard sign on the side of this panel.",
+  "humanDescription" : "A sturdy looking panel. Why it has a biohazard sign?",
+  "hylotlDescription" : "What kind of stuff their owners wanted to secure with this sturdy crate?",
+  "novakidDescription" : "A panel of a containment crate.",
+
+  "lightColor" : [31, 65, 143],
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "containmentpanel.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ],
+      "lightPosition" : [0, 0]
+    },
+    {
+      "image" : "containmentpanel.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ],
+      "lightPosition" : [0, 0]
+    }
+  ],
+
+  "animation" : "/objects/wired/light/lighttogglefgfullbright.animation",
+  "animationParts" : {
+    "bg" : "containmentpanel.png",
+    "fg" : "containmentpanellit.png"
+  },
+  "animationPosition" : [0, 0],
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "inputNodes" : [ [0, 0] ],
+  "interactive" : false,
+
+  "soundEffect" : "/sfx/objects/fluorescent_light_quiet.ogg",
+  "soundEffectRangeMultiplier" : 0.5
+
+}

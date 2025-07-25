@@ -1,0 +1,85 @@
+{
+  "objectName" : "iwpp_largebunkerconsole1",
+  "colonyTags" : ["human","humanbunker","electronic","wired"],
+  "rarity" : "Common",
+  "category" : "wire",
+  "price" : 135,
+  "description" : "A very large monitor. Why is it so large?",
+  "shortdescription" : "Large Control Station",
+  "race" : "human",
+
+  "apexDescription" : "This is unreasonably large and bulky.",
+  "avianDescription" : "I've never seen such a wide console.",
+  "floranDescription" : "Computer hasss too much screen.",
+  "glitchDescription" : "Curious. Why is so... big?",
+  "humanDescription" : "I guess it's very important if it's that big.",
+  "hylotlDescription" : "Can someone explain me why this is so big?",
+  "novakidDescription" : "No thanks. Too large for my taste.",
+
+  "lightColor" : [77, 99, 128],
+  "pointLight" : true,
+  "pointBeam" : 1,
+  "beamAmbience" : 0.25,
+  
+  "flickerPeriod" : 0.4,
+  "flickerMinIntensity" : 0.375,
+  "flickerMaxIntensity" : 0.5,
+  "flickerPeriodVariance" : 0,
+  "flickerIntensityVariance" : 0,
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "largebunkerconsole1.png:<color>.<frame>",
+      "imagePosition" : [-16, 0],
+      
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "lightPosition" : [3, 4],
+      "beamAngle" : 180
+    },
+    {
+      "image" : "largebunkerconsole1.png:<color>.<frame>",
+      "imagePosition" : [-16, 0],
+      
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "lightPosition" : [-3, -4],
+      "beamAngle" : 180
+    }
+  ],
+
+  "animation" : "/objects/wired/light/lighttogglefgfullbright.animation",
+  "animationParts" : {
+    "bg" : "largebunkerconsole1.png",
+    "fg" : "largebunkerconsole1lit.png"
+  },
+  "animationPosition" : [-16, 0],
+
+  "scripts" : [
+    "/objects/wired/light/light.lua",
+    "/scripts/npcToyObject.lua"
+  ],
+  "scriptDelta" : 60,
+  
+  "interactive" : false,
+
+  "inputNodes" : [ [0, 2] ],
+
+  "soundEffect" : "/sfx/objects/bunkerconsole.ogg",
+
+  "npcToy" : {
+    "influence" : [
+      "console"
+    ],
+    "defaultReactions" : {},
+    "preciseStandPositionLeft" : [-1.0, 0.0],
+    "preciseStandPositionRight" : [1.5, 0.0],
+    "maxNpcs" : 1
+  }
+}

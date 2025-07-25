@@ -1,0 +1,35 @@
+{
+  "objectName" : "iwpp_triplodrack1",
+  "colonyTags" : ["human","humanbunker","mechanical"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 110,
+  "printable" : false,
+  "description" : "A metal rack with Triplod units.",
+  "shortdescription" : "Triplod Metal Rack",
+  "race" : "human",
+
+  "apexDescription" : "A metallic rack full of Triplod units.",
+  "avianDescription" : "A rack with Triplods.",
+  "floranDescription" : "Metal rack with robotss.",
+  "glitchDescription" : "Calm. It's just a rack with Triplods.",
+  "humanDescription" : "A Triplods rack.",
+  "hylotlDescription" : "A rack with a couple of Triplods.",
+  "novakidDescription" : "Just a rack with some Triplods.",
+
+
+  "inventoryIcon" : "triplodrackicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "triplodrack1.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "objectName" : "iwpp_bunkergraffiti2black",
+  "colonyTags" : ["human","humanbunker"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 0,
+  "printable" : false,
+
+  "description" : "Graffiti reading \"we were here\". You indeed were here.",
+  "shortdescription" : "Graffiti",
+  "race" : "human",
+
+  "apexDescription" : "Who were here exactly?",
+  "avianDescription" : "I don't understand who we are talking about.",
+  "floranDescription" : "Floran understands there was meat here.",
+  "glitchDescription" : "Intrigued. Why there isn't anybody here anymore?",
+  "humanDescription" : "Somebody wanted me to know this.",
+  "hylotlDescription" : "The people who wrote this wanted to be remembered.",
+  "novakidDescription" : "Who?",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "bunkergraffiti2black.png:<color>",
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "smashOnBreak" : true
+}

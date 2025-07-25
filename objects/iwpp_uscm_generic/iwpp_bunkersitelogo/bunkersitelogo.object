@@ -1,0 +1,33 @@
+{
+  "objectName" : "iwpp_bunkersitelogo",
+  "colonyTags" : ["human","humanbunker"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 80,
+
+  "description" : "A sign indicating the assignation of a USCM site.",
+  "shortdescription" : "Bunker Site Sign",
+  "race" : "human",
+
+  "apexDescription" : "A sign promoting the USCM, a disbanded human military faction.",
+  "avianDescription" : "This area clearly had a human military presence once.",
+  "floranDescription" : "Ssstupid, blatant sign. Floransss try to be more sssneaky about their presence.",
+  "glitchDescription" : "Thoughtful. Human military tactics involve a lot of bravado.",
+  "humanDescription" : "The USCM, huh? These guys didn't like the Terrene Protectorate so much.",
+  "hylotlDescription" : "The human military certainly like to make their presence felt.",
+  "novakidDescription" : "I ain't heard o' these guys, but judgin' by the state of this sign, they've been gone a while.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "bunkersitelogo.png:<color>",
+      "imagePosition" : [-16, -8],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

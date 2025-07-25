@@ -1,0 +1,79 @@
+{
+  "objectName" : "iwpp_bunkerkeyboard",
+  "colonyTags" : ["human","humanbunker","electronic","wired"],
+  "rarity" : "Common",
+  "category" : "wire",
+  "price" : 95,
+  "description" : "A considerably large keyboard.",
+  "shortdescription" : "Bunker Keyboard",
+  "race" : "human",
+
+  "apexDescription" : "An outdated keyboard.",
+  "avianDescription" : "Not much to say, looks very old.",
+  "floranDescription" : "Shiny buttonss!",
+  "glitchDescription" : "Neutral. Seems to be an old keyboard.",
+  "humanDescription" : "I appreciate the buttons being iluminated.",
+  "hylotlDescription" : "It's not too old, I guess.",
+  "novakidDescription" : "Just a bit too old for my taste.",
+
+  "lightColor" : [77, 99, 128],
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "bunkerkeyboard.png:<color>.<frame>",
+      "imagePosition" : [-8, 0],
+      
+      "direction" : "left",
+      "flipImages" : true,
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "bunkerkeyboard.png:<color>.<frame>",
+      "imagePosition" : [-8, 0],
+      
+      "direction" : "right",
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+
+  "scripts" : [
+    "/objects/wired/switch/switch.lua",
+    "/scripts/npcToyObject.lua"
+  ],
+  "scriptDelta" : 5,
+
+  "animation" : "bunkerkeyboard.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "on" : [ "/sfx/objects/console_generic_switchon.ogg" ],
+      "off" : [ "/sfx/objects/console_generic_switchoff.ogg" ]
+    }
+  },
+  "animationParts" : {
+    "bg" : "bunkerkeyboard.png",
+    "fg" : "bunkerkeyboardlit.png"
+  },
+  "animationPosition" : [-8, 0],
+
+  "outputNodes" : [ [0, 0] ],
+
+  "npcToy" : {
+    "influence" : [
+      "console"
+    ],
+    "defaultReactions" : {},
+    "preciseStandPositionLeft" : [-1.0, 0.0],
+    "preciseStandPositionRight" : [1.5, 0.0],
+    "maxNpcs" : 1
+  }
+}

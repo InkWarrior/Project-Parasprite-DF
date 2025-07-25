@@ -1,0 +1,35 @@
+{
+  "objectName" : "iwpp_bunkergraffiti1white",
+  "colonyTags" : ["human","humanbunker"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 0,
+  "printable" : false,
+
+  "description" : "Graffiti reading \"never forget us\". Who we should remember?",
+  "shortdescription" : "Graffiti",
+  "race" : "human",
+
+  "apexDescription" : "I'm afraid I don't know who are this talking about.",
+  "avianDescription" : "I shall remember you, stranger.",
+  "floranDescription" : "Floran can't remember.",
+  "glitchDescription" : "Moved. I'm afraid I can't do that.",
+  "humanDescription" : "I wish I knew the people this graffiti is talking about.",
+  "hylotlDescription" : "I have no reasons to remember somebody I didn't knew.",
+  "novakidDescription" : "I forgot.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "bunkergraffiti1white.png:<color>",
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "smashOnBreak" : true
+}
