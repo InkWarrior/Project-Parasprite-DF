@@ -1,0 +1,60 @@
+{
+  "objectName" : "iwpp_uscmgrdwallcabinetlarge",
+  "colonyTags" : ["storage","humanbunker"],
+  "rarity" : "Common",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+
+  "category" : "storage",
+  "price" : 70,
+  "description" : "A sturdy laboratory cabinet suspended on the wall.",
+  "shortdescription" : "G.R.D Large Wall Cabinet",
+  "race" : "generic",
+  "health" : 1.5,
+
+  "apexDescription" : "This cabinet is even larger! What does it has inside?",
+  "avianDescription" : "A really large cabinet, I wonder what they store in it.",
+  "floranDescription" : "Floran must sssearch the cabinet!",
+  "glitchDescription" : "Interested. I wasn't aware laboratories could need such long cabinets.",
+  "humanDescription" : "Wow, this is a BIIIG cabinet! What could be inside?",
+  "hylotlDescription" : "What could be inside this considerably large cabinet?",
+  "novakidDescription" : "Let's see what's inside.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+
+      "imageLayers" : [ { "image" : "uscmgrdwallcabinetlarge.png:<color>.<key>" }, { "image" : "uscmgrdwallcabinetlargelit.png:<color>.<key>", "fullbright" : true } ],
+      "flipImages" : true,
+      "direction" : "left",
+	  
+      "imagePosition" : [-8, -8],
+      "frames" : 3,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ],
+      "collision" : "platform"
+    },
+    {
+
+      "imageLayers" : [ { "image" : "uscmgrdwallcabinetlarge.png:<color>.<key>" }, { "image" : "uscmgrdwallcabinetlargelit.png:<color>.<key>", "fullbright" : true } ],
+      "direction" : "right",
+
+      "imagePosition" : [-8, -8],
+      "frames" : 3,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ],
+      "collision" : "platform"
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/locker_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/locker_close.ogg" ],
+  "slotCount" : 48,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

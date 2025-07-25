@@ -1,0 +1,41 @@
+{
+  "objectName" : "iwpp_uscmgrdtestsamples",
+  "colonyTags" : ["human","humanbunker","pretty"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 100,
+  "printable" : false,
+  "description" : "A metallic rack full of empty test tubes.",
+  "shortdescription" : "Test Tube Rack",
+  "race" : "human",
+
+  "apexDescription" : "A rack of empty test tubes.",
+  "avianDescription" : "Just a bunch of test tubes.",
+  "floranDescription" : "Curious glasss holder.",
+  "glitchDescription" : "Neutral. Just a rack full of test tubes.",
+  "humanDescription" : "Test tubes, for science projects.",
+  "hylotlDescription" : "Some resiliant test tubes.",
+  "novakidDescription" : "Science stuff.",
+
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "uscmgrdtestsamples.png:<color>",
+      "imagePosition" : [0, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "anchors" : ["bottom"]
+    },
+    {
+      "image" : "uscmgrdtestsamples.png:<color>",
+      "imagePosition" : [0, 0],
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : ["bottom"]
+    }
+  ]
+}

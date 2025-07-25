@@ -1,0 +1,60 @@
+{
+  "objectName" : "iwpp_uscmgrdwallcabinet",
+  "colonyTags" : ["storage","humanbunker"],
+  "rarity" : "Common",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+
+  "category" : "storage",
+  "price" : 70,
+  "description" : "A sturdy laboratory cabinet suspended on the wall.",
+  "shortdescription" : "G.R.D Wall Cabinet",
+  "race" : "generic",
+  "health" : 1.5,
+
+  "apexDescription" : "This cabinet is big! What does it has inside?",
+  "avianDescription" : "A large cabinet, I wonder what they store in it.",
+  "floranDescription" : "Floran must sssearch the cabinet!",
+  "glitchDescription" : "Interested. I wasn't aware laboratories could need such cabinets.",
+  "humanDescription" : "Wow, this is a big cabinet! What could be inside?",
+  "hylotlDescription" : "What could be inside this large cabinet?",
+  "novakidDescription" : "Let's see what's inside.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+
+      "imageLayers" : [ { "image" : "uscmgrdwallcabinet.png:<color>.<key>" }, { "image" : "uscmgrdwallcabinetlit.png:<color>.<key>", "fullbright" : true } ],
+      "flipImages" : true,
+      "direction" : "left",
+	  
+      "imagePosition" : [-8, -8],
+      "frames" : 3,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ],
+      "collision" : "platform"
+    },
+    {
+
+      "imageLayers" : [ { "image" : "uscmgrdwallcabinet.png:<color>.<key>" }, { "image" : "uscmgrdwallcabinetlit.png:<color>.<key>", "fullbright" : true } ],
+      "direction" : "right",
+
+      "imagePosition" : [-8, -8],
+      "frames" : 3,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ],
+      "collision" : "platform"
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/locker_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/locker_close.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

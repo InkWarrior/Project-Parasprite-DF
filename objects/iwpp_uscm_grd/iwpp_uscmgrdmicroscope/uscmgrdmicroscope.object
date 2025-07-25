@@ -1,0 +1,72 @@
+{
+  "objectName" : "iwpp_uscmgrdmicroscope",
+  "colonyTags" : ["human","humanbunker","electronic","wired"],
+  "rarity" : "Common",
+  "category" : "wire",
+  "price" : 135,
+  "description" : "A microscope so big it might as well see subatomic particles.",
+  "shortdescription" : "G.R.D Research Microscope",
+  "race" : "human",
+
+  "apexDescription" : "A large electronic microscope, even more effective than your regular microscopes.",
+  "avianDescription" : "I though a normal microscope was enough.",
+  "floranDescription" : "Floran iss baffled at the size of this device!",
+  "glitchDescription" : "Observant. What is the purpose of having a larger microscope?",
+  "humanDescription" : "A quite large microscope I see.",
+  "hylotlDescription" : "I feel curious about the purpose of this large microscope.",
+  "novakidDescription" : "The size seems excessive to me.",
+
+  "lightColor" : [21, 32, 47],
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "uscmgrdmicroscope.png:<color>.<frame>",
+      "imagePosition" : [-16, 0],
+      
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "uscmgrdmicroscope.png:<color>.<frame>",
+      "imagePosition" : [-16, 0],
+      
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "animation" : "/objects/wired/light/lighttogglefgfullbright.animation",
+  "animationParts" : {
+    "bg" : "uscmgrdmicroscope.png",
+    "fg" : "uscmgrdmicroscopelit.png"
+  },
+  "animationPosition" : [-16, 0],
+
+  "scripts" : [
+    "/objects/wired/light/light.lua",
+    "/scripts/npcToyObject.lua"
+  ],
+  "scriptDelta" : 60,
+  
+  "interactive" : false,
+
+  "inputNodes" : [ [0, 2] ],
+
+  "soundEffect" : "/sfx/objects/bunkerconsole.ogg",
+
+  "npcToy" : {
+    "influence" : [
+      "console"
+    ],
+    "defaultReactions" : {},
+    "preciseStandPositionLeft" : [-1.0, 0.0],
+    "preciseStandPositionRight" : [1.5, 0.0],
+    "maxNpcs" : 1
+  }
+}

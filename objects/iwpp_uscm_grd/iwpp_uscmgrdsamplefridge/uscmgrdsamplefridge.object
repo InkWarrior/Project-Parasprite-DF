@@ -1,0 +1,64 @@
+{
+  "objectName" : "iwpp_uscmgrdsamplefridge",
+  "colonyTags" : ["human","humanbunker","storage"],
+  "rarity" : "Common",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+  "category" : "fridgeStorage",
+  "price" : 120,
+  "description" : "A small portable fridge where to storage samples temporaly.",
+  "shortdescription" : "G.R.D Sample Fridge",
+  "race" : "human",
+  "health" : 1.5,
+
+  "apexDescription" : "A  cold laboratory fridge.",
+  "avianDescription" : "A metallic cool storage.",
+  "floranDescription" : "Friddge.",
+  "glitchDescription" : "Neutral. A metallic fridge for storing lab samples.",
+  "humanDescription" : "A lab fridge, for any kind of samples.",
+  "hylotlDescription" : "A large grey laboratory refrigerator.",
+  "novakidDescription" : "A lab fridge with no samples.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+
+      "imageLayers" : [ { "image" : "uscmgrdsamplefridge.png:<color>" }, { "image" : "uscmgrdsamplefridgelit.png:<color>", "fullbright" : true } ],
+      "flipImages" : true,
+      "direction" : "left",
+	  
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    },
+    {
+
+      "imageLayers" : [ { "image" : "uscmgrdsamplefridge.png:<color>" }, { "image" : "uscmgrdsamplefridgelit.png:<color>", "fullbright" : true } ],
+      "direction" : "right",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/fridge_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/fridge_close.ogg" ],
+  "slotCount" : 9,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600,
+
+  "itemAgeMultiplier" : 0.0,
+
+  "soundEffect" : "/sfx/objects/fridge_hum.ogg"
+
+}
