@@ -3,7 +3,7 @@
   "price" : 1260,
   "maxStack" : 1,
   "rarity" : "Rare",
-  "description" : "A cheap assault rifle, produced in mass by the U.S.C.M.",
+  "description" : "A cheap assault rifle, produced en mass by the USCM.",
   "shortdescription" : "USCM Assault Rifle",
   "tooltipKind" : "gun",
   "category" : "assaultRifle",
