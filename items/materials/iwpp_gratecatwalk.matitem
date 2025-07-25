@@ -1,0 +1,14 @@
+{
+  "itemName" : "iwpp_gratecatwalk",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "iwpp_gratecatwalk.png",
+  "description" : "An iron grate catwalk, doesn't look too safe to walk on.",
+  "shortdescription" : "Iron Grate Catwalk",
+  "glitchdescription" : "Worried. This metal catwalk is in not good conditions.",
+  "florandescription" : "This metal floor looks rrusty.",
+  "novakiddescription" : "This catwalk ain't looking safe.",
+
+  "materialId" : 5104
+}

@@ -1,0 +1,14 @@
+{
+  "itemName" : "iwpp_paddedgirder",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "iwpp_paddedgirder.png",
+  "shortdescription" : "Padded Station Girder",
+  "description" : "A padded girder, used a lot inside old space stations.",
+  "glitchdescription" : "Displeased. This girder smells slighly damp.",
+  "florandescription" : "Sssmelly soft girder, is thiss leather?",
+  "novakiddescription" : "The smell on these girder ain't good.",
+
+  "materialId" : 5106
+}

@@ -1,0 +1,14 @@
+{
+  "itemName" : "iwpp_railingwall",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "iwpp_railingwall.png",
+  "description" : "A light metal railing panel posing as a wall.",
+  "shortdescription" : "Iron Railing Wall",
+  "glitchdescription" : "Concerned. How resistant is this railing wall?",
+  "florandescription" : "A rrusty railing wall.",
+  "novakiddescription" : "This railing panel ain't looking safe.",
+
+  "materialId" : 5103
+}

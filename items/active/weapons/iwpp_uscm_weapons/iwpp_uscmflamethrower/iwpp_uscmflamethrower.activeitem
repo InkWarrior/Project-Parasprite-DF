@@ -1,0 +1,47 @@
+{
+  "itemName" : "iwpp_uscmflamethrower",
+  "level" : 3,
+  "price" : 990,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "Love the smell of napalm, any time of day.",
+  "shortdescription" : "USCM xW-F10 Flarebolt",
+  "tooltipKind" : "gun",
+  "category" : "uniqueWeapon",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","ranged","upgradeableWeapon"],
+
+  "inventoryIcon" : "iwpp_uscmflamethrower.png",
+
+  "animation" : "/items/active/weapons/ranged/gun.animation",
+  "animationParts" : {
+    "butt" : "",
+    "middle" : "/items/active/weapons/iwpp_uscm_weapons/iwpp_uscmflamethrower/iwpp_uscmflamethrower.png",
+    "barrel" : "",
+    "muzzleFlash" : ""
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fireStart" : [ "/sfx/gun/flamethrower_start.ogg" ],
+      "fireLoop" : [ "/sfx/gun/flamethrower_loop.ogg" ],
+      "fireEnd" : [ "/sfx/gun/flamethrower_stop.ogg" ]
+    }
+  },
+  "baseOffset" : [0.75, 0],
+  "muzzleOffset" : [2.5, 0.4],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "fire",
+
+  "primaryAbilityType" : "flamethrower",
+  "primaryAbility" : {
+    "baseDps" : 10,
+    "energyUsage" : 30
+  },
+
+  "altAbilityType" : "fuelairtrail",
+  "altAbility" : {},
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

@@ -1,0 +1,18 @@
+{
+  "itemName" : "iwpp_rationbar",
+  "rarity" : "Uncommon",
+  "price" : 150,
+  "category" : "food",
+  "inventoryIcon" : "iwpp_rationbar.png",
+  "description" : "A nutritional bar ideal for emergency situations. Tipically used by the military.",
+  "shortdescription" : "Food Ration",
+  "foodValue" : 40,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 100,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 10,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

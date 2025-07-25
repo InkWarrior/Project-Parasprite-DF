@@ -1,0 +1,14 @@
+{
+  "itemName" : "iwpp_paddedpanel",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "iwpp_paddedpanel.png",
+  "shortdescription" : "Padded Station Panel",
+  "description" : "A padded panel, used a lot inside old space stations.",
+  "glitchdescription" : "Displeased. This panel smells slighly damp.",
+  "florandescription" : "Sssmelly soft panel, is thiss leather?",
+  "novakiddescription" : "The smell on these panels ain't good.",
+
+  "materialId" : 5108
+}

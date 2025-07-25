@@ -1,0 +1,14 @@
+{
+  "itemName" : "iwpp_slopedmilitarypanel",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "iwpp_slopedmilitarypanel.png",
+  "shortdescription" : "Military Panel",
+  "description" : "A military-grade metal panel. Seems very worn-out and rusty.",
+  "glitchdescription" : "Worried. This metal surface looks very jagged and rusty.",
+  "florandescription" : "Metal sssso russty, Floran wouldn't even ussse it.",
+  "novakiddescription" : "This metal panel is just a buncha rusted scrap.",
+
+  "materialId" : 5101
+}

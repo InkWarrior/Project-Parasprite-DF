@@ -1,0 +1,30 @@
+{
+  "itemName" : "iwpp_paraichorbomb",
+  "rarity" : "Uncommon",
+  "category" : "throwableItem",
+  "inventoryIcon" : "iwpp_paraichorbombicon.png",
+  "image" : "iwpp_paraichorbomb.png",
+  "shortdescription" : "Para-Ichor Sac",
+  "description" : "An organ filled with a sort of bioluminescent acid. Use at your own risk.",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.4,
+
+  "projectileType" : "iwpp_paraichorbomb",
+  "projectileConfig" : {
+    "speed" : 40,
+    "power" : 30,
+    "knockback" : 20,
+    "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/projectiles/throw_item.ogg" ]
+      }
+    ]
+  }
+}

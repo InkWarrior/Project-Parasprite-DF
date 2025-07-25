@@ -1,0 +1,14 @@
+{
+  "itemName" : "iwpp_paddedwall",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "iwpp_paddedwall.png",
+  "shortdescription" : "Padded Station Wall",
+  "description" : "A padded wall, used a lot inside old space stations.",
+  "glitchdescription" : "Displeased. This wall smells slighly damp.",
+  "florandescription" : "Sssmelly soft wall, is thiss leather?",
+  "novakiddescription" : "The smell on these walls ain't good.",
+
+  "materialId" : 5107
+}

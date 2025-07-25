@@ -1,0 +1,14 @@
+{
+  "itemName" : "iwpp_slopedreinforcedglass",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "iwpp_slopedreinforcedglass.png",
+  "description" : "I can see my reflection.",
+  "shortdescription" : "Reinforced Glass Panel",
+  "glitchdescription" : "Attentive. The metal frame is lightly rusty.",
+  "florandescription" : "Floran lookss pretty in glasssss.",
+  "novakiddescription" : "I can see clear through t'the other side of this glass.",
+
+  "materialId" : 5102
+}
