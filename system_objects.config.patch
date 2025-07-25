@@ -1,0 +1,37 @@
+[
+    {
+        "op": "add",
+        "path": "/iwpp_testencounter",
+        "value": {
+            "warpAction": "InstanceWorld:iwpp_testencounter",
+            "skyParameters": {
+                "seed": 0,
+                "horizonClouds": false,
+                "horizonImages": [
+                    {
+                        "left": "/celestial/system/anomaly/anomalyhorizonleft.png",
+                        "right": "/celestial/system/anomaly/anomalyhorizonright.png"
+                    }
+                ]
+            },
+            "moving": false,
+            "speed": 0,
+            "orbitRange": [
+                0,
+                0
+            ],
+            "generatedParameters": {
+                "displayName": "/celestial/anomalynames.config:nameGen"
+            },
+            "lifeTime": [
+                1500,
+                2100
+            ],
+            "parameters": {
+                "icon": "/celestial/system/anomaly/iwpp_testencounter.png",
+                "displayName": "TEST",
+                "description": "This is a test, don't worry about it; ignore it, keep going on your way."
+            }
+        }
+    }
+]

@@ -1,0 +1,103 @@
+{
+  // ==============================================================================================
+  //                           MONSTER DROPS - PROJECT PARASPRITE MOD
+  // ==============================================================================================
+
+  // ================================
+  //        Unique Monsters
+  // ================================
+
+  "iwpp_heliprobeTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.799, "pool" : "robotTreasure"},
+        {"weight" : 0.100, "item" : "stickofram"},
+        {"weight" : 0.100, "item" : "staticcell"},
+        {"weight" : 0.001, "item" : "iwpp_heliprobeaf"}
+      ],
+      "poolRounds" : [
+        [0.20, 0],
+        [0.80, 1]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "iwpp_reformedspriteTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.799, "pool" : "basicMonsterTreasure"},
+        {"weight" : 0.100, "item" : "sharpenedclaw"},
+        {"weight" : 0.100, "item" : "biosample"},
+        {"weight" : 0.001, "item" : "iwpp_reformedspriteaf"}
+      ],
+      "poolRounds" : [
+        [0.20, 0],
+        [0.80, 1]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "iwpp_verminteyeTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.799, "pool" : "basicMonsterTreasure"},
+        {"weight" : 0.100, "item" : "biosample"},
+        {"weight" : 0.001, "item" : "iwpp_verminteyeaf"}
+      ],
+      "poolRounds" : [
+        [0.20, 0],
+        [0.80, 1]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "iwpp_fangoTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.799, "pool" : "basicMonsterTreasure"},
+        {"weight" : 0.300, "item" : [ "iwpp_paraichorbomb", 3 ]},
+        {"weight" : 0.100, "item" : "sharpenedclaw"},
+        {"weight" : 0.100, "item" : "biosample"},
+        {"weight" : 0.001, "item" : "iwpp_fangoaf"}
+      ],
+      "poolRounds" : [
+        [0.20, 0],
+        [0.80, 1]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "iwpp_cystTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.799, "pool" : "basicMonsterTreasure"},
+        {"weight" : 0.100, "item" : "biosample"},
+        {"weight" : 0.001, "item" : "iwpp_cystaf"}
+      ],
+      "poolRounds" : [
+        [0.20, 0],
+        [0.80, 1]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "iwpp_prionTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.799, "pool" : "basicMonsterTreasure"},
+        {"weight" : 0.100, "item" : "biosample"},
+        {"weight" : 0.001, "item" : "iwpp_prionaf"}
+      ],
+      "poolRounds" : [
+        [0.20, 0],
+        [0.80, 1]
+      ],
+      "allowDuplication" : false
+    }]
+  ]
+}

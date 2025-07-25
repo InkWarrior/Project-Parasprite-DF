@@ -1,0 +1,18 @@
+{
+  "name" : "armok_replication",
+  "blockingStat" : "iwpp_replicationStatusImmunity",
+  "effectConfig" : {
+    "minMaxHealth" : 0,
+    "flashDirectives" : "fade=2fe5a1;0.5",
+
+    "SpawnOffset" : [0, 1]
+  },
+  "defaultDuration" : 100,
+
+  "scripts" : [
+    "armok_replication.lua"
+  ],
+
+  "label" : "Para-Replication",
+  "icon" : "/interface/statuses/iwpp_replication.png"
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "op": "add",
+    "path": "/apexcampTreasure/0/1/pool/-",
+    "value": {
+      "weight": 0.1,
+      "item": "iwpp_rationbar"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/apexcampChestTreasure/0/1/pool/-",
+    "value": {
+      "weight": 0.1,
+      "item": "iwpp_rationbar"
+    }
+  }
+]

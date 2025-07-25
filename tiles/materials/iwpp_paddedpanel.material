@@ -1,0 +1,26 @@
+{
+  "materialId" : 5108,
+  "materialName" : "iwpp_paddedpanel",
+  "particleColor" : [170, 119, 110, 255],
+  "itemDrop" : "iwpp_paddedpanel",
+
+  "description" : "A padded panel, used a lot inside old space stations.",
+  "glitchDescription" : "Displeased. This panel smells slighly damp.",
+  "floranDescription" : "Sssmelly soft panel, is thiss leather?",
+  "novakidDescription" : "The smell on these panels ain't good.",
+
+  "shortdescription" : "Padded Station Panel",
+  "footstepSound" : "/sfx/blocks/footstep_drydirt.ogg",
+  "health" : 6,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "iwpp_paddedpanel.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 3390
+  }
+}

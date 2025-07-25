@@ -1,0 +1,11 @@
+{
+  "version": "0.0",
+  "author": "InkWarrior101",
+  "description": "A vanilla expansion for the USCM and Project Parasprite.",
+  "name": "Project Parasprite",
+  "priority": 9999,
+  "friendlyName": "IWParaspriteMod",
+  "includes": [
+    "SpawnableItemPack"
+  ]
+}

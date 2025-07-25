@@ -1,0 +1,26 @@
+{
+  "materialId" : 5106,
+  "materialName" : "iwpp_paddedgirder",
+  "particleColor" : [170, 119, 110, 255],
+  "itemDrop" : "iwpp_paddedgirder",
+
+  "description" : "A padded girder, used a lot inside old space stations.",
+  "glitchDescription" : "Displeased. This girder smells slighly damp.",
+  "floranDescription" : "Sssmelly soft girder, is thiss leather?",
+  "novakidDescription" : "The smell on this girder ain't good.",
+
+  "shortdescription" : "Padded Station Girder",
+  "footstepSound" : "/sfx/blocks/footstep_drydirt.ogg",
+  "health" : 6,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/pipetemplate.config",
+  "renderParameters" : {
+    "texture" : "iwpp_paddedgirder.png",
+    "variants" : 3,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 3380
+  }
+}

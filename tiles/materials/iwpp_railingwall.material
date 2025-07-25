@@ -1,0 +1,27 @@
+{
+  "materialId" : 5103,
+  "materialName" : "iwpp_railingwall",
+  "particleColor" : [83, 73, 63, 255],
+  "itemDrop" : "iwpp_railingwall",
+
+  "description" : "A light metal railing panel posing as a wall.",
+  "glitchDescription" : "Concerned. How resistant is this railing wall?",
+  "floranDescription" : "A rrusty railing wall.",
+  "novakidDescription" : "This railing panel ain't looking safe.",
+  
+  "shortdescription" : "Iron Railing Wall",
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
+  "health" : 7,
+  "category" : "materials",
+  "blocksLiquidFlow" : false,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "iwpp_railingwall.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : false,
+    "multiColored" : false,
+    "zLevel" : 550
+  }
+}

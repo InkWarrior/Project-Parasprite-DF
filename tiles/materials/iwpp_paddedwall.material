@@ -1,0 +1,26 @@
+{
+  "materialId" : 5107,
+  "materialName" : "iwpp_paddedwall",
+  "particleColor" : [170, 119, 110, 255],
+  "itemDrop" : "iwpp_paddedwall",
+
+  "description" : "A padded wall, used a lot inside old space stations.",
+  "glitchDescription" : "Displeased. This wall smells slighly damp.",
+  "floranDescription" : "Sssmelly soft wall, is thiss leather?",
+  "novakidDescription" : "The smell on these walls ain't good.",
+
+  "shortdescription" : "Padded Station Wall",
+  "footstepSound" : "/sfx/blocks/footstep_drydirt.ogg",
+  "health" : 6,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "iwpp_paddedwall.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 3390
+  }
+}

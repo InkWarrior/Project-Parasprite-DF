@@ -1,0 +1,26 @@
+{
+  "materialId" : 5102,
+  "materialName" : "iwpp_slopedreinforcedglass",
+  "particleColor" : [156, 115, 128, 255],
+  "itemDrop" : "iwpp_slopedreinforcedglass",
+
+  "description" : "It makes for cool space station windows.",
+  "glitchDescription" : "Attentive. The metal frame is lightly rusty.",
+  "floranDescription" : "Floran lookss pretty in glasssss.",
+  "novakidDescription" : "I can see clear through t'the other side of this glass.",
+
+  "shortdescription" : "Reinforced Glass Panel",
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
+  "health" : 9,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/slopedmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "iwpp_slopedreinforcedglass.png",
+    "variants" : 1,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multiColored" : true,
+    "zLevel" : 5002
+  }
+}

@@ -1,0 +1,172 @@
+{
+  // ==============================================================================================
+  //                                PROJECT PARASPRITE MOD LARGEDUNGEON POOLS
+  // ==============================================================================================
+
+  // ================================
+  //          USCM Encounters
+  // ================================
+
+  "iwpp_uscmAlarmTreasure" : [
+    [0, {
+      "fill" : [
+        {"item" : "iwpp_uscmbunkerlore1-codex"}
+      ],
+      "poolRounds" : [
+        [0.5, 2],
+        [0.2, 3],
+        [0.1, 4]
+      ],
+      "pool" : [
+        {"weight" : 0.32, "pool" : "chestMoney"},
+        {"weight" : 0.65, "pool" : "commonSpaceItem"},
+        {"weight" : 0.03, "pool" : "rareSpaceItem"}
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "iwpp_uscmBunkerLoreTreasure" : [
+    [0, {
+      "fill" : [
+        {"pool" : "iwpp_uscmBunkerLore"}
+      ],
+      "poolRounds" : [
+        [0.5, 2],
+        [0.2, 3],
+        [0.1, 4]
+      ],
+      "pool" : [
+        {"weight" : 0.32, "pool" : "chestMoney"},
+        {"weight" : 0.65, "pool" : "commonSpaceItem"},
+        {"weight" : 0.03, "pool" : "rareSpaceItem"}
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "iwpp_decontaminatorTreasure" : [
+    [0, {
+      "fill" : [
+        {"pool" : "commonSpaceItem"},
+        {"item" : "flamethrower"}
+      ],
+      "poolRounds" : [
+        [0.5, 2],
+        [0.2, 3],
+        [0.1, 4]
+      ],
+      "pool" : [
+        {"weight" : 0.70, "item" : [ "antidote", 3 ]},
+        {"weight" : 0.40, "pool" : "healingItem"},
+        {"weight" : 0.02, "item" : "hazmathead"},
+        {"weight" : 0.03, "item" : "hazmatchest"},
+        {"weight" : 0.03, "item" : "hazmatlegs"},
+        {"weight" : 0.03, "item" : "iwpp_flamethrowertankback"}
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "iwpp_uscmSpaceTreasure" : [
+    [0, {
+      "fill" : [
+        {"pool" : "commonSpaceItem"}
+      ],
+      "poolRounds" : [
+        [0.5, 2],
+        [0.1, 4]
+      ],
+      "pool" : [
+        {"weight" : 0.02, "pool" : "iwpp_uscmWeapon"},
+        {"weight" : 0.40, "pool" : "iwpp_uscmFurniture"},
+		{"weight" : 0.10, "item" : [ "iwpp_rationbar", 2 ]}
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+
+  "iwpp_uscmBunkerLore" : [
+    [0, {
+      "poolRounds" : [
+        [1.0, 1]
+      ],
+      "pool" : [
+        {"weight" : 1.0, "item" : "humanspace1-codex"},
+        {"weight" : 1.0, "item" : "iwpp_uscmbunkerlore2-codex"},
+        {"weight" : 1.0, "item" : "humanhistory1-codex"},
+        {"weight" : 1.0, "item" : "humanhistory2-codex"}
+      ]
+    }]
+  ],
+
+  "iwpp_uscmFurniture" : [
+    [0, {
+      "pool" : [
+        {"weight" : 1.0, "item" : "bunkerbigpanel"},
+        {"weight" : 1.0, "item" : "bunkerbookcase"},
+        {"weight" : 1.0, "item" : "bunkercabinet1"},
+        {"weight" : 1.0, "item" : "bunkerceilinglight1"},
+        {"weight" : 1.0, "item" : "bunkercomputer"},
+        {"weight" : 1.0, "item" : "bunkerconsole1"},
+        {"weight" : 1.0, "item" : "bunkerconsole2"},
+        {"weight" : 1.0, "item" : "bunkerconsole3"},
+        {"weight" : 1.0, "item" : "bunkerconsole4"},
+        {"weight" : 1.0, "item" : [ "bunkercorner", 3 ]},
+        {"weight" : 1.0, "item" : "bunkercrate"},
+        {"weight" : 1.0, "item" : "bunkerdesk"},
+        {"weight" : 1.0, "item" : "bunkerdisplay1"},
+        {"weight" : 1.0, "item" : "bunkerdisplay2"},
+        {"weight" : 1.0, "item" : "bunkerdisplay3"},
+        {"weight" : 1.0, "item" : "bunkerdisplay4"},
+        {"weight" : 1.0, "item" : "bunkereyescanner"},
+        {"weight" : 1.0, "item" : "bunkerhandscanner"},
+        {"weight" : 1.0, "item" : "bunkerheater1"},
+        {"weight" : 1.0, "item" : "bunkerlighth"},
+        {"weight" : 1.0, "item" : "bunkerlightv"},
+        {"weight" : 1.0, "item" : "bunkermotiondetector"},
+        {"weight" : 1.0, "item" : "bunkerpanel1"},
+        {"weight" : 1.0, "item" : "bunkerpanel2"},
+        {"weight" : 1.0, "item" : "bunkerpanel3"},
+        {"weight" : 1.0, "item" : "bunkerposter1"},
+        {"weight" : 1.0, "item" : "bunkerposter2"},
+        {"weight" : 1.0, "item" : "bunkerserver"},
+        {"weight" : 1.0, "item" : "bunkerslidingdoor"},
+        {"weight" : 1.0, "item" : "bunkertable1"},
+        {"weight" : 1.0, "item" : "bunkertable2"},
+        {"weight" : 1.0, "item" : "bunkertable3"},
+        {"weight" : 1.0, "item" : "bunkertv"},
+        {"weight" : 1.0, "item" : "bunkertv2"},
+        {"weight" : 1.0, "item" : "bunkervent"},
+        {"weight" : 1.0, "item" : "prisonfile1"},
+        {"weight" : 1.0, "item" : "prisonfile2"},
+        {"weight" : 1.0, "item" : "wrecklocker"},
+        {"weight" : 1.0, "item" : "iwpp_bunkerceilingmonitor"},
+        {"weight" : 1.0, "item" : [ "iwpp_bunkerflue", 5 ]},
+        {"weight" : 1.0, "item" : "iwpp_bunkerincinerator"},
+        {"weight" : 1.0, "item" : "iwpp_bunkerkeyboard"},
+        {"weight" : 1.0, "item" : "iwpp_containmentcrate"},
+        {"weight" : 1.0, "item" : [ "iwpp_oxygencanister1", 3 ]},
+        {"weight" : 1.0, "item" : [ "iwpp_propanecanister1", 3 ]},
+        {"weight" : 1.0, "item" : [ "iwpp_cdioxidecanister1", 3 ]},
+        {"weight" : 1.0, "item" : "iwpp_largebunkerconsole1"},
+        {"weight" : 1.0, "item" : "iwpp_emptyrack"},
+        {"weight" : 1.0, "item" : "iwpp_uscmposter1"},
+        {"weight" : 1.0, "item" : "iwpp_uscmposter2"},
+        {"weight" : 1.0, "item" : "iwpp_uscmposter3"}
+      ],
+      "allowDuplication" : true
+    }]
+  ],
+
+  "iwpp_uscmWeapon" : [
+    [0, {
+      "pool" : [
+        {"weight" : 0.05, "item" : "iwpp_uscmrifle"},
+        {"weight" : 0.05, "item" : "iwpp_uscmsniper"},
+        {"weight" : 0.03, "item" : "iwpp_flamethrowertankback"}
+      ],
+      "allowDuplication" : true
+    }]
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name" : "iwpp_ichorpoison",
+  "blockingStat" : "poisonStatusImmunity",
+
+  "effectConfig" : {},
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "iwpp_ichorpoison.lua"
+  ],
+
+  "animationConfig" : "iwpp_ichorpoison.animation",
+
+  "label" : "Ichor Infection",
+  "icon" : "/interface/statuses/iwpp_ichorpoison.png"
+}

@@ -1,0 +1,13 @@
+{
+  "name" : "iwpp_replicationpoison",
+  "blockingStat" : "iwpp_replicationPoisonImmunity",
+
+  "effectConfig" : {},
+  "defaultDuration" : 100,
+
+  "scripts" : [
+    "iwpp_replicationpoison.lua"
+  ],
+
+  "animationConfig" : "iwpp_replicationpoison.animation"
+}

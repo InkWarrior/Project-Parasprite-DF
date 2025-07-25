@@ -1,0 +1,27 @@
+{
+  "materialId" : 5104,
+  "materialName" : "iwpp_gratecatwalk",
+  "particleColor" : [83, 73, 63, 255],
+  "itemDrop" : "iwpp_gratecatwalk",
+
+  "description" : "An iron grate catwalk, doesn't look too safe to walk on.",
+  "glitchDescription" : "Worried. This metal catwalk is in not good conditions.",
+  "floranDescription" : "This metal floor looks rrusty.",
+  "novakidDescription" : "This catwalk ain't looking safe.",
+  
+  "shortdescription" : "Iron Grate Catwalk",
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
+  "health" : 8,
+  "category" : "materials",
+  "blocksLiquidFlow" : false,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "iwpp_gratecatwalk.png",
+    "variants" : 5,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multiColored" : false,
+    "zLevel" : 551
+  }
+}

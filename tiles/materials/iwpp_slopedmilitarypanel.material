@@ -1,0 +1,26 @@
+{
+  "materialId" : 5101,
+  "materialName" : "iwpp_slopedmilitarypanel",
+  "particleColor" : [31, 65, 47, 255],
+  "itemDrop" : "iwpp_slopedmilitarypanel",
+
+  "description" : "A military-grade metal panel. Seems very worn-out and rusty.",
+  "glitchDescription" : "Worried. This metal surface looks very jagged and rusty.",
+  "floranDescription" : "Metal sssso russty, Floran wouldn't even ussse it.",
+  "novakidDescription" : "This metal panel is just a buncha rusted scrap.",
+
+  "shortdescription" : "Military Panel",
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
+  "health" : 16,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/slopedmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "iwpp_slopedmilitarypanel.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 5001
+  }
+}

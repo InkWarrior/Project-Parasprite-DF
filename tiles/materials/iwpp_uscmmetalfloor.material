@@ -1,0 +1,26 @@
+{
+  "materialId" : 5105,
+  "materialName" : "iwpp_uscmmetalfloor",
+  "particleColor" : [59, 59, 59, 255],
+  "itemDrop" : "iwpp_uscmmetalfloor",
+
+  "description" : "A cold and dull metal surface, slighly rusted over time.",
+  "glitchDescription" : "Curious. This surface looks like is completely solid metal.",
+  "floranDescription" : "This block is cold when Floran touchess it.",
+  "novakidDescription" : "Very tough lookin' floor.",
+
+  "shortdescription" : "Metallic Floor",
+  "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
+  "health" : 16,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "iwpp_uscmmetalfloor.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "multiColored" : true,
+    "occludesBelow" : true,
+    "zLevel" : 3180
+  }
+}

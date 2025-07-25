@@ -1,0 +1,16 @@
+[
+    [
+        {
+            "op": "test",
+            "path": "/objectSpawnPool"
+        },
+        {
+            "op": "add",
+            "path": "/objectSpawnPool/-",
+            "value": [
+                2,
+                "iwpp_testencounter"
+            ]
+        }
+    ]
+]

@@ -1,0 +1,9 @@
+{
+  "name" : "iwpp_monsterreplipoisonshield",
+  "effectConfig" : {},
+  "defaultDuration" : 60,
+
+  "scripts" : [
+    "iwpp_replicationpoisonblock.lua"
+  ]
+}
