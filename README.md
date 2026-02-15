@@ -1,5 +1,5 @@
 # Project-Parasprite-DF
-This is a work-in-progress for the Starbound mod "Project Parasprite: Disclosed Files"
+Project Parasprite: Disclosed Files is a Starbound mod which focuses on expanding the very few lore bits around Project Parasprite and the USCM. The idea is to build Parasprites as some of the ultime threats for the galaxy, waiting patiently in the void of space, while also fleshing out the USCM and it's inevitable fall. Still a work in Progress, hopefully 2026.
 
 # To-Do List
 __MOD SUPPORT__
