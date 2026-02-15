@@ -26,10 +26,10 @@ __MISC__
 __FURNITURE__
 - Revise GRD objects descriptions.
 - Make DCD objects:
-  - DCD Chest
-  - DCD Crates
-  - DCD Barrels
-  - DCD Logo
+  - DCD Chest (in-progress)
+  - DCD Crates (in-progress)
+  - DCD Barrels (in-progress)
+  - DCD Logo (in-progress)
 - Make parasprite traps:
   - Pipe trap
   - Vent trap
