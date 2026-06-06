@@ -5,10 +5,10 @@
   "category" : "wire",
   "price" : 135,
   "description" : "A microscope so big it might as well see subatomic particles.",
-  "shortdescription" : "G.R.D Research Microscope",
+  "shortdescription" : "GRD Research Microscope",
   "race" : "human",
 
-  "apexDescription" : "A large electronic microscope, even more effective than your regular microscopes.",
+  "apexDescription" : "A large electron microscope, even more effective than your regular microscopes.",
   "avianDescription" : "I though a normal microscope was enough.",
   "floranDescription" : "Floran iss baffled at the size of this device!",
   "glitchDescription" : "Observant. What is the purpose of having a larger microscope?",

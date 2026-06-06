@@ -1,7 +1,7 @@
 {
   "type" : "iwpp_prion",
   "shortdescription" : "Prion",
-  "description" : "A volatile creature, filled with highly contagious spores.",
+  "description" : "A volatile creature filled with highly contagious spores.",
 
   "categories" : [ "iwpp_prion" ],
   "parts" : [ "body" ],

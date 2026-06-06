@@ -15,16 +15,16 @@
   "flickerPeriodVariance" : 0,
   "flickerIntensityVariance" : 0,
   
-  "description" : "A monitor attached to the ceiling. Now how I'm going to reach it?",
+  "description" : "A monitor attached to the ceiling. Now how am I going to reach it?",
   "shortdescription" : "Bunker Ceiling Monitor",
   "race" : "human",
 
-  "apexDescription" : "There is information about something important. If I could only look closer.",
+  "apexDescription" : "There is information about something important on this. If I could only look closer.",
   "avianDescription" : "A ceiling monitor with a blue display.",
-  "floranDescription" : "It's far away!",
-  "glitchDescription" : "Annoyed. This bulky monitor is way up there.",
-  "humanDescription" : "Thank god, my neck is having some rest.",
-  "hylotlDescription" : "Seems to be a bunker monitor. A bit too far for my liking.",
+  "floranDescription" : "Too far away!",
+  "glitchDescription" : "Annoyed. This bulky monitor is way too high up there.",
+  "humanDescription" : "Thank god, I can give my neck some rest looking at this now.",
+  "hylotlDescription" : "Seems to be a bunker monitor. A bit too far above me for my liking.",
   "novakidDescription" : "This screen is just hangin' there.",
 
   "inventoryIcon" : "icon.png",

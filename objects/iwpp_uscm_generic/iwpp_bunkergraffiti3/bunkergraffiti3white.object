@@ -6,7 +6,7 @@
   "price" : 0,
   "printable" : false,
 
-  "description" : "Graffiti reading \"why we trusted them?\". I don't know, you tell me.",
+  "description" : "Graffiti reading \"why did we trust them?\". I don't know, you tell me.",
   "shortdescription" : "Graffiti",
   "race" : "human",
 
@@ -15,8 +15,8 @@
   "floranDescription" : "Floran hatess betrayal!!",
   "glitchDescription" : "Irritated. Betrayal is something to be loathed.",
   "humanDescription" : "Yeah, betrayal is terrible. Who betrayed you my unknown friend?",
-  "hylotlDescription" : "It's hard to trust people again once you were betrayed.",
-  "novakidDescription" : "I don't know, you tell me...",
+  "hylotlDescription" : "It's hard to trust people again once you've been betrayed.",
+  "novakidDescription" : "I dunno, you tell me...",
 
   "inventoryIcon" : "icon.png",
   "orientations" : [

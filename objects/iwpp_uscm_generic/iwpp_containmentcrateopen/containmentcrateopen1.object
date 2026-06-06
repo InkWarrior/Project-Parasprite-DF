@@ -9,13 +9,13 @@
   "shortdescription" : "Open Containment Crate",
   "race" : "human",
 
-  "apexDescription" : "The Miniknog used this type of crates to store biosamples. I wonder if...",
-  "avianDescription" : "Compared to other USCM electronics, this one looks highly advanced.",
+  "apexDescription" : "The Miniknog use these types of crates to store bio-samples. I wonder if...",
+  "avianDescription" : "Compared with other USCM electronics, this one looks highly advanced.",
   "floranDescription" : "Floran wonderss why crate iss very heavy.",
   "glitchDescription" : "Distant. I hope the magnets of this crate don't mess with my wires.",
   "humanDescription" : "Hmmm. Magnetic locked crates? What was the USCM involved in?",
   "hylotlDescription" : "An incredibly advanced crate, very unusual for the USCM.",
-  "novakidDescription" : "A containment crate... to contain what exactly?",
+  "novakidDescription" : "A containment crate... To contain what exactly?",
 
 
   "inventoryIcon" : "icon.png",

@@ -5,17 +5,17 @@
 
   "category" : "door",
   "price" : 175,
-  "description" : "A rusty and sturdy space blast door.",
-  "shortdescription" : "U.S.C.M. Blast Door",
+  "description" : "A rusty and sturdy space blast-door.",
+  "shortdescription" : "USCM Blast Door",
   "race" : "human",
 
   "apexDescription" : "This door looks impervious.",
-  "avianDescription" : "Looks to be an rusty big metal door.",
+  "avianDescription" : "Looks to be a big, rusty metal door.",
   "floranDescription" : "No big door can stop Floran!",
   "glitchDescription" : "Observant. This is a large metal door.",
-  "humanDescription" : "Wow... how do I open it?",
+  "humanDescription" : "Wow... How do I open it?",
   "hylotlDescription" : "Looks very old. I hope it's still functional.",
-  "novakidDescription" : "Ol' rusty big door. Cool!",
+  "novakidDescription" : "Big ol' rusty door. Cool!",
 
   "inventoryIcon" : "icon.png",
   "orientations" : [

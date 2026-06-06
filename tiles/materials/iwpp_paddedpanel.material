@@ -5,9 +5,9 @@
   "itemDrop" : "iwpp_paddedpanel",
 
   "description" : "A padded panel, used a lot inside old space stations.",
-  "glitchDescription" : "Displeased. This panel smells slighly damp.",
-  "floranDescription" : "Sssmelly soft panel, is thiss leather?",
-  "novakidDescription" : "The smell on these panels ain't good.",
+  "glitchdescription" : "Displeased. This panel smells slighly damp.",
+  "florandescription" : "Sssmelly soft panel, is thiss leather?",
+  "novakiddescription" : "The smell o' this here panel ain't good.",
 
   "shortdescription" : "Padded Station Panel",
   "footstepSound" : "/sfx/blocks/footstep_drydirt.ogg",

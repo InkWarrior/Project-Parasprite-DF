@@ -5,9 +5,9 @@
   "itemDrop" : "iwpp_gratecatwalk",
 
   "description" : "An iron grate catwalk, doesn't look too safe to walk on.",
-  "glitchDescription" : "Worried. This metal catwalk is in not good conditions.",
-  "floranDescription" : "This metal floor looks rrusty.",
-  "novakidDescription" : "This catwalk ain't looking safe.",
+  "glitchdescription" : "Worried. This metal catwalk is not in good condition.",
+  "florandescription" : "This metal floor looks rrusty.",
+  "novakiddescription" : "This catwalk ain't lookin' safe.",
   
   "shortdescription" : "Iron Grate Catwalk",
   "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",

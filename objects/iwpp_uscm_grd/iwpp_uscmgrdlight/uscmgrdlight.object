@@ -5,7 +5,7 @@
   "category" : "light",
   "price" : 60,
   "description" : "An old laboratory light.",
-  "shortdescription" : "G.R.D. Laboratory Light",
+  "shortdescription" : "GRD Laboratory Light",
   "race" : "apex",
 
   "lightColor" : [214, 154, 61],

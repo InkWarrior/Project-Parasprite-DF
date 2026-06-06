@@ -12,10 +12,10 @@
   "apexDescription" : "A metallic rack full of Heliprobe units.",
   "avianDescription" : "A rack with Heliprobes.",
   "floranDescription" : "Metal rack with robotss.",
-  "glitchDescription" : "Calm. It's just a rack with Heliprobes.",
-  "humanDescription" : "A Triplods rack.",
+  "glitchDescription" : "Calm. It's just a rack of Heliprobes.",
+  "humanDescription" : "A Heliprobe rack.",
   "hylotlDescription" : "A rack with a couple of Heliprobes.",
-  "novakidDescription" : "Just a rack with some Heliprobes.",
+  "novakidDescription" : "Jus' a rack with some Heliprobes.",
 
 
   "inventoryIcon" : "triplodrackicon.png",

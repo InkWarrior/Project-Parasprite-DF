@@ -6,7 +6,7 @@
   "price" : 90,
   "printable" : false,
   "description" : "An isolated chamber where scientist do their own experiments.",
-  "shortdescription" : "G.R.D Test Chamber",
+  "shortdescription" : "GRD Test Chamber",
   "race" : "human",
 
   "apexDescription" : "It's a sturdy barrel.",

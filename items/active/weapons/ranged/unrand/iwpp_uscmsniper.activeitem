@@ -3,7 +3,7 @@
   "price" : 1400,
   "maxStack" : 1,
   "rarity" : "Rare",
-  "description" : "A powerful sniper rifle, good to cover long distances.",
+  "description" : "A cheap sniper rifle, mass-produced by the USCM.",
   "shortdescription" : "USCM Sniper Rifle",
   "tooltipKind" : "gun",
   "category" : "sniperRifle",

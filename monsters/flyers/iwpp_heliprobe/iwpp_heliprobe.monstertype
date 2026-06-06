@@ -1,7 +1,7 @@
 {
   "type" : "iwpp_heliprobe",
   "shortdescription" : "Heliprobe",
-  "description" : "Look at those little arms. What it's going to do? slap me?",
+  "description" : "Look at those little arms. What is it going to do? Slap you?",
 
   "categories" : [ "iwpp_heliprobe" ],
   "parts" : [ "body" ],

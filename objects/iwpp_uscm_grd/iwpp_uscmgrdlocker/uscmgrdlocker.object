@@ -3,7 +3,7 @@
   "colonyTags" : ["human","humanbunker","storage"],
   "rarity" : "Common",
   "description" : "A laboratory locker.",
-  "shortdescription" : "G.R.D. Personal Locker",
+  "shortdescription" : "GRD Personal Locker",
   "race" : "generic",
   "category" : "storage",
   "price" : 85,
@@ -17,7 +17,7 @@
   "glitchDescription" : "Inquisitive. Could this locker still have something inside?",
   "humanDescription" : "An old and rusted locker.",
   "hylotlDescription" : "I wouldn't want to store valuables in here.",
-  "novakidDescription" : "I wouldn't count on anything in there staying there.",
+  "novakidDescription" : "I wouldn't count on anything in there stayin' for long.",
 
   "inventoryIcon" : "icon.png",
   "orientations" : [
