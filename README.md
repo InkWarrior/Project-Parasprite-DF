@@ -10,8 +10,11 @@ __MOD SUPPORT__
 - Make a resprite addon for some of the vanilla base objects
 
 __GENERAL__
+
+__WEAPONS__
 - Revise RNG USCM guns; add unique abilities for these
 - Complete Flamethrower and Electric Baton Spear
+- GizzardHand: a weapon that works similarly to the Hivehand from Half life, the main fire would be like a shotgun, shooting fragments of bone, the alt fire would be something closer to the hivehand behavior.
 
 __NPCS__
 - Complete Shammer: ranged version of the Parasprite.
