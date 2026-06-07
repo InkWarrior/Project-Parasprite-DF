@@ -5,8 +5,8 @@
 
   "category" : "door",
   "price" : 140,
-  "description" : "This automated hatch looks rusty and wornout.",
-  "shortdescription" : "U.S.C.M. Airlock Hatch",
+  "description" : "This automated hatch looks rusty and worn-out.",
+  "shortdescription" : "USCM Airlock Hatch",
   "race" : "human",
 
   "apexDescription" : "An airlock.",

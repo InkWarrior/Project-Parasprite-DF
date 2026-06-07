@@ -3,7 +3,7 @@
   "colonyTags" : ["human","humanbunker"],
   "rarity" : "Common",
   "description" : "A chair. You sit in it. Yes.",
-  "shortdescription" : "G.R.D. Lab Chair",
+  "shortdescription" : "GRD Lab Chair",
   "race" : "generic",
   "category" : "furniture",
   "price" : 75,

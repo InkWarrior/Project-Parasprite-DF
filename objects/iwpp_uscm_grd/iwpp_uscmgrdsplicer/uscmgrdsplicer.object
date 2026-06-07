@@ -5,14 +5,14 @@
   "category" : "wire",
   "price" : 135,
   "description" : "A machine used to modify and combine DNA.",
-  "shortdescription" : "G.R.D. Gene Splicer",
+  "shortdescription" : "GRD Gene Splicer",
   "race" : "human",
 
   "apexDescription" : "The Miniknog loved to use machines like this.",
-  "avianDescription" : "A machine to change the form of a living being.",
+  "avianDescription" : "A machine to change the form of a living being with.",
   "floranDescription" : "Floran curiouss, what is a gene?",
   "glitchDescription" : "Intrigued. Genetics is an interesting thing to learn about.",
-  "humanDescription" : "A machine to modify DNA. Very cool I guess.",
+  "humanDescription" : "A machine to modify DNA with. Very cool I guess.",
   "hylotlDescription" : "A machine that changes the nature of a being. I don't like it.",
   "novakidDescription" : "A machine that changes DNA. Cool. What's DNA anyway?",
 

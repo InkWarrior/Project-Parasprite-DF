@@ -11,11 +11,11 @@
 
   "apexDescription" : "A panel with a biohazard sign on it. Creepy.",
   "avianDescription" : "The side panel of a larger crate. Looks rusty.",
-  "floranDescription" : "A metal panel.",
+  "floranDescription" : "Metal panel.",
   "glitchDescription" : "Alarmed. There's a biohazard sign on the side of this panel.",
-  "humanDescription" : "A sturdy looking panel. Why it has a biohazard sign?",
-  "hylotlDescription" : "What kind of stuff their owners wanted to secure with this sturdy crate?",
-  "novakidDescription" : "A panel of a containment crate.",
+  "humanDescription" : "A sturdy looking panel. Why doe it have a biohazard sign?",
+  "hylotlDescription" : "What kind of stuff would someone want to secure with this sturdy panel?",
+  "novakidDescription" : "The panel of a containment crate.",
 
   "lightColor" : [31, 65, 143],
 

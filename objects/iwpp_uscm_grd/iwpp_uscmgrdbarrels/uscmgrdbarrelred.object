@@ -6,7 +6,7 @@
   "price" : 90,
   "printable" : false,
   "description" : "A pressurised barrel. Seems to be intended for dangerous components.",
-  "shortdescription" : "G.R.D Red Barrel",
+  "shortdescription" : "GRD Red Barrel",
   "race" : "human",
 
   "apexDescription" : "It's a sturdy barrel.",

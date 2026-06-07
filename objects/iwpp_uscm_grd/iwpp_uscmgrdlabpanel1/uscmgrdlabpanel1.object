@@ -7,12 +7,12 @@
   "race" : "human",
 
   "apexDescription" : "This appears to be displaying data about an unidentified DNA strand.",
-  "avianDescription" : "It seems to be a display about what is called a DNA.",
-  "floranDescription" : "Floran doesn't undestand this ladder draw.",
-  "glitchDescription" : "Intrigued. Is this the equivalent of Glitch's programation for flesh living beings?",
+  "avianDescription" : "It seems to be a display about something called DNA.",
+  "floranDescription" : "Floran doessn't understand this ladder drawing.",
+  "glitchDescription" : "Intrigued. Is this the equivalent of a Glitch program for organic beings?",
   "humanDescription" : "I don't know anything about genetics, but that DNA string looks dope.",
   "hylotlDescription" : "I can only ask myself what kind of DNA is being displayed here.",
-  "novakidDescription" : "I've heard of DNA stuff for sure, but my head can't wrap around the idea.",
+  "novakidDescription" : "I've heard o' this DNA stuff for sure, but my head jus' can't wrap around the idea.",
 
   "category" : "decorative",
   "price" : 135,

@@ -5,9 +5,9 @@
   "itemDrop" : "iwpp_slopedmilitarypanel",
 
   "description" : "A military-grade metal panel. Seems very worn-out and rusty.",
-  "glitchDescription" : "Worried. This metal surface looks very jagged and rusty.",
-  "floranDescription" : "Metal sssso russty, Floran wouldn't even ussse it.",
-  "novakidDescription" : "This metal panel is just a buncha rusted scrap.",
+  "glitchdescription" : "Worried. This metal surface looks very jagged and rusty.",
+  "florandescription" : "Metal sssso russty, not even Floran ussse it.",
+  "novakiddescription" : "This metal panel is just a buncha rusted scrap.",
 
   "shortdescription" : "Military Panel",
   "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",

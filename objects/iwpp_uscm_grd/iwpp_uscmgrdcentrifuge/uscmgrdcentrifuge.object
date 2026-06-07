@@ -5,14 +5,14 @@
   "category" : "wire",
   "price" : 135,
   "description" : "A sturdy centrifuge machine.",
-  "shortdescription" : "G.R.D Lab Centrifuge",
+  "shortdescription" : "GRD Lab Centrifuge",
   "race" : "human",
 
   "apexDescription" : "I remember the Miniknog having centrifuges of their own. This one looks similar actually.",
-  "avianDescription" : "A machine used to separate components easily and faster.",
+  "avianDescription" : "A machine used to separate components easily and quickly.",
   "floranDescription" : "Floran wantss to be spinned in a machine like thiss one!",
   "glitchDescription" : "Intrigued. I didn't know you could separate different materials by spinning them fast.",
-  "humanDescription" : "A fast-spinning machine. It reminds me to a fun song.",
+  "humanDescription" : "A fast-spinning machine. It reminds me of a fun song.",
   "hylotlDescription" : "A lab centrifuge. A very useful device indeed.",
   "novakidDescription" : "Is a centrifuge a carousel for microbes?",
 

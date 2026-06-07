@@ -5,8 +5,8 @@
 
   "category" : "door",
   "price" : 140,
-  "description" : "This automated door looks rusty and wornout.",
-  "shortdescription" : "U.S.C.M. Airlock Door",
+  "description" : "This automated door looks rusty and worn-out.",
+  "shortdescription" : "USCM Airlock Door",
   "race" : "human",
 
   "apexDescription" : "An airlock.",

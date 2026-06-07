@@ -4,9 +4,9 @@
   "category" : "block",
   "rarity" : "Common",
   "inventoryIcon" : "iwpp_uscmmetalfloor.png",
-  "description" : "A cold and dull metal surface, slighly rusted over time.",
+  "description" : "A cold and dull metal surface, slighly rusted through time.",
   "shortdescription" : "Metallic Floor",
-  "glitchdescription" : "Curious. This surface looks like is completely solid metal.",
+  "glitchdescription" : "Curious. This surface looks to be completely solid metal.",
   "florandescription" : "This block is cold when Floran touchess it.",
   "novakiddescription" : "Very tough lookin' floor.",
 

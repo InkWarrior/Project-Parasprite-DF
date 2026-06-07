@@ -10,10 +10,10 @@
   "shortdescription" : "Graffiti",
   "race" : "human",
 
-  "apexDescription" : "Who were here exactly?",
-  "avianDescription" : "I don't understand who we are talking about.",
+  "apexDescription" : "Who was here exactly?",
+  "avianDescription" : "I don't understand who this is talking about.",
   "floranDescription" : "Floran understands there was meat here.",
-  "glitchDescription" : "Intrigued. Why there isn't anybody here anymore?",
+  "glitchDescription" : "Intrigued. Why isn't there anyone here anymore?",
   "humanDescription" : "Somebody wanted me to know this.",
   "hylotlDescription" : "The people who wrote this wanted to be remembered.",
   "novakidDescription" : "Who?",

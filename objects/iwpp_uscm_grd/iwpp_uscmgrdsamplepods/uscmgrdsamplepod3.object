@@ -5,8 +5,8 @@
   "category" : "decorative",
   "price" : 90,
   "printable" : false,
-  "description" : "A small pod where to store even smaller samples, useful when making experiments.",
-  "shortdescription" : "Lab Sample Pod",
+  "description" : "Small pods to store even smaller samples with, useful for experiments.",
+  "shortdescription" : "Lab Sample Pods",
   "race" : "human",
 
   "apexDescription" : "It's a sturdy barrel.",

@@ -12,10 +12,10 @@
   "apexDescription" : "A metallic rack full of Triplod units.",
   "avianDescription" : "A rack with Triplods.",
   "floranDescription" : "Metal rack with robotss.",
-  "glitchDescription" : "Calm. It's just a rack with Triplods.",
-  "humanDescription" : "A Triplods rack.",
+  "glitchDescription" : "Calm. It's just a rack of Triplods.",
+  "humanDescription" : "A Triplod rack.",
   "hylotlDescription" : "A rack with a couple of Triplods.",
-  "novakidDescription" : "Just a rack with some Triplods.",
+  "novakidDescription" : "Jus' a rack with some Triplods.",
 
 
   "inventoryIcon" : "triplodrackicon.png",

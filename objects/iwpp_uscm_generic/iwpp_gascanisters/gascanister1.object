@@ -5,17 +5,17 @@
   "category" : "decorative",
   "price" : 15,
   "printable" : false,
-  "description" : "A wornout gas canister. Seems to be empty.",
+  "description" : "A worn out gas canister. Seems to be empty.",
   "shortdescription" : "Old Gas Canister",
   "race" : "human",
 
   "apexDescription" : "A gas canister. Looks old.",
   "avianDescription" : "A canister made to store gas.",
-  "floranDescription" : "This cilinder stores... air?",
+  "floranDescription" : "Cylinder storess... air?",
   "glitchDescription" : "Curious. A canister made to store gases.",
   "humanDescription" : "A rusty canister, looks empty.",
   "hylotlDescription" : "A gas canister, it looks worn-out.",
-  "novakidDescription" : "A gas cilinder.",
+  "novakidDescription" : "A gas cylinder.",
 
 
   "inventoryIcon" : "icon1.png",

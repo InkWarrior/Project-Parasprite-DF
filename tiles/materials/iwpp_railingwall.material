@@ -5,9 +5,9 @@
   "itemDrop" : "iwpp_railingwall",
 
   "description" : "A light metal railing panel posing as a wall.",
-  "glitchDescription" : "Concerned. How resistant is this railing wall?",
-  "floranDescription" : "A rrusty railing wall.",
-  "novakidDescription" : "This railing panel ain't looking safe.",
+  "glitchdescription" : "Concerned. How resistant is this railing wall?",
+  "florandescription" : "Russty railing wall.",
+  "novakiddescription" : "This railing panel ain't lookin' safe.",
   
   "shortdescription" : "Iron Railing Wall",
   "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",

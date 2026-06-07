@@ -6,7 +6,7 @@
   "price" : 90,
   "printable" : false,
   "description" : "A metallic canister, meant to store potent chemicals.",
-  "shortdescription" : "G.R.D Liquid Tank",
+  "shortdescription" : "GRD Liquid Tank",
   "race" : "human",
 
   "apexDescription" : "It's a sturdy barrel.",

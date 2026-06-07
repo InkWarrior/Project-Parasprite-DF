@@ -4,7 +4,7 @@
   "printable" : false,
   "rarity" : "Common",
   "description" : "A laboratory switch. Looks important in a way.",
-  "shortdescription" : "G.R.D. Wall Switch",
+  "shortdescription" : "GRD Wall Switch",
   "race" : "generic",
 
   "apexDescription" : "A switch. It activates something.",

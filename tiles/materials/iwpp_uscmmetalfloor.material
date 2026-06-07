@@ -4,10 +4,10 @@
   "particleColor" : [59, 59, 59, 255],
   "itemDrop" : "iwpp_uscmmetalfloor",
 
-  "description" : "A cold and dull metal surface, slighly rusted over time.",
-  "glitchDescription" : "Curious. This surface looks like is completely solid metal.",
-  "floranDescription" : "This block is cold when Floran touchess it.",
-  "novakidDescription" : "Very tough lookin' floor.",
+  "description" : "A cold and dull metal surface, slighly rusted through time.",
+  "glitchdescription" : "Curious. This surface looks to be completely solid metal.",
+  "florandescription" : "This block is cold when Floran touchess it.",
+  "novakiddescription" : "Very tough lookin' floor.",
 
   "shortdescription" : "Metallic Floor",
   "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
