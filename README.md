@@ -12,9 +12,10 @@ __MOD SUPPORT__
 __GENERAL__
 
 __WEAPONS__
-- Revise RNG USCM guns; add unique abilities for these
+- Rework RNG weapons into their own unique ones (add a pistol, a shotgun, a machinepistol/SMG, maybe a rocket launcher?)
 - Complete Flamethrower and Electric Baton Spear
 - GizzardHand: a weapon that works similarly to the Hivehand from Half life, the main fire would be like a shotgun, shooting fragments of bone, the alt fire would be something closer to the hivehand behavior.
+- Contagion Vector: a dagger that injects paraspores into enemies, dealing the Assimilation (I think that was the name?) effect and spawning enemies on death.
 
 __NPCS__
 - Complete Shammer: ranged version of the Parasprite.
