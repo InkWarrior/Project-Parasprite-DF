@@ -37,6 +37,8 @@ __FURNITURE__
   - Functional Containment panel
 - Make a generator object (timed)
 - Make contaminated versions of USCM items
+- Give logo objects, GRD Working Desk, GRD Desk Microscope, GRD Lab Table, GRD Liquid Tank, Lab Sample Pods, GRD Test Chamber and light objects their own racial descriptions.
+- USCM vehicle objects (combat and utility mechs, dropship, tank)?
 
 __DUNGEONS__
 - Anomalies:
