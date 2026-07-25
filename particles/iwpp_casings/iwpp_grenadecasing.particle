@@ -1,0 +1,23 @@
+{
+  "kind" : "iwpp_grenadecasing",
+  "definition" : {
+    "type" : "textured",
+    "image" : "/particles/iwpp_casings/grenadecasing.png",
+    "initialVelocity" : [-2, -5],
+    "finalVelocity" : [-4, -100],
+	"rotation" : 180,
+    "approach" : [0, 7],
+    "destructionAction" : "fade",
+    "destructionTime" : 0.65,
+    "fade" : 1,
+    "size" : 1,
+    "layer" : "front",
+    "timeToLive" : 5,
+    "collidesForeground" : true,
+    "variance" : {
+      "rotation" : -180,
+      "initialVelocity" : [-3, -5],
+      "finalVelocity" : [-6, -100]
+    }
+  }
+}
