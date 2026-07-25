@@ -1,0 +1,110 @@
+{
+  "itemName" : "iwpp_uscmgrenadelauncher",
+  "price" : 1660,
+  "maxStack" : 1,
+  "rarity" : "Uncommon",
+  "description" : "A single shot grenade launcher. Only for explosive situations.",
+  "shortdescription" : "USCM-M112 Elephant",
+  "category" : "grenadeLauncher",
+  "tooltipKind" : "gun",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","ranged","grenadelauncher"],
+  "fixedLevel" : false,
+
+  "inventoryIcon" : "uscmgrenadelauncher.png:default.1",
+
+  "animation" : "uscmgrenadelauncher.animation",
+  "animationParts" : {
+    "middle" : "uscmgrenadelauncher.png",
+    "muzzleFlash" : "muzzleflash.png"
+  },
+  "animationCustom" : {
+    "lights" : {
+      "muzzleFlash" : {
+        "color" : [230, 197, 85]
+      }
+    },
+    "particleEmitters" : {
+      "muzzleFlash" : {
+        "particles" : [
+          { "particle" : "rocketbarrelpuff", "offset" : [0.0, 0.0] },
+          { "particle" : "rocketbarrelpuff", "offset" : [0.0, 0.0] },
+          { "particle" : "rocketbarrelpuff", "offset" : [0.0, 0.0] }
+        ]
+      }
+    }
+  },
+
+  "baseOffset" : [0.125, -0.25],
+  "muzzleOffset" : [1.875, 0.250],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+
+    "fireTime" : 1.5,
+    "baseDps" : 14.5,
+    "energyUsage" : 35.5,
+    "inaccuracy" : 0.0,
+
+    "projectileCount" : 1,
+    "fireType" : "auto",
+
+    "projectileType" : "iwpp_grenadeshot",
+    "projectileParameters" : {
+      "knockback" : 40
+    },
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : 10,
+        "weaponRotation" : -10,
+        "twoHanded" : true,
+
+        "frontArmFrame" : "run.3",
+        "backArmFrame" : "rotation",
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0.5,
+        "armRotation" : 5,
+        "weaponRotation" : 3,
+        "twoHanded" : true,
+
+        "frontArmFrame" : "run.3",
+        "backArmFrame" : "rotation",
+
+        "allowRotate" : true,
+        "allowFlip" : false
+      },
+      "cooldown" : {
+        "duration" : 0.4,
+        "armRotation" : 0,
+        "weaponRotation" : 40,
+        "weaponAngularVelocity" : 0,
+        "armAngularVelocity" : 0,
+        "twoHanded" : true,
+
+        "animationStates" : {
+          "body" : "reload"
+        },
+
+        "burstParticleEmitters" : ["grenadeCasing"],
+
+        "frontArmFrame" : "run.3",
+        "backArmFrame" : "swim.3",
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

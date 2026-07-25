@@ -1,0 +1,103 @@
+{
+  "itemName" : "iwpp_uscmshotgun",
+  "price" : 1480,
+  "maxStack" : 1,
+  "rarity" : "Uncommon",
+  "description" : "A pump-action shotgun. USCM Standard issue.",
+  "shortdescription" : "USCM-M064 Rhino",
+  "category" : "shotgun",
+  "tooltipKind" : "gun",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","ranged","shotgun"],
+  "fixedLevel" : false,
+
+  "inventoryIcon" : "uscmshotgun.png:default.1",
+
+  "animation" : "uscmshotgun.animation",
+  "animationParts" : {
+    "middle" : "uscmshotgun.png",
+    "muzzleFlash" : "muzzleflash.png"
+  },
+  "animationCustom" : {
+    "lights" : {
+      "muzzleFlash" : {
+        "color" : [230, 197, 85]
+      }
+    }
+  },
+
+  "baseOffset" : [0.15, 0.0],
+  "muzzleOffset" : [2.4375, 0.1875],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+
+    "fireTime" : 1.2,
+    "baseDps" : 12.5,
+    "energyUsage" : 35.5,
+    "inaccuracy" : 0.15,
+
+    "projectileCount" : 8,
+    "fireType" : "auto",
+
+    "projectileType" : "standardbullet",
+    "projectileParameters" : {
+      "damageKind" : "shotgunbullet",
+      "knockback" : 35
+    },
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "frontArmFrame" : "run.3",
+        "backArmFrame" : "rotation",
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0.15,
+        "armRotation" : 0,
+        "weaponRotation" : 8,
+        "weaponOffset" : [-0.1, 0],
+        "twoHanded" : true,
+
+        "frontArmFrame" : "run.3",
+        "backArmFrame" : "rotation",
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "cooldown" : {
+        "duration" : 0.3,
+        "armRotation" : 10,
+        "weaponRotation" : 15,
+        "weaponAngularVelocity" : 5,
+        "armAngularVelocity" : 50,
+        "twoHanded" : true,
+
+        "animationStates" : {
+          "body" : "reload"
+        },
+
+        "burstParticleEmitters" : ["shotgunShell"],
+
+        "frontArmFrame" : "run.3",
+        "backArmFrame" : "rotation",
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      }
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

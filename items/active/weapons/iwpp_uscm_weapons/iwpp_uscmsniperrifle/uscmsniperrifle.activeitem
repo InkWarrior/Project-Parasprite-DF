@@ -1,0 +1,102 @@
+{
+  "itemName" : "iwpp_uscmsniperrifle",
+  "price" : 1260,
+  "maxStack" : 1,
+  "rarity" : "Uncommon",
+  "description" : "A bolt-action sniper rifle. USCM standard issue.",
+  "shortdescription" : "USCM-M084 Falcon",
+  "category" : "sniperRifle",
+  "tooltipKind" : "gun",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","ranged","sniperrifle"],
+  "fixedLevel" : false,
+
+  "inventoryIcon" : "uscmsniperrifle.png:default.1",
+
+  "animation" : "uscmsniperrifle.animation",
+  "animationParts" : {
+    "middle" : "uscmsniperrifle.png",
+    "muzzleFlash" : "muzzleflash.png"
+  },
+  "animationCustom" : {
+    "lights" : {
+      "muzzleFlash" : {
+        "color" : [230, 197, 85]
+      }
+    }
+  },
+
+  "baseOffset" : [0.375, 0.25],
+  "muzzleOffset" : [2.5, -0.1375],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+
+    "fireTime" : 1.5,
+    "baseDps" : 14.5,
+    "energyUsage" : 30.5,
+    "inaccuracy" : 0.008,
+
+    "projectileCount" : 1,
+    "fireType" : "auto",
+
+    "projectileType" : "standardbullet",
+    "projectileParameters" : {
+      "knockback" : 25
+    },
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "frontArmFrame" : "run.3",
+        "backArmFrame" : "rotation",
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0.2,
+        "armRotation" : 5,
+        "weaponRotation" : 5,
+        "twoHanded" : true,
+
+        "frontArmFrame" : "run.3",
+        "backArmFrame" : "rotation",
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "cooldown" : {
+        "duration" : 0.4,
+        "armRotation" : -10,
+        "weaponRotation" : -10,
+        "weaponOffset" : [-0.1, 0],
+        "weaponAngularVelocity" : -25,
+        "armAngularVelocity" : -50,
+        "twoHanded" : true,
+
+        "frontArmFrame" : "run.1",
+        "backArmFrame" : "rotation",
+
+        "animationStates" : {
+          "body" : "reload"
+        },
+
+        "burstParticleEmitters" : ["bulletCasingLarge"],
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      }
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

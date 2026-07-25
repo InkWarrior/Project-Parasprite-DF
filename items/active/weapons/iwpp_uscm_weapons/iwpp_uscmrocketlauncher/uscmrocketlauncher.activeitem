@@ -1,0 +1,109 @@
+{
+  "itemName" : "iwpp_uscmrocketlauncher",
+  "price" : 1780,
+  "maxStack" : 1,
+  "rarity" : "Uncommon",
+  "description" : "A heavy rocket launcher. Requires at least two crew to maneuver efficiently.",
+  "shortdescription" : "USCM-M136 Mastodon",
+  "category" : "rocketLauncher",
+  "tooltipKind" : "gun",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","ranged","rocketlauncher"],
+  "fixedLevel" : false,
+
+  "inventoryIcon" : "uscmrocketlauncher.png:default.1",
+
+  "animation" : "uscmrocketlauncher.animation",
+  "animationParts" : {
+    "middle" : "uscmrocketlauncher.png",
+    "muzzleFlash" : "muzzleflash.png"
+  },
+  "animationCustom" : {
+    "particleEmitters" : {
+      "muzzleFlash" : {
+        "particles" : [
+          { "particle" : "rocketbarrelpuff", "offset" : [0.0, 0.0] },
+          { "particle" : "rocketbarrelpuff", "offset" : [0.0, 0.0] },
+          { "particle" : "rocketbarrelpuff", "offset" : [0.0, 0.0] }
+        ]
+      }
+    },
+    "lights" : {
+      "muzzleFlash" : {
+        "color" : [230, 197, 85]
+      }
+    }
+  },
+
+  "baseOffset" : [-1.275, 0.625],
+  "muzzleOffset" : [2.75, 0.20],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+
+    "fireTime" : 2.0,
+    "baseDps" : 17.5,
+    "energyUsage" : 45.5,
+    "inaccuracy" : 0.0,
+    "fireType" : "auto",
+
+    "projectileCount" : 1,
+    "projectileType" : "iwpp_rocketshell",
+    "projectileParameters" : {
+      "knockback" : 45
+    },
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "frontArmFrame" : "run.3",
+        "backArmFrame" : "rotation",
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0.5,
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "weaponOffset" : [-0.2, 0],
+        "twoHanded" : true,
+
+        "frontArmFrame" : "run.3",
+        "backArmFrame" : "rotation",
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "cooldown" : {
+        "duration" : 1.2,
+        "armRotation" : 0,
+        "weaponRotation" : -45,
+        "weaponOffset" : [-0.2, -0.3],
+        "weaponAngularVelocity" : 0,
+        "armAngularVelocity" : 0,
+        "twoHanded" : true,
+
+        "animationStates" : {
+          "body" : "reload"
+        },
+
+        "frontArmFrame" : "run.1",
+        "backArmFrame" : "swim.3",
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      }
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

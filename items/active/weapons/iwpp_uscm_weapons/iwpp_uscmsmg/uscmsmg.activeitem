@@ -1,0 +1,91 @@
+{
+  "itemName" : "iwpp_uscmsmg",
+  "price" : 960,
+  "maxStack" : 1,
+  "rarity" : "Uncommon",
+  "description" : "A light submachine gun. USCM standard issue.",
+  "shortdescription" : "USCM-M032 Mongoose",
+  "category" : "machinePistol",
+  "tooltipKind" : "gun",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","ranged","machinepistol"],
+  "fixedLevel" : false,
+
+  "inventoryIcon" : "uscmsmg.png:fire.1",
+
+  "animation" : "uscmsmg.animation",
+  "animationParts" : {
+    "middle" : "uscmsmg.png",
+    "muzzleFlash" : "muzzleflash.png"
+  },
+  "animationCustom" : {
+    "lights" : {
+      "muzzleFlash" : {
+        "color" : [230, 197, 85]
+      }
+    },
+    "particleEmitters" : {
+      "muzzleFlash" : {
+        "particles" : [
+          { "particle" : "iwpp_bulletcasing", "offset" : [-1.875, 0.125] }
+        ]
+      }
+    }
+  },
+
+  "baseOffset" : [0.625, 0.125],
+  "muzzleOffset" : [1.375, 0.375],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+
+    "fireTime" : 0.09,
+    "baseDps" : 7.0,
+    "energyUsage" : 22,
+    "inaccuracy" : 0.05,
+
+    "projectileCount" : 1,
+    "fireType" : "auto",
+
+    "projectileType" : "standardbullet",
+    "projectileParameters" : {
+      "knockback" : 4
+    },
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : false,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 2,
+        "weaponRotation" : 2,
+        "twoHanded" : false,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "cooldown" : {
+        "duration" : 0.12,
+        "armRotation" : 2,
+        "weaponRotation" : 2,
+        "twoHanded" : false,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      }
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}
