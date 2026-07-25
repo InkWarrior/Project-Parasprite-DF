@@ -1,7 +1,7 @@
 {
   "itemName" : "iwpp_uscmknife",
   "price" : 320,
-  "level" : 3,
+  "fixedLevel" : false,
   "maxStack" : 1,
   "rarity" : "Uncommon",
   "description" : "A sharp combat knife, issued to all combatant personnel in the USCM.",
