@@ -1,0 +1,103 @@
+{
+  "itemName" : "iwpp_uscmpulserifle",
+  "price" : 1120,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "A rifle that works by electronic pulses, used by the USCM.",
+  "shortdescription" : "USCM-M990 Cobra",
+  "category" : "assaultRifle",
+  "tooltipKind" : "gun",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","ranged","assaultrifle"],
+  "fixedLevel" : false,
+
+  "inventoryIcon" : "uscmpulserifle.png:fire.1",
+
+  "animation" : "uscmpulserifle.animation",
+  "animationParts" : {
+    "middle" : "uscmpulserifle.png",
+    "muzzleFlash" : "muzzleflash.png"
+  },
+  "animationCustom" : {
+    "lights" : {
+      "muzzleFlash" : {
+        "color" : [230, 197, 85]
+      }
+    },
+    "particleEmitters" : {
+      "muzzleFlash" : {
+        "particles" : [
+          { "particle" : "iwpp_largebulletcasing", "offset" : [-2.625, 0.25] }
+        ]
+      }
+    }
+  },
+
+  "baseOffset" : [0.0, -0.125],
+  "muzzleOffset" : [2.5, 0.0],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+
+    "fireTime" : 0.08,
+    "baseDps" : 14.5,
+    "energyUsage" : 32.5,
+    "inaccuracy" : 0.02,
+
+    "projectileCount" : 1,
+    "fireType" : "auto",
+
+    "projectileType" : "standardbullet",
+    "projectileParameters" : {
+      "knockback" : 10
+    },
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "frontArmFrame" : "run.3",
+        "backArmFrame" : "rotation",
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0.1,
+        "armRotation" : 1,
+        "weaponRotation" : 1,
+        "weaponOffset" : [-0.15, 0],
+        "twoHanded" : true,
+
+        "frontArmFrame" : "run.3",
+        "backArmFrame" : "rotation",
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "cooldown" : {
+        "duration" : 0.0,
+        "armRotation" : 1,
+        "weaponRotation" : 1,
+        "weaponAngularVelocity" : -25,
+        "weaponOffset" : [-0.15, 0],
+        "twoHanded" : true,
+
+        "frontArmFrame" : "run.3",
+        "backArmFrame" : "rotation",
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      }
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

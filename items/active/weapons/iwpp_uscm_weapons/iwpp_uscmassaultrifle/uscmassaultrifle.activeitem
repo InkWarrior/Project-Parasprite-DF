@@ -1,0 +1,103 @@
+{
+  "itemName" : "iwpp_uscmassaultrifle",
+  "price" : 960,
+  "maxStack" : 1,
+  "rarity" : "Uncommon",
+  "description" : "A semi-automatic assault rifle. USCM standard issue.",
+  "shortdescription" : "USCM-M090 Bullfrog",
+  "category" : "assaultRifle",
+  "tooltipKind" : "gun",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","ranged","assaultrifle"],
+  "fixedLevel" : false,
+
+  "inventoryIcon" : "uscmassaultrifle.png:fire.1",
+
+  "animation" : "uscmassaultrifle.animation",
+  "animationParts" : {
+    "middle" : "uscmassaultrifle.png",
+    "muzzleFlash" : "muzzleflash.png"
+  },
+  "animationCustom" : {
+    "lights" : {
+      "muzzleFlash" : {
+        "color" : [230, 197, 85]
+      }
+    },
+    "particleEmitters" : {
+      "muzzleFlash" : {
+        "particles" : [
+          { "particle" : "iwpp_largebulletcasing", "offset" : [-2.125, 0.0] }
+        ]
+      }
+    }
+  },
+
+  "baseOffset" : [0.0, -0.125],
+  "muzzleOffset" : [2.125, 0.250],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+
+    "fireTime" : 0.04,
+    "baseDps" : 10.5,
+    "energyUsage" : 25.5,
+    "inaccuracy" : 0.08,
+
+    "projectileCount" : 1,
+    "fireType" : "auto",
+
+    "projectileType" : "standardbullet",
+    "projectileParameters" : {
+      "knockback" : 6
+    },
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "frontArmFrame" : "run.3",
+        "backArmFrame" : "rotation",
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0.1,
+        "armRotation" : 1,
+        "weaponRotation" : 1,
+        "weaponOffset" : [-0.15, 0],
+        "twoHanded" : true,
+
+        "frontArmFrame" : "run.3",
+        "backArmFrame" : "rotation",
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "cooldown" : {
+        "duration" : 0.0,
+        "armRotation" : 1,
+        "weaponRotation" : 1,
+        "weaponAngularVelocity" : -25,
+        "weaponOffset" : [-0.15, 0],
+        "twoHanded" : true,
+
+        "frontArmFrame" : "run.3",
+        "backArmFrame" : "rotation",
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      }
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}
