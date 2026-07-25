@@ -12,8 +12,8 @@ __MOD SUPPORT__
 __GENERAL__
 
 __WEAPONS__
-- Rework RNG weapons into their own unique ones (add a pistol, a shotgun, a machinepistol/SMG, maybe a rocket launcher and grenade launcher?)
-- Complete Flamethrower and Electric Baton Spear
+- Add alt abilities to all of the standard arsenal.
+- Complete Flamethrower and Electric Baton Spear.
 - GizzardHand: a weapon that works similarly to the Hivehand from Half life, the main fire would be like a shotgun, shooting fragments of bone, the alt fire would be something closer to the hivehand behavior.
 - Contagion Vector: a dagger that injects paraspores into enemies, dealing the Replication effect and spawning enemies on death.
 
