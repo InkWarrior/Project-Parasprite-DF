@@ -3,7 +3,7 @@
   "price" : 1120,
   "maxStack" : 1,
   "rarity" : "Rare",
-  "description" : "A rifle that works by electronic pulses, used by the USCM.",
+  "description" : "A rifle that fires via electronic pulse, used by the USCM.",
   "shortdescription" : "USCM-M990 Cobra",
   "category" : "assaultRifle",
   "tooltipKind" : "gun",
