@@ -3,7 +3,7 @@
   "price" : 1780,
   "maxStack" : 1,
   "rarity" : "Uncommon",
-  "description" : "A heavy rocket launcher. Requires at least two crew to maneuver efficiently.",
+  "description" : "A heavy rocket launcher. Requires at least two crew to utilize effectively.",
   "shortdescription" : "USCM-M136 Mastodon",
   "category" : "rocketLauncher",
   "tooltipKind" : "gun",
