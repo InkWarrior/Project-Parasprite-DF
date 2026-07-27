@@ -1,0 +1,45 @@
+{
+  "objectName" : "iwpp_dcdlargecrate",
+  "colonyTags" : ["human","humanbunker","storage"],
+  "rarity" : "Common",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+  "description" : "A large crate used by the Decon & Cleaning Division of the USCM.",
+  "shortdescription" : "D&CD Large Crate",
+  "race" : "generic",
+  "category" : "storage",
+  "price" : 150,
+  "health" : 1.5,
+
+  "apexDescription" : "A large age-worn crate.",
+  "avianDescription" : "An old crate, used for cleaning purposes.",
+  "floranDescription" : "Old box.",
+  "glitchDescription" : "Neutral. A crate affected by years.",
+  "humanDescription" : "I wonder if there's something inside this crate.",
+  "hylotlDescription" : "This crate looks worn out by years.",
+  "novakidDescription" : "An old lookin' crate.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "dcdlargecrate.png:<color>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/metalbox_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/metalbox_close.ogg" ],
+  "slotCount" : 32,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+
+}
