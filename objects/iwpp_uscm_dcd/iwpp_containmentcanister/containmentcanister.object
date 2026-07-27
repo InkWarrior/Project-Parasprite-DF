@@ -1,0 +1,34 @@
+{
+  "objectName" : "iwpp_containmentcanister",
+  "colonyTags" : ["human","humanbunker","mechanical"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 400,
+  "printable" : false,
+  "description" : "A transportable containment unit for non-defined biosamples.",
+  "shortdescription" : "D&CD Containment Canister",
+  "race" : "human",
+
+  "apexDescription" : "One can only wonder what kind of stuff they transported here.",
+  "avianDescription" : "What would one store inside?",
+  "floranDescription" : "Floran curious what meatss are stored inside.",
+  "glitchDescription" : "Intrigued. What kind of samples did they store?",
+  "humanDescription" : "Reminds me of a vat, except this one is transportable.",
+  "hylotlDescription" : "I'm intrigued by the design of this vat.",
+  "novakidDescription" : "A movable canister for weird samples.",
+
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "containmentcanister.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}
