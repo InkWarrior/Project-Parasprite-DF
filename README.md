@@ -26,7 +26,6 @@ __NPCS__
 __MISC__
 - Make Prototype Cure items for the Ichor and Infection debuffs.
 - Make Parasprite blocks
-- Complete Padded Station Girder tile sheet
 
 __FURNITURE__
 - Make DCD objects:
