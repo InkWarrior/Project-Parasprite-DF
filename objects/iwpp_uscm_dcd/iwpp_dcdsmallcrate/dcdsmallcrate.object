@@ -4,7 +4,7 @@
   "rarity" : "Common",
   "objectType" : "container",
   "tooltipKind" : "container",
-  "description" : "A large crate used by the Decon & Cleaning Division of the USCM.",
+  "description" : "A small crate used by the Decon & Cleaning Division of the USCM.",
   "shortdescription" : "D&CD Small Crate",
   "race" : "generic",
   "category" : "storage",

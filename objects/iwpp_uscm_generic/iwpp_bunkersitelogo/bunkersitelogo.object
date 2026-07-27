@@ -5,17 +5,17 @@
   "category" : "decorative",
   "price" : 80,
 
-  "description" : "A sign indicating the designation of a USCM site.",
+  "description" : "A sign indicating the designation of a USCM bunker site.",
   "shortdescription" : "Bunker Site Sign",
   "race" : "human",
 
-  "apexDescription" : "A sign promoting the USCM, a disbanded human military faction.",
-  "avianDescription" : "This area clearly had a human military presence once.",
-  "floranDescription" : "Ssstupid, blatant sign. Floransss try to be more sssneaky about their presence.",
-  "glitchDescription" : "Thoughtful. Human military tactics involve a lot of bravado.",
-  "humanDescription" : "The USCM, huh? These guys didn't like the Terrene Protectorate so much.",
-  "hylotlDescription" : "The human military certainly like to make their presence felt.",
-  "novakidDescription" : "I ain't heard o' these guys, but judgin' by the state of this sign, they've been gone a while.",
+  "apexDescription" : "A bunker site, for the USCM.",
+  "avianDescription" : "This area seems to be a sort of shelter.",
+  "floranDescription" : "Shelter.",
+  "glitchDescription" : "Attentive. This sign indicates this area is a bunker.",
+  "humanDescription" : "A bunker site for the USCM? Yeah, makes sense.",
+  "hylotlDescription" : "According to this sign, the area works as a shelter.",
+  "novakidDescription" : "A shelter, to hide stuff and such.",
 
   "inventoryIcon" : "icon.png",
   "orientations" : [

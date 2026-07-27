@@ -29,17 +29,14 @@ __MISC__
 - Make Parasprite blocks
 
 __FURNITURE__
-- Make DCD objects:
-  - DCD Logo (in-progress)
+- Consider designing more D&DC objects.
 - Make parasprite traps:
   - Pipe trap
   - Vent trap
   - Containment Crate trap
   - Functional Containment panel
 - Make a generator object (timed)
-- Put all of the new DCD objects in the tileset.
-- Make contaminated versions of USCM items
-- Give logo objects, GRD Working Desk, GRD Desk Microscope, GRD Lab Table, GRD Liquid Tank, Lab Sample Pods, GRD Test Chamber and light objects their own racial descriptions.
+- Make contaminated versions of USCM items.
 - USCM vehicle objects (combat and utility mechs, dropship, tank)?
 
 __DUNGEONS__

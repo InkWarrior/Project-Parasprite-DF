@@ -5,7 +5,7 @@
   "category" : "light",
   "price" : 60,
   "description" : "An old laboratory light.",
-  "shortdescription" : "GRD Laboratory Light",
+  "shortdescription" : "G.R.D. Laboratory Light",
   "race" : "apex",
 
   "lightColor" : [214, 154, 61],
@@ -13,13 +13,13 @@
   "pointBeam" : 1.5,
   "beamAmbience" : 0.5,
 
-  "apexDescription" : "These lights are commonly used on ships.",
-  "avianDescription" : "A vibrant light.",
-  "floranDescription" : "Ship light is harsh on Floran eyesss.",
-  "glitchDescription" : "Impressed. This lighting fixture generates more light than heat.",
-  "humanDescription" : "A bright, white light.",
-  "hylotlDescription" : "A bright, white light. It creates a neutral atmosphere.",
-  "novakidDescription" : "That's one bright lightbulb.",
+  "apexDescription" : "An old lab light.",
+  "avianDescription" : "Not vibrant enough.",
+  "floranDescription" : "Light too low. Floran likess.",
+  "glitchDescription" : "Neutral. This laboratory light is quite old.",
+  "humanDescription" : "This makes labs look like they are dangerous.",
+  "hylotlDescription" : "The lighting makes a research area to feel uneasy.",
+  "novakidDescription" : "Not bright enough.",
 
   "inventoryIcon" : "icon.png",
   "orientations" : [

@@ -13,12 +13,12 @@
   "pointBeam" : 6,
   "beamAmbience" : 0.35,
 
-  "apexDescription" : "These lights are commonly used on ships.",
+  "apexDescription" : "A vibrant, golden light.",
   "avianDescription" : "A vibrant light.",
-  "floranDescription" : "Ship light is harsh on Floran eyesss.",
-  "glitchDescription" : "Impressed. This lighting fixture generates more light than heat.",
-  "humanDescription" : "A bright, white light.",
-  "hylotlDescription" : "A bright, white light. It creates a neutral atmosphere.",
+  "floranDescription" : "Floran likes golden light.",
+  "glitchDescription" : "Impressed. Despite the age, this light is quite pretty.",
+  "humanDescription" : "A bright, golden light.",
+  "hylotlDescription" : "A bright, golden light. Gives everything the appearence of being old.",
   "novakidDescription" : "That's one bright lightbulb.",
 
   "inventoryIcon" : "icon.png",
