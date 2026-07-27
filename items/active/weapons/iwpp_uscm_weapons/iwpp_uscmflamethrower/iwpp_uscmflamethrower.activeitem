@@ -1,26 +1,33 @@
 {
   "itemName" : "iwpp_uscmflamethrower",
-  "level" : 3,
-  "price" : 990,
+  "fixedLevel" : false,
+  "price" : 870,
   "maxStack" : 1,
-  "rarity" : "Rare",
-  "description" : "Get the flamer, the heavy flamer.",
-  "shortdescription" : "USCM xW-F10 Flarebolt",
+  "rarity" : "Uncommon",
+  "description" : "A standard issue flamethrower. Careful with the heat!",
+  "shortdescription" : "USCM-M287 Igniter",
   "tooltipKind" : "gun",
   "category" : "uniqueWeapon",
   "twoHanded" : true,
   "itemTags" : ["weapon","ranged","upgradeableWeapon"],
 
-  "inventoryIcon" : "iwpp_uscmflamethrower.png",
+  "inventoryIcon" : "iwpp_uscmflamethrower.png:fire.1",
 
-  "animation" : "/items/active/weapons/ranged/gun.animation",
+  "animation" : "iwpp_uscmflamethrower.animation",
   "animationParts" : {
-    "butt" : "",
-    "middle" : "/items/active/weapons/iwpp_uscm_weapons/iwpp_uscmflamethrower/iwpp_uscmflamethrower.png",
-    "barrel" : "",
-    "muzzleFlash" : ""
+    "middle" : "iwpp_uscmflamethrower.png",
+    "muzzleFlash" : "muzzleflash.png"
   },
   "animationCustom" : {
+    "particleEmitters" : {
+      "muzzleFlash" : {
+        "particles" : [
+          { "particle" : "rocketbarrelpuff", "offset" : [0.0, 0.0] },
+          { "particle" : "rocketbarrelpuff", "offset" : [0.0, 0.0] },
+          { "particle" : "rocketbarrelpuff", "offset" : [0.0, 0.0] }
+        ]
+      }
+    },
     "sounds" : {
       "fireStart" : [ "/sfx/gun/flamethrower_start.ogg" ],
       "fireLoop" : [ "/sfx/gun/flamethrower_loop.ogg" ],

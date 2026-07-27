@@ -1,11 +1,11 @@
 {
   "itemName" : "iwpp_uscmspearbaton",
   "price" : 960,
-  "level" : 3,
+  "fixedLevel" : false,
   "maxStack" : 1,
   "rarity" : "Rare",
-  "description" : "Shockingly effective at keeping things away.",
-  "shortdescription" : "USCM xW-S15 Stingray",
+  "description" : "An electric spear baton. Good at keeping people or \"things\" away.",
+  "shortdescription" : "USCM-X015 Stingray",
   "tooltipKind" : "sword",
   "category" : "spear",
   "twoHanded" : true,
@@ -13,14 +13,15 @@
 
   "inventoryIcon" : "iwpp_uscmspearbaton.png",
 
-  "animation" : "/items/active/weapons/melee/spear/spear.animation",
+  "animation" : "iwpp_uscmspearbaton.animation",
   "animationParts" : {
     "handle" : "",
+    "handleFullbright" : "iwpp_uscmspearbatonlit.png",
     "blade" : "iwpp_uscmspearbaton.png"
   },
   "animationCustom" : {
     "sounds" : {
-      "fire" : [ "/sfx/melee/swing_spear.ogg" ]
+      "fire" : [ "/sfx/melee/swing_spear_electric1.ogg", "/sfx/melee/swing_spear_electric2.ogg", "/sfx/melee/swing_spear_electric3.ogg" ]
     }
   },
 
@@ -41,7 +42,7 @@
     }
   },
 
-  "altAbilityType" : "spearspin",
+  "altAbilityType" : "barrier",
 
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }
