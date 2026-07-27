@@ -30,8 +30,6 @@ __MISC__
 
 __FURNITURE__
 - Make DCD objects:
-  - DCD Chest (in-progress)
-  - DCD Crates (in-progress)
   - DCD Logo (in-progress)
 - Make parasprite traps:
   - Pipe trap
@@ -39,6 +37,7 @@ __FURNITURE__
   - Containment Crate trap
   - Functional Containment panel
 - Make a generator object (timed)
+- Put all of the new DCD objects in the tileset.
 - Make contaminated versions of USCM items
 - Give logo objects, GRD Working Desk, GRD Desk Microscope, GRD Lab Table, GRD Liquid Tank, Lab Sample Pods, GRD Test Chamber and light objects their own racial descriptions.
 - USCM vehicle objects (combat and utility mechs, dropship, tank)?
