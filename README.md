@@ -7,7 +7,9 @@ __MOD SUPPORT__
 - Spawnable Item Pack
 - Wardrobe Interface
 - Many Tabs (codex tab for lore)
-- Make a resprite addon for some of the vanilla base objects
+- Make a resprite addon for some of the vanilla base objects (worth noting that the Buckey01 mod already does this)
+- Support for the K'Rakoth mod's paranest microformer (recipe+biome patch)
+- Support the USCM NPCs the same mods Unidrobe does regarding outfits (but also patch weapons too to use USCM ones)
 
 __GENERAL__
 
