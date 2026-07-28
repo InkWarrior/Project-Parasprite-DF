@@ -5,7 +5,7 @@
   "category" : "decorative",
   "price" : 90,
   "printable" : false,
-  "description" : "A small collection of pods where to store samples, useful when making experiments.",
+  "description" : "A small collection of pods to store samples with, useful when performing experiments.",
   "shortdescription" : "Lab Sample Pods",
   "race" : "human",
 
@@ -13,8 +13,8 @@
   "avianDescription" : "Pods for lab samples.",
   "floranDescription" : "Sample pods.",
   "glitchDescription" : "Neutral. A bunch of pods for laboratory samples.",
-  "humanDescription" : "Oh, these are for bacteria samples and that kind of stuff.",
-  "hylotlDescription" : "Tools for storing samples of small organisms.",
+  "humanDescription" : "Oh, these are for bacterial samples and that kind of stuff.",
+  "hylotlDescription" : "Tools for storing samples of small organisms with.",
   "novakidDescription" : "Sample pods.",
 
 

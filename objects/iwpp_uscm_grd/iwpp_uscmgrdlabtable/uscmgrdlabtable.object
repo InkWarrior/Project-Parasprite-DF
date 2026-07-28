@@ -6,15 +6,15 @@
   "price" : 45,
   "printable" : false,
   "description" : "A sturdy table. Designed to support heavy stuff and withstand potent chemicals.",
-  "shortdescription" : "G.R.D Lab Table",
+  "shortdescription" : "GRD Lab Table",
   "race" : "human",
 
   "apexDescription" : "Reminds me of my chemistry classes long ago.",
   "avianDescription" : "This is the strongest table I have seen.",
   "floranDescription" : "Table too strong to stab with spear.",
-  "glitchDescription" : "Impressed. This table might as well be fully solid metal.",
+  "glitchDescription" : "Impressed. This table might as well be made of fully solid metal.",
   "humanDescription" : "This table is just built different.",
-  "hylotlDescription" : "Why is this table too strong?",
+  "hylotlDescription" : "Why is this table so strong?",
   "novakidDescription" : "A strong table. Will take some hours to move it.",
 
 

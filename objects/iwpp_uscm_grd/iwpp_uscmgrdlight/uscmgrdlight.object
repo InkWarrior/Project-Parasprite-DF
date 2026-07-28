@@ -5,7 +5,7 @@
   "category" : "light",
   "price" : 60,
   "description" : "An old laboratory light.",
-  "shortdescription" : "G.R.D. Laboratory Light",
+  "shortdescription" : "GRD Laboratory Light",
   "race" : "apex",
 
   "lightColor" : [214, 154, 61],
@@ -17,8 +17,8 @@
   "avianDescription" : "Not vibrant enough.",
   "floranDescription" : "Light too low. Floran likess.",
   "glitchDescription" : "Neutral. This laboratory light is quite old.",
-  "humanDescription" : "This makes labs look like they are dangerous.",
-  "hylotlDescription" : "The lighting makes a research area to feel uneasy.",
+  "humanDescription" : "This makes labs look more dangerous than they should.",
+  "hylotlDescription" : "Its lighting makes a research area feel too uneasy.",
   "novakidDescription" : "Not bright enough.",
 
   "inventoryIcon" : "icon.png",

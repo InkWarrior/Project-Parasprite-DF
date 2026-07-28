@@ -5,15 +5,15 @@
   "category" : "decorative",
   "price" : 45,
   "printable" : false,
-  "description" : "A sturdy office desk, ideal to make paperwork safely.",
-  "shortdescription" : "G.R.D Working Desk",
+  "description" : "A sturdy office desk, ideal to perform paperwork on safely.",
+  "shortdescription" : "GRD Working Desk",
   "race" : "human",
 
   "apexDescription" : "It's a metal desk. Sturdy enough for any sort of paperwork.",
   "avianDescription" : "A metallic desk, I wonder why it has to be made of metal.",
   "floranDescription" : "Metal table.",
   "glitchDescription" : "Neutral. It's a metallic desk.",
-  "humanDescription" : "Sturdy enough I can even stand above it!",
+  "humanDescription" : "Sturdy enough that even I can stand on it!",
   "hylotlDescription" : "This is a strong and well crafted desk.",
   "novakidDescription" : "A strong metal desk.",
 

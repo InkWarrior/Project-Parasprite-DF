@@ -10,12 +10,12 @@
   "race" : "human",
 
   "apexDescription" : "An storage site, for the USCM.",
-  "avianDescription" : "This area seems to be a sort of storage zone.",
+  "avianDescription" : "This area seemed to be a sort of storage zone.",
   "floranDescription" : "Storage room.",
-  "glitchDescription" : "Attentive. This sign indicates this area is a sort of storage room.",
+  "glitchDescription" : "Attentive. This sign indicates this area was a sort of storage room.",
   "humanDescription" : "A warehouse for the USCM? Yeah, makes sense.",
-  "hylotlDescription" : "According to this sign, the area works as a sort of warehouse.",
-  "novakidDescription" : "A warehouse, or something like that.",
+  "hylotlDescription" : "According to this sign, the area served as a sort of warehouse.",
+  "novakidDescription" : "A warehouse, or somethin' like that.",
 
   "inventoryIcon" : "icon.png",
   "orientations" : [

@@ -5,16 +5,16 @@
   "category" : "decorative",
   "price" : 90,
   "printable" : false,
-  "description" : "A small pod where to store samples, useful when making experiments.",
+  "description" : "A small pod to store samples with, useful when performing experiments.",
   "shortdescription" : "Lab Sample Pod",
   "race" : "human",
 
-  "apexDescription" : "A smalll sample pod.",
+  "apexDescription" : "A small sample pod.",
   "avianDescription" : "A pod for lab samples.",
   "floranDescription" : "Sample pod.",
   "glitchDescription" : "Neutral. A pod for laboratory samples.",
-  "humanDescription" : "Oh, this is for bacteria samples and that kind of stuff.",
-  "hylotlDescription" : "A tool for storing samples of small organisms.",
+  "humanDescription" : "Oh, this is for bacterial samples and that kind of stuff.",
+  "hylotlDescription" : "A tool for storing samples of small organisms with.",
   "novakidDescription" : "A sample pod.",
 
 

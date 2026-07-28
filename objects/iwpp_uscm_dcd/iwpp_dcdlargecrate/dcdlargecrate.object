@@ -11,12 +11,12 @@
   "price" : 150,
   "health" : 1.5,
 
-  "apexDescription" : "A large age-worn crate.",
+  "apexDescription" : "A large, age-worn crate.",
   "avianDescription" : "An old crate, used for cleaning purposes.",
   "floranDescription" : "Old box.",
-  "glitchDescription" : "Neutral. A crate affected by years.",
+  "glitchDescription" : "Neutral. A crate affected by age.",
   "humanDescription" : "I wonder if there's something inside this crate.",
-  "hylotlDescription" : "This crate looks worn out by years.",
+  "hylotlDescription" : "This crate looks to have worn out over the years.",
   "novakidDescription" : "An old lookin' crate.",
 
   "inventoryIcon" : "icon.png",
