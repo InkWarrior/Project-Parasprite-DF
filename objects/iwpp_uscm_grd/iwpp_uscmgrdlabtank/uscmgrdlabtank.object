@@ -6,7 +6,7 @@
   "price" : 90,
   "printable" : false,
   "description" : "A canister, meant to store potent chemicals.",
-  "shortdescription" : "G.R.D Liquid Tank",
+  "shortdescription" : "GRD Liquid Tank",
   "race" : "human",
 
   "apexDescription" : "Does this contain acid or something?",
@@ -14,8 +14,8 @@
   "floranDescription" : "Floran can drink thisss.",
   "glitchDescription" : "Cautious. I hope the liquid inside does not corrode metal.",
   "humanDescription" : "Oh, this looks dangerous.",
-  "hylotlDescription" : "Better staying away from this canister.",
-  "novakidDescription" : "This contains some risky substances.",
+  "hylotlDescription" : "Better stay away from this canister.",
+  "novakidDescription" : "This contains some darn risky substances.",
 
 
   "inventoryIcon" : "icon.png",

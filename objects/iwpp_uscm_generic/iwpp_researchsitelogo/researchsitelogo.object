@@ -10,11 +10,11 @@
   "race" : "human",
 
   "apexDescription" : "A research site, for the USCM.",
-  "avianDescription" : "This area seems to be a sort of science area.",
+  "avianDescription" : "This seemed to be a sort of science area.",
   "floranDescription" : "Smart people room.",
-  "glitchDescription" : "Attentive. This sign indicates this area serves for research purposes.",
-  "humanDescription" : "A research site for the USCM? What were they searching?",
-  "hylotlDescription" : "According to this sign, the area works as a research zone.",
+  "glitchDescription" : "Attentive. This sign indicates this area served research purposes.",
+  "humanDescription" : "A research site for the USCM? What were they researching?",
+  "hylotlDescription" : "According to this sign, the area served as a research zone.",
   "novakidDescription" : "A lab area, I suppose.",
 
   "inventoryIcon" : "icon.png",

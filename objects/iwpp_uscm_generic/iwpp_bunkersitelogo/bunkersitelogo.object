@@ -10,12 +10,12 @@
   "race" : "human",
 
   "apexDescription" : "A bunker site, for the USCM.",
-  "avianDescription" : "This area seems to be a sort of shelter.",
+  "avianDescription" : "This area seemed to be a sort of shelter.",
   "floranDescription" : "Shelter.",
-  "glitchDescription" : "Attentive. This sign indicates this area is a bunker.",
+  "glitchDescription" : "Attentive. This sign indicates this area was a bunker.",
   "humanDescription" : "A bunker site for the USCM? Yeah, makes sense.",
-  "hylotlDescription" : "According to this sign, the area works as a shelter.",
-  "novakidDescription" : "A shelter, to hide stuff and such.",
+  "hylotlDescription" : "According to this sign, the area served as a shelter.",
+  "novakidDescription" : "A shelter, to hide stuff n such.",
 
   "inventoryIcon" : "icon.png",
   "orientations" : [

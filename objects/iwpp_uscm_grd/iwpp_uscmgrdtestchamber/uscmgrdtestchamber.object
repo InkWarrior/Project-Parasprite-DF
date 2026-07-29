@@ -5,16 +5,16 @@
   "category" : "decorative",
   "price" : 90,
   "printable" : false,
-  "description" : "An isolated chamber where scientist do their own experiments.",
-  "shortdescription" : "G.R.D Test Chamber",
+  "description" : "An isolated chamber where scientist can do their own experiments.",
+  "shortdescription" : "GRD Test Chamber",
   "race" : "human",
 
   "apexDescription" : "What were they experimenting with?",
   "avianDescription" : "A small container for experiments.",
-  "floranDescription" : "Floran can't fit here.",
+  "floranDescription" : "Floran can't fit there.",
   "glitchDescription" : "Intrigued. I wonder what kind of experiments were done here.",
-  "humanDescription" : "What were they experimenting in here?",
-  "hylotlDescription" : "Scientists can generate controlled enviroments inside here.",
+  "humanDescription" : "What were they experimenting with in there?",
+  "hylotlDescription" : "Scientists can create controlled enviroments inside there.",
   "novakidDescription" : "A chamber for experiments.",
 
 
