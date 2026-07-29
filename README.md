@@ -53,7 +53,6 @@ __DUNGEONS__
   - Lunar Station (moons)
 
 __CLOTHES__
-- Correct USCM combat armor icons
 - Complete USCM uniform
 - Complete Decontaminator Hazmat suit
 - Complete GRD Hazmat suit
