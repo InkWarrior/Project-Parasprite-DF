@@ -22,7 +22,7 @@
   "inventoryIcon" : "icon.png",
   "orientations" : [
     {
-      "dualImage" : "weaponchest.png:<color>.<key>",
+      "dualImage" : "dcdchest.png:<color>.<key>",
       "imagePosition" : [-8, 0],
 
       "spaces" : [ [-1, 0], [0, 0], [1, 0], [-1, 1], [0, 1], [1, 1], [-1, 2], [0, 2], [1, 2] ],
