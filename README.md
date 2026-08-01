@@ -15,7 +15,6 @@ __GENERAL__
 
 __WEAPONS__
 - Add alt abilities to all of the standard arsenal.
-- Enable animation for USCM-M287 Igniter
 - GizzardHand: a weapon that works similarly to the Hivehand from Half life, the main fire would be like a shotgun, shooting fragments of bone, the alt fire would be something closer to the hivehand behavior.
 - Contagion Vector: a dagger that injects paraspores into enemies, dealing the Replication effect and spawning enemies on death.
 - USCM-X60 Flarebot: a carbine that shoots fire projectiles.
