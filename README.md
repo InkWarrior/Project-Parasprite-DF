@@ -45,11 +45,11 @@ __DUNGEONS__
   - Hidden Stations - x3 regular, x3 infected
   - Revamped USCM Ship - Infected version, Non-infected version, Bandit version
 - Unknown Signal (new):
-  - Old ship remnants (maybe 5 variants??? non-uscm themed)
   - USCM mobile sites - composed of atleast 3 parts (3 phase 1 variants - 3 phase 2 variants - 3 phase 3 variants)
-- Large Dungeons
+- Large Dungeons:
   - Abandoned Bunker (planets)
   - Lunar Station (moons)
+  - Old Erchius Refinery
 
 __CLOTHES__
 - Complete USCM uniform
