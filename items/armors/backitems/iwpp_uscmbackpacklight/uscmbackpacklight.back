@@ -5,7 +5,7 @@
   "rarity" : "Rare",
   "category" : "backwear",
   "description" : "A reliable USCM backpack with a light attachment.",
-  "shortdescription" : "USCM Military Backpack",
+  "shortdescription" : "USCM Military Lightpack",
   "tooltipKind" : "baseaugment",
 
   "maleFrames" : "back.png",
