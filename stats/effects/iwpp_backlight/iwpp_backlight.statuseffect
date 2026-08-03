@@ -1,0 +1,11 @@
+{
+  "name" : "iwpp_backlight",
+  "effectConfig" : {},
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "iwpp_backlight.lua"
+  ],
+
+  "animationConfig" : "iwpp_backlight.animation"
+}
