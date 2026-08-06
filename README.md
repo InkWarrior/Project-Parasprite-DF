@@ -52,9 +52,6 @@ __DUNGEONS__
   - Old Erchius Refinery
 
 __CLOTHES__
-- Complete USCM uniform
-- Complete Decontaminator Hazmat suit
-- Complete GRD Hazmat suit
 
 __LORE__
 - Design Voice Record base item
