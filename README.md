@@ -24,6 +24,7 @@ __NPCS__
 - Complete Immolator: Ichor-strand ranged version of the Parasprite.
 - Complete Sphacelator: Prion-strand ranged version of the Parasprite
 - Design Prion-strand stationary enemy.
+- New space enemies (at least 1 USCM robot and Parasprite variant?)
 
 __MISC__
 - Make Prototype Cure items for the Ichor and Infection debuffs.
